@@ -5,8 +5,7 @@
 
  export default defineConfig({
    plugins: [react()],
-   // Replace 'dashboard' with your GitLab project name
-   base: '/dashboard/',
+   base: './',
    css: {
  postcss: {
    plugins: [tailwindcss, autoprefixer],

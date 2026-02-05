@@ -93,7 +93,11 @@ function App() {
       }
 
       const leafNodes = Object.keys(inDegree).filter(name => inDegree[name] === 0);
-      setGraphData({ nodes, links, leafNodes });
+      const finalNodes = nodes.map(n => ({
+        ...n,
+        inDegree: inDegree[n.id] || 0
+      }));
+      setGraphData({ nodes: finalNodes, links, leafNodes });
     } catch (err: any) {
       setError(err.message || 'Failed to fetch data from GitHub');
     } finally {
@@ -244,6 +248,9 @@ function App() {
                 <div className="w-3 h-3 bg-slate-400 rounded-full"></div>
                 <span>Referenced Node</span>
               </div>
+              <div className="mt-2 pt-2 border-t border-slate-700 text-slate-400">
+                <span className="font-semibold text-blue-400"># (N)</span>: Filename (Count of refs)
+              </div>
            </div>
         </div>
 
@@ -252,9 +259,43 @@ function App() {
             ref={fgRef}
             graphData={graphData}
             nodeLabel="id"
-            nodeColor={(node: any) => graphData.leafNodes.includes(node.id) ? '#3b82f6' : '#94a3b8'}
-            linkColor={() => '#475569'}
-            nodeRelSize={6}
+            nodeCanvasObject={(node: any, ctx, globalScale) => {
+              const label = `${node.id} (${node.inDegree || 0})`;
+              const fontSize = 14 / globalScale;
+              ctx.font = `${fontSize}px Inter, Sans-Serif`;
+              const textWidth = ctx.measureText(label).width;
+              const padding = 4 / globalScale;
+              const width = textWidth + padding * 2;
+              const height = fontSize + padding * 2;
+
+              const color = graphData.leafNodes.includes(node.id) ? '#3b82f6' : '#94a3b8';
+              
+              // Draw rounded rectangle
+              ctx.fillStyle = color;
+              const r = 2 / globalScale; // border radius
+              ctx.beginPath();
+              ctx.roundRect(node.x - width / 2, node.y - height / 2, width, height, r);
+              ctx.fill();
+
+              // Draw text
+              ctx.textAlign = 'center';
+              ctx.textBaseline = 'middle';
+              ctx.fillStyle = '#1e293b'; 
+              ctx.fillText(label, node.x, node.y);
+
+              // Update node's collision area
+              node.__bckgDimensions = [width, height]; 
+            }}
+            nodePointerAreaPaint={(node: any, color, ctx) => {
+              ctx.fillStyle = color;
+              const bckgDimensions = node.__bckgDimensions;
+              if (bckgDimensions) {
+                ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, bckgDimensions[0], bckgDimensions[1]);
+              }
+            }}
+            linkColor={() => '#4bab27'}
+            linkDirectionalArrowLength={20}
+            linkDirectionalArrowRelPos={15}
             backgroundColor="#0f172a"
           />
         ) : !loading && (

@@ -9,7 +9,7 @@ export interface FileNode {
 }
 
 export interface DependencyGraph {
-  nodes: { id: string; group: number; val: number }[];
+  nodes: { id: string; group: number; val: number; inDegree?: number }[];
   links: { source: string; target: string }[];
   leafNodes: string[];
 }

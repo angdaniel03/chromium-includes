@@ -9,7 +9,15 @@ export interface FileNode {
 }
 
 export interface DependencyGraph {
-  nodes: { id: string; group: number; val: number; inDegree?: number; isExternal?: boolean; fullPath?: string }[];
+  nodes: { 
+    id: string; 
+    group: number; 
+    val: number; 
+    inDegree?: number; 
+    isExternal?: boolean; 
+    isSystem?: boolean;
+    fullPath?: string 
+  }[];
   links: { source: string; target: string }[];
   leafNodes: string[];
 }
@@ -28,12 +36,20 @@ export const fetchFileContent = async (path: string, token?: string): Promise<st
   return response.data;
 };
 
-export const parseIncludes = (content: string): string[] => {
-  const includeRegex = /#include\s+["<]([^">]+)[">]/g;
-  const includes: string[] = [];
+export interface IncludeInfo {
+  path: string;
+  isSystem: boolean;
+}
+
+export const parseIncludes = (content: string): IncludeInfo[] => {
+  const includeRegex = /#include\s+(["<])([^">]+)([">])/g;
+  const includes: IncludeInfo[] = [];
   let match;
   while ((match = includeRegex.exec(content)) !== null) {
-    includes.push(match[1]);
+    includes.push({
+      path: match[2],
+      isSystem: match[1] === '<'
+    });
   }
   return includes;
 };

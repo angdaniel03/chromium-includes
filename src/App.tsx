@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
-import { FileCode, AlertCircle, Loader2, Key, ChevronDown, Folder } from 'lucide-react';
+import { FileCode, AlertCircle, Loader2, Key, ChevronDown, Folder, Download, Eye, EyeOff } from 'lucide-react';
 import { fetchDirectory, fetchFileContent, parseIncludes } from './githubService';
 import type { DependencyGraph } from './githubService';
 
@@ -9,6 +9,7 @@ function App() {
   const [path, setPath] = useState('base/memory');
   const [token, setToken] = useState(import.meta.env.VITE_GITHUB_TOKEN || '');
   const [loading, setLoading] = useState(false);
+  const [showSystem, setShowSystem] = useState(false);
   const [progress, setProgress] = useState({ current: 0, total: 0 });
   const [graphData, setGraphData] = useState<DependencyGraph>({ nodes: [], links: [], leafNodes: [] });
   const [error, setError] = useState<string | null>(null);
@@ -63,17 +64,17 @@ function App() {
       
       setProgress({ current: 0, total: cppFiles.length });
       
-      const nodes: { id: string; group: number; val: number; isExternal?: boolean; fullPath?: string }[] = [];
+      const nodes: any[] = [];
       const links: { source: string; target: string }[] = [];
       const inDegree: Record<string, number> = {};
       const internalFiles = new Set(cppFiles.map(f => f.name));
 
       cppFiles.forEach(f => {
-        nodes.push({ id: f.name, group: 1, val: 10, isExternal: false, fullPath: f.path });
+        nodes.push({ id: f.name, group: 1, val: 10, isExternal: false, isSystem: false, fullPath: f.path });
         inDegree[f.name] = 0;
       });
 
-      const externalNodes = new Map<string, string>(); // name -> fullPath
+      const externalNodes = new Map<string, { fullPath: string; isSystem: boolean }>();
 
       for (let i = 0; i < cppFiles.length; i++) {
         const file = cppFiles[i];
@@ -82,14 +83,14 @@ function App() {
           const includes = parseIncludes(content);
           
           includes.forEach(inc => {
-            const incName = inc.split('/').pop() || '';
+            const incName = inc.path.split('/').pop() || '';
             if (internalFiles.has(incName)) {
               links.push({ source: file.name, target: incName });
               inDegree[incName]++;
             } else {
               // External dependency
               links.push({ source: file.name, target: incName });
-              externalNodes.set(incName, inc);
+              externalNodes.set(incName, { fullPath: inc.path, isSystem: inc.isSystem });
               inDegree[incName] = (inDegree[incName] || 0) + 1;
             }
           });
@@ -101,8 +102,8 @@ function App() {
       }
 
       // Add external nodes to the list
-      externalNodes.forEach((fullPath, name) => {
-        nodes.push({ id: name, group: 2, val: 8, isExternal: true, fullPath });
+      externalNodes.forEach((info, name) => {
+        nodes.push({ id: name, group: 2, val: 8, isExternal: true, isSystem: info.isSystem, fullPath: info.fullPath });
       });
 
       const leafNodes = Object.keys(inDegree).filter(name => inDegree[name] === 0 && !externalNodes.has(name));
@@ -116,6 +117,39 @@ function App() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const filteredData = useMemo(() => {
+    if (showSystem) return graphData;
+    
+    const nodes = graphData.nodes.filter(n => !n.isSystem);
+    const nodeIds = new Set(nodes.map(n => n.id));
+    const links = graphData.links.filter(l => {
+      const sourceId = typeof l.source === 'object' ? (l.source as any).id : l.source;
+      const targetId = typeof l.target === 'object' ? (l.target as any).id : l.target;
+      return nodeIds.has(sourceId) && nodeIds.has(targetId);
+    });
+    
+    return { nodes, links, leafNodes: graphData.leafNodes };
+  }, [graphData, showSystem]);
+
+  const downloadUnreferencedFiles = () => {
+    const content = graphData.leafNodes
+      .map(nodeId => {
+        const node = graphData.nodes.find(n => n.id === nodeId);
+        return node?.fullPath || nodeId;
+      })
+      .join('\n');
+    
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `unreferenced_files_${path.replace(/\//g, '_')}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
   };
 
   useEffect(() => {
@@ -166,10 +200,10 @@ function App() {
             ))}
           </div>
 
-          {/* Folder Select */}
-          <div>
-            <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">Quick Jump</label>
-            <div className="space-y-2">
+          {/* Folder Select & Toggle */}
+          <div className="space-y-3">
+            <div>
+              <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">Quick Jump</label>
               <div className="relative">
                 <select
                   className="w-full bg-slate-900 border border-slate-700 rounded-lg py-2 pl-3 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none text-slate-300"
@@ -185,6 +219,22 @@ function App() {
                 </select>
                 <ChevronDown className="absolute right-3 top-2.5 h-4 w-4 text-slate-500 pointer-events-none" />
               </div>
+            </div>
+
+            <div className="flex items-center justify-between p-2 bg-slate-900/50 rounded-lg border border-slate-700">
+              <div className="flex items-center gap-2">
+                {showSystem ? <Eye className="h-3 w-3 text-blue-400" /> : <EyeOff className="h-3 w-3 text-slate-500" />}
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-tight">System Includes</span>
+              </div>
+              <label className="relative inline-flex items-center cursor-pointer">
+                <input 
+                  type="checkbox" 
+                  className="sr-only peer" 
+                  checked={showSystem}
+                  onChange={(e) => setShowSystem(e.target.checked)}
+                />
+                <div className="w-8 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-blue-600"></div>
+              </label>
             </div>
           </div>
 
@@ -211,10 +261,21 @@ function App() {
         </div>
 
         <div className="flex-1 overflow-y-auto p-4 border-t border-slate-700">
-          <h2 className="text-xs font-semibold uppercase text-slate-500 mb-4 flex items-center gap-2">
-            <AlertCircle className="h-3 w-3" />
-            Unreferenced Files ({graphData.leafNodes.length})
-          </h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xs font-semibold uppercase text-slate-500 flex items-center gap-2">
+              <AlertCircle className="h-3 w-3" />
+              Unreferenced Files ({graphData.leafNodes.length})
+            </h2>
+            {graphData.leafNodes.length > 0 && (
+              <button 
+                onClick={downloadUnreferencedFiles}
+                className="p-1.5 hover:bg-slate-700 rounded-md text-slate-400 hover:text-blue-400 transition-all active:scale-95"
+                title="Download full paths"
+              >
+                <Download className="h-4 w-4" />
+              </button>
+            )}
+          </div>
           <div className="space-y-2">
             {loading ? (
               <div className="space-y-4 py-4">
@@ -271,10 +332,10 @@ function App() {
            </div>
         </div>
 
-        {graphData.nodes.length > 0 ? (
+        {filteredData.nodes.length > 0 ? (
           <ForceGraph2D
             ref={fgRef}
-            graphData={graphData}
+            graphData={filteredData}
             nodeLabel="fullPath"
             nodeCanvasObject={(node: any, ctx, globalScale) => {
               const label = `${node.id} (${node.inDegree || 0})`;

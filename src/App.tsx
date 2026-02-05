@@ -5,7 +5,7 @@ import { fetchDirectory, fetchFileContent, parseIncludes } from './githubService
 import type { DependencyGraph } from './githubService';
 
 function App() {
-  const fgRef = useRef<any>();
+  const fgRef = useRef<any>(null);
   const [path, setPath] = useState('base/memory');
   const [token, setToken] = useState(import.meta.env.VITE_GITHUB_TOKEN || '');
   const [loading, setLoading] = useState(false);
@@ -76,7 +76,7 @@ function App() {
         const file = cppFiles[i];
         try {
           const content = await fetchFileContent(file.path, token);
-          const includes = parseIncludes(content, file.path);
+          const includes = parseIncludes(content);
           
           includes.forEach(inc => {
             const incName = inc.split('/').pop() || '';

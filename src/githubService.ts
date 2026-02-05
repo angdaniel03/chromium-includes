@@ -28,7 +28,7 @@ export const fetchFileContent = async (path: string, token?: string): Promise<st
   return response.data;
 };
 
-export const parseIncludes = (content: string, currentPath: string): string[] => {
+export const parseIncludes = (content: string): string[] => {
   const includeRegex = /#include\s+["<]([^">]+)[">]/g;
   const includes: string[] = [];
   let match;

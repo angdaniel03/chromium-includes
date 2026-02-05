@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+          VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN || vars.VITE_GITHUB_TOKEN }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

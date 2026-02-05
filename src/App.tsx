@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
-import { FileCode, AlertCircle, Loader2, Key, ChevronDown, Folder, Download, Eye, EyeOff } from 'lucide-react';
+import { FileCode, AlertCircle, Loader2, Key, ChevronDown, Folder, Download, Eye, EyeOff, Search, X } from 'lucide-react';
 import { fetchDirectory, fetchFileContent, parseIncludes } from './githubService';
 import type { DependencyGraph } from './githubService';
 
@@ -10,11 +10,20 @@ function App() {
   const [token, setToken] = useState(import.meta.env.VITE_GITHUB_TOKEN || '');
   const [loading, setLoading] = useState(false);
   const [showSystem, setShowSystem] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchIndex, setSearchIndex] = useState(-1);
+  const [highlightNode, setHighlightNode] = useState<string | null>(null);
   const [progress, setProgress] = useState({ current: 0, total: 0 });
   const [graphData, setGraphData] = useState<DependencyGraph>({ nodes: [], links: [], leafNodes: [] });
   const [error, setError] = useState<string | null>(null);
   const [availableDirs, setAvailableDirs] = useState<string[]>([]);
   const [subDirs, setSubDirs] = useState<string[]>([]);
+
+  // Reset search state when query or data changes
+  useEffect(() => {
+    setSearchIndex(-1);
+    setHighlightNode(null);
+  }, [searchQuery, graphData]);
 
   // Fetch top-level directories on mount
   useEffect(() => {
@@ -45,6 +54,7 @@ function App() {
     setProgress({ current: 0, total: 0 });
     setError(null);
     setSubDirs([]);
+    setHighlightNode(null);
     try {
       const files = await fetchDirectory(targetPath, token);
       
@@ -133,6 +143,28 @@ function App() {
     return { nodes, links, leafNodes: graphData.leafNodes };
   }, [graphData, showSystem]);
 
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!searchQuery) return;
+
+    const matches = filteredData.nodes.filter(n => 
+      n.id.toLowerCase().includes(searchQuery.toLowerCase()) || 
+      (n.fullPath && n.fullPath.toLowerCase().includes(searchQuery.toLowerCase()))
+    );
+
+    if (matches.length > 0) {
+      const nextIndex = (searchIndex + 1) % matches.length;
+      const node = matches[nextIndex];
+      setSearchIndex(nextIndex);
+      setHighlightNode(node.id);
+      
+      if (fgRef.current) {
+        fgRef.current.centerAt(node.x, node.y, 1000);
+        fgRef.current.zoom(2.5, 1000);
+      }
+    }
+  };
+
   const downloadUnreferencedFiles = () => {
     const content = graphData.leafNodes
       .map(nodeId => {
@@ -154,12 +186,12 @@ function App() {
 
   useEffect(() => {
     analyzeDependencies(path);
-  }, [path]);
+  }, [path, token]);
 
   return (
     <div className="flex h-screen bg-slate-900 text-white font-sans">
       {/* Sidebar */}
-      <div className="w-80 border-r border-slate-700 flex flex-col bg-slate-800">
+      <div className="w-80 border-r border-slate-700 flex flex-col bg-slate-800 shrink-0 overflow-hidden">
         <div className="p-6 border-b border-slate-700">
           <h1 className="text-xl font-bold flex items-center gap-2">
             <FileCode className="text-blue-400" />
@@ -168,7 +200,7 @@ function App() {
           <p className="text-xs text-slate-400 mt-1">Include Dependency Visualizer</p>
         </div>
 
-        <div className="p-4 space-y-4">
+        <div className="p-4 space-y-4 overflow-y-auto">
           {/* Token Input */}
           <div>
             <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">GitHub Token (Optional)</label>
@@ -182,6 +214,30 @@ function App() {
                 onChange={(e) => setToken(e.target.value)}
               />
             </div>
+          </div>
+
+          {/* Search Box */}
+          <div>
+            <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">Find File</label>
+            <form onSubmit={handleSearch} className="relative">
+              <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-500" />
+              <input
+                type="text"
+                placeholder="Filename or path..."
+                className="w-full bg-slate-900 border border-slate-700 rounded-lg py-2 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-300"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              {searchQuery && (
+                <button 
+                  type="button"
+                  onClick={() => {setSearchQuery(''); setHighlightNode(null);}}
+                  className="absolute right-3 top-2.5 text-slate-500 hover:text-white"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              )}
+            </form>
           </div>
 
           {/* Breadcrumbs */}
@@ -260,7 +316,7 @@ function App() {
           )}
         </div>
 
-        <div className="flex-1 overflow-y-auto p-4 border-t border-slate-700">
+        <div className="flex-1 overflow-y-auto p-4 border-t border-slate-700 min-h-0">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xs font-semibold uppercase text-slate-500 flex items-center gap-2">
               <AlertCircle className="h-3 w-3" />
@@ -353,12 +409,26 @@ function App() {
                 color = '#3b82f6'; // Blue 500
               }
               
+              // Draw Highlight if searched
+              if (highlightNode === node.id) {
+                ctx.shadowColor = '#fff';
+                ctx.shadowBlur = 15;
+                ctx.strokeStyle = '#fff';
+                ctx.lineWidth = 2 / globalScale;
+                ctx.beginPath();
+                ctx.roundRect(node.x - width / 2 - 2, node.y - height / 2 - 2, width + 4, height + 4, (2 / globalScale) + 1);
+                ctx.stroke();
+              }
+
               // Draw rounded rectangle
               ctx.fillStyle = color;
               const r = 2 / globalScale; // border radius
               ctx.beginPath();
               ctx.roundRect(node.x - width / 2, node.y - height / 2, width, height, r);
               ctx.fill();
+
+              // Reset shadow
+              ctx.shadowBlur = 0;
 
               // Draw text
               ctx.textAlign = 'center';
@@ -378,7 +448,7 @@ function App() {
             }}
             linkColor={() => '#4bab27'}
             linkDirectionalArrowLength={13}
-            linkDirectionalArrowRelPos={15}
+            linkDirectionalArrowRelPos={0.5}
             backgroundColor="#0f172a"
           />
         ) : !loading && (

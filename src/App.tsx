@@ -63,14 +63,17 @@ function App() {
       
       setProgress({ current: 0, total: cppFiles.length });
       
-      const nodes: { id: string; group: number; val: number }[] = [];
+      const nodes: { id: string; group: number; val: number; isExternal?: boolean; fullPath?: string }[] = [];
       const links: { source: string; target: string }[] = [];
       const inDegree: Record<string, number> = {};
+      const internalFiles = new Set(cppFiles.map(f => f.name));
 
       cppFiles.forEach(f => {
-        nodes.push({ id: f.name, group: 1, val: 10 });
+        nodes.push({ id: f.name, group: 1, val: 10, isExternal: false, fullPath: f.path });
         inDegree[f.name] = 0;
       });
+
+      const externalNodes = new Map<string, string>(); // name -> fullPath
 
       for (let i = 0; i < cppFiles.length; i++) {
         const file = cppFiles[i];
@@ -80,9 +83,14 @@ function App() {
           
           includes.forEach(inc => {
             const incName = inc.split('/').pop() || '';
-            if (inDegree[incName] !== undefined) {
+            if (internalFiles.has(incName)) {
               links.push({ source: file.name, target: incName });
               inDegree[incName]++;
+            } else {
+              // External dependency
+              links.push({ source: file.name, target: incName });
+              externalNodes.set(incName, inc);
+              inDegree[incName] = (inDegree[incName] || 0) + 1;
             }
           });
           setProgress(prev => ({ ...prev, current: i + 1 }));
@@ -92,7 +100,12 @@ function App() {
         }
       }
 
-      const leafNodes = Object.keys(inDegree).filter(name => inDegree[name] === 0);
+      // Add external nodes to the list
+      externalNodes.forEach((fullPath, name) => {
+        nodes.push({ id: name, group: 2, val: 8, isExternal: true, fullPath });
+      });
+
+      const leafNodes = Object.keys(inDegree).filter(name => inDegree[name] === 0 && !externalNodes.has(name));
       const finalNodes = nodes.map(n => ({
         ...n,
         inDegree: inDegree[n.id] || 0
@@ -244,9 +257,13 @@ function App() {
                 <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
                 <span>Unreferenced (Leaf)</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 mb-1">
                 <div className="w-3 h-3 bg-slate-400 rounded-full"></div>
                 <span>Referenced Node</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-amber-500 rounded-full"></div>
+                <span>Not Loaded (External)</span>
               </div>
               <div className="mt-2 pt-2 border-t border-slate-700 text-slate-400">
                 <span className="font-semibold text-blue-400"># (N)</span>: Filename (Count of refs)
@@ -258,7 +275,7 @@ function App() {
           <ForceGraph2D
             ref={fgRef}
             graphData={graphData}
-            nodeLabel="id"
+            nodeLabel="fullPath"
             nodeCanvasObject={(node: any, ctx, globalScale) => {
               const label = `${node.id} (${node.inDegree || 0})`;
               const fontSize = 14 / globalScale;
@@ -268,7 +285,12 @@ function App() {
               const width = textWidth + padding * 2;
               const height = fontSize + padding * 2;
 
-              const color = graphData.leafNodes.includes(node.id) ? '#3b82f6' : '#94a3b8';
+              let color = '#94a3b8'; // Default referenced
+              if (node.isExternal) {
+                color = '#f59e0b'; // Amber 500
+              } else if (graphData.leafNodes.includes(node.id)) {
+                color = '#3b82f6'; // Blue 500
+              }
               
               // Draw rounded rectangle
               ctx.fillStyle = color;
@@ -294,7 +316,7 @@ function App() {
               }
             }}
             linkColor={() => '#4bab27'}
-            linkDirectionalArrowLength={20}
+            linkDirectionalArrowLength={13}
             linkDirectionalArrowRelPos={15}
             backgroundColor="#0f172a"
           />

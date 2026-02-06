@@ -7,7 +7,7 @@ import type { DependencyGraph } from './githubService';
 function App() {
   const fgRef = useRef<any>(null);
   const [path, setPath] = useState('base/memory');
-  const [token, setToken] = useState(import.meta.env.VITE_GITHUB_TOKEN || '');
+  const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || '';
   const [loading, setLoading] = useState(false);
   const [showSystem, setShowSystem] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     const loadRootDirs = async () => {
       try {
-        const items = await fetchDirectory('', token);
+        const items = await fetchDirectory('', GITHUB_TOKEN);
         const dirs = items
           .filter(item => item.type === 'dir' && !item.name.startsWith('.'))
           .map(item => item.name)
@@ -40,7 +40,7 @@ function App() {
       }
     };
     loadRootDirs();
-  }, [token]);
+  }, []); // Only on mount
 
   useEffect(() => {
     if (fgRef.current) {
@@ -56,7 +56,7 @@ function App() {
     setSubDirs([]);
     setHighlightNode(null);
     try {
-      const files = await fetchDirectory(targetPath, token);
+      const files = await fetchDirectory(targetPath, GITHUB_TOKEN);
       
       // Store subdirectories for navigation
       const dirs = files
@@ -89,7 +89,7 @@ function App() {
       for (let i = 0; i < cppFiles.length; i++) {
         const file = cppFiles[i];
         try {
-          const content = await fetchFileContent(file.path, token);
+          const content = await fetchFileContent(file.path, GITHUB_TOKEN);
           const includes = parseIncludes(content);
           
           includes.forEach(inc => {
@@ -106,7 +106,7 @@ function App() {
           });
           setProgress(prev => ({ ...prev, current: i + 1 }));
         } catch (e: any) {
-          if (e.response?.status === 403) throw new Error('GitHub API rate limit exceeded. Please provide a Personal Access Token.');
+          if (e.response?.status === 403) throw new Error('GitHub API rate limit exceeded. Please ensure your Personal Access Token is configured.');
           console.error(`Failed to fetch ${file.path}`, e);
         }
       }
@@ -186,7 +186,7 @@ function App() {
 
   useEffect(() => {
     analyzeDependencies(path);
-  }, [path, token]);
+  }, [path]);
 
   return (
     <div className="flex h-screen bg-slate-900 text-white font-sans">
@@ -201,21 +201,6 @@ function App() {
         </div>
 
         <div className="p-4 space-y-4 overflow-y-auto">
-          {/* Token Input */}
-          <div>
-            <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">GitHub Token (Optional)</label>
-            <div className="relative">
-              <Key className="absolute left-3 top-2.5 h-4 w-4 text-slate-500" />
-              <input
-                type="password"
-                placeholder="ghp_..."
-                className="w-full bg-slate-900 border border-slate-700 rounded-lg py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-300"
-                value={token}
-                onChange={(e) => setToken(e.target.value)}
-              />
-            </div>
-          </div>
-
           {/* Search Box */}
           <div>
             <label className="text-[10px] font-bold text-slate-500 uppercase mb-1 block">Find File</label>

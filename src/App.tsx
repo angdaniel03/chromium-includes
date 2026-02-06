@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
-import { FileCode, AlertCircle, Loader2, Key, ChevronDown, Folder, Download, Eye, EyeOff, Search, X } from 'lucide-react';
+import { FileCode, AlertCircle, Loader2, ChevronDown, Folder, Download, Eye, EyeOff, Search, X } from 'lucide-react';
 import { fetchDirectory, fetchFileContent, parseIncludes } from './githubService';
 import type { DependencyGraph } from './githubService';
 

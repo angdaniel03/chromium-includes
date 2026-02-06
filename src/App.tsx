@@ -391,7 +391,7 @@ function App() {
         {filteredData.nodes.length > 0 ? (
           <ForceGraph2D
             ref={fgRef}
-            graphData={filteredData}
+            graphData={filteredData as any}
             nodeLabel="fullPath"
             nodeCanvasObject={(node: any, ctx, globalScale) => {
               const label = `${node.id} (${node.inDegree || 0})`;

@@ -9,7 +9,9 @@ export interface FileNode {
 }
 
 export interface DependencyGraph {
-  nodes: { 
+  nodes: {
+    x(x: any, y: any, arg2: number): unknown;
+    y(x: any, y: any, arg2: number): unknown; 
     id: string; 
     group: number; 
     val: number; 

@@ -7,7 +7,7 @@ import type { DependencyGraph } from './githubService';
 function App() {
   const fgRef = useRef<any>(null);
   const [path, setPath] = useState('base/memory');
-  const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || '';
+  const GITHUB_TOKEN = import.meta.env.DEV ? (typeof process !== 'undefined' ? process.env.VITE_GITHUB_TOKEN : import.meta.env.VITE_GITHUB_TOKEN) : import.meta.env.VITE_GITHUB_TOKEN;
   const [loading, setLoading] = useState(false);
   const [showSystem, setShowSystem] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');

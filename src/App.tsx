@@ -32,7 +32,7 @@ function App() {
   useEffect(() => {
     const loadPreFetchedData = async () => {
       try {
-        const response = await fetch('/data/dependencies.json');
+        const response = await fetch('data/dependencies.json');
         if (response.ok) {
           const data = await response.json();
           setPreFetchedData(data);

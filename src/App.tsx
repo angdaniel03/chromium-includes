@@ -20,7 +20,9 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [availableDirs, setAvailableDirs] = useState<string[]>([]);
   const [subDirs, setSubDirs] = useState<string[]>([]);
-  const [preFetchedData, setPreFetchedData] = useState<any>(null);
+  
+  // Track loaded root data to avoid redundant fetches
+  const [loadedRoots, setLoadedRoots] = useState<Record<string, any>>({});
 
   // Reset search state when query or data changes
   useEffect(() => {
@@ -28,28 +30,24 @@ function App() {
     setHighlightNode(null);
   }, [searchQuery, graphData]);
 
-  // Fetch pre-fetched data on mount
+  // Fetch roots list on mount
   useEffect(() => {
-    const loadPreFetchedData = async () => {
+    const loadRootsList = async () => {
       try {
-        const response = await fetch('data/dependencies.json');
+        const response = await fetch('data/roots.json');
         if (response.ok) {
           const data = await response.json();
-          setPreFetchedData(data);
-          setAvailableDirs(data.rootDirs || []);
-          setLoading(false);
+          setAvailableDirs(data || []);
         } else {
-          setError('Failed to load dependency data. Please run "npm run fetch-data" first.');
-          setLoading(false);
+          setError('Failed to load root directories list.');
         }
       } catch (e) {
-        console.error('Failed to load pre-fetched data', e);
-        setError('Failed to load dependency data. Please run "npm run fetch-data" first.');
-        setLoading(false);
+        console.error('Failed to load roots list', e);
+        setError('Data not found. Run "npm run fetch-data" first.');
       }
     };
-    loadPreFetchedData();
-  }, []); // Only on mount
+    loadRootsList();
+  }, []);
 
   useEffect(() => {
     if (fgRef.current) {
@@ -58,23 +56,48 @@ function App() {
     }
   }, [graphData]);
 
-  const analyzeDependencies = (targetPath: string) => {
-    if (!preFetchedData) return;
-    
+  const analyzeDependencies = async (targetPath: string) => {
     setLoading(true);
     setError(null);
-    setSubDirs([]);
     setHighlightNode(null);
 
-    // Try pre-fetched data
-    if (preFetchedData.graphs?.[targetPath]) {
-      const { graph, subDirs: fetchedSubDirs } = preFetchedData.graphs[targetPath];
+    const rootDir = targetPath.split('/')[0];
+    let rootData = loadedRoots[rootDir];
+
+    // If root data isn't loaded, fetch it
+    if (!rootData) {
+      try {
+        const safeFileName = rootDir.replace(/\//g, '_') + '.json';
+        const response = await fetch(`data/roots/${safeFileName}`);
+        if (response.ok) {
+          rootData = await response.json();
+          setLoadedRoots(prev => ({ ...prev, [rootDir]: rootData }));
+        } else {
+          setGraphData({ nodes: [], links: [], leafNodes: [] });
+          setSubDirs([]);
+          setError(`No data available for "${targetPath}". Run fetch-data for this root.`);
+          setLoading(false);
+          return;
+        }
+      } catch (e) {
+        console.error(`Failed to load data for root ${rootDir}`, e);
+        setError(`Failed to load data for "${rootDir}".`);
+        setLoading(false);
+        return;
+      }
+    }
+
+    // Use rootData to update graph
+    if (rootData.graphs?.[targetPath]) {
+      const { graph, subDirs: fetchedSubDirs } = rootData.graphs[targetPath];
       setGraphData(graph);
       setSubDirs(fetchedSubDirs || []);
     } else {
       setGraphData({ nodes: [], links: [], leafNodes: [] });
-      setError(`No pre-fetched data available for "${targetPath}". Run the fetch-data script to include this directory.`);
+      setSubDirs([]);
+      setError(`Path "${targetPath}" was not scanned within the ${rootDir} root.`);
     }
+    
     setLoading(false);
   };
 

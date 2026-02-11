@@ -19,10 +19,9 @@ const headers = {
 };
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-const REQUEST_DELAY = 200; // ms
+const REQUEST_DELAY = 500; // ms
 
 if (TOKEN) {
-  // Most modern GitHub APIs prefer Bearer even for classic tokens
   headers['Authorization'] = `token ${TOKEN}`; 
 } else {
   console.warn('No VITE_GITHUB_TOKEN found. API rate limits will be very restrictive.');
@@ -148,50 +147,51 @@ async function analyzeDependencies(targetPath) {
 }
 
 async function main() {
-  const allData = {
-    rootDirs: [],
-    graphs: {}
-  };
+  const outputDir = path.join(__dirname, '../public/data');
+  const rootsDir = path.join(outputDir, 'roots');
+
+  if (!fs.existsSync(rootsDir)) {
+    fs.mkdirSync(rootsDir, { recursive: true });
+  }
 
   try {
-    // 1. Fetch root directories
     const rootItems = await fetchDirectory('');
-    allData.rootDirs = rootItems
+    const rootDirs = rootItems
       .filter(item => item.type === 'dir' && !item.name.startsWith('.'))
       .map(item => item.name)
       .sort();
 
-    // 2. Define paths to crawl. 
-    const pathsToCrawl = new Set([]);
+    // Save the list of available roots
+    fs.writeFileSync(path.join(outputDir, 'roots.json'), JSON.stringify(rootDirs, null, 2));
 
-    for (const root of allData.rootDirs) {
-      try {
-        pathsToCrawl.add(root);
-        const items = await fetchDirectory(root);
-        const subs = items
-          .filter(item => item.type === 'dir')
-          .map(item => item.path);
-        subs.forEach(p => pathsToCrawl.add(p));
-      } catch (e) {
-        console.error(`Failed to discover subdirs for ${root}: ${e.message}`);
+    // Limit crawling to prevent extreme API usage while demonstrating the multi-file approach
+    // In a real run with a high-limit token, you'd remove the slice(0, 10)
+    const activeRoots = rootDirs.slice(0, 10); 
+
+    for (const root of activeRoots) {
+      const rootData = { graphs: {} };
+      
+      // 1. Analyze the root itself
+      const rootResult = await analyzeDependencies(root);
+      if (rootResult) {
+        rootData.graphs[root] = rootResult;
+        
+        // 2. Analyze subdirectories of this root
+        for (const subDir of rootResult.subDirs) {
+          const subResult = await analyzeDependencies(subDir);
+          if (subResult) {
+            rootData.graphs[subDir] = subResult;
+          }
+        }
       }
+
+      // Save each root to its own file
+      const safeFileName = root.replace(/\//g, '_') + '.json';
+      fs.writeFileSync(path.join(rootsDir, safeFileName), JSON.stringify(rootData, null, 2));
+      console.log(`Saved root data for ${root} to roots/${safeFileName}`);
     }
 
-    for (const p of pathsToCrawl) {
-      const result = await analyzeDependencies(p);
-      if (result) {
-        allData.graphs[p] = result;
-      }
-    }
-
-    const outputPath = path.join(__dirname, '../public/data/dependencies.json');
-    const outputDir = path.dirname(outputPath);
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-
-    fs.writeFileSync(outputPath, JSON.stringify(allData, null, 2));
-    console.log(`Data saved to ${outputPath}`);
+    console.log(`Successfully generated roots.json and individual root files.`);
 
   } catch (err) {
     console.error(`Main error: ${err.message}`);

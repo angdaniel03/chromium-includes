@@ -1,23 +1,26 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { FileCode, AlertCircle, Loader2, ChevronDown, Folder, Download, Eye, EyeOff, Search, X } from 'lucide-react';
-import { fetchDirectory, fetchFileContent, parseIncludes } from './githubService';
-import type { DependencyGraph } from './githubService';
+
+interface DependencyGraph {
+  nodes: any[];
+  links: { source: string; target: string }[];
+  leafNodes: string[];
+}
 
 function App() {
   const fgRef = useRef<any>(null);
   const [path, setPath] = useState('base/memory');
-  const GITHUB_TOKEN = import.meta.env.DEV ? (typeof process !== 'undefined' ? process.env.VITE_GITHUB_TOKEN : import.meta.env.VITE_GITHUB_TOKEN) : import.meta.env.VITE_GITHUB_TOKEN;
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [showSystem, setShowSystem] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchIndex, setSearchIndex] = useState(-1);
   const [highlightNode, setHighlightNode] = useState<string | null>(null);
-  const [progress, setProgress] = useState({ current: 0, total: 0 });
   const [graphData, setGraphData] = useState<DependencyGraph>({ nodes: [], links: [], leafNodes: [] });
   const [error, setError] = useState<string | null>(null);
   const [availableDirs, setAvailableDirs] = useState<string[]>([]);
   const [subDirs, setSubDirs] = useState<string[]>([]);
+  const [preFetchedData, setPreFetchedData] = useState<any>(null);
 
   // Reset search state when query or data changes
   useEffect(() => {
@@ -25,21 +28,27 @@ function App() {
     setHighlightNode(null);
   }, [searchQuery, graphData]);
 
-  // Fetch top-level directories on mount
+  // Fetch pre-fetched data on mount
   useEffect(() => {
-    const loadRootDirs = async () => {
+    const loadPreFetchedData = async () => {
       try {
-        const items = await fetchDirectory('', GITHUB_TOKEN);
-        const dirs = items
-          .filter(item => item.type === 'dir' && !item.name.startsWith('.'))
-          .map(item => item.name)
-          .sort();
-        setAvailableDirs(dirs);
+        const response = await fetch('/data/dependencies.json');
+        if (response.ok) {
+          const data = await response.json();
+          setPreFetchedData(data);
+          setAvailableDirs(data.rootDirs || []);
+          setLoading(false);
+        } else {
+          setError('Failed to load dependency data. Please run "npm run fetch-data" first.');
+          setLoading(false);
+        }
       } catch (e) {
-        console.error('Failed to fetch root directories', e);
+        console.error('Failed to load pre-fetched data', e);
+        setError('Failed to load dependency data. Please run "npm run fetch-data" first.');
+        setLoading(false);
       }
     };
-    loadRootDirs();
+    loadPreFetchedData();
   }, []); // Only on mount
 
   useEffect(() => {
@@ -49,84 +58,24 @@ function App() {
     }
   }, [graphData]);
 
-  const analyzeDependencies = async (targetPath: string) => {
+  const analyzeDependencies = (targetPath: string) => {
+    if (!preFetchedData) return;
+    
     setLoading(true);
-    setProgress({ current: 0, total: 0 });
     setError(null);
     setSubDirs([]);
     setHighlightNode(null);
-    try {
-      const files = await fetchDirectory(targetPath, GITHUB_TOKEN);
-      
-      // Store subdirectories for navigation
-      const dirs = files
-        .filter(f => f.type === 'dir')
-        .map(f => f.path)
-        .sort();
-      setSubDirs(dirs);
 
-      const cppFiles = files.filter(f => f.type === 'file' && (
-        f.name.endsWith('.cc') || 
-        f.name.endsWith('.cpp') || 
-        f.name.endsWith('.h') || 
-        f.name.endsWith('.hpp')
-      ));
-      
-      setProgress({ current: 0, total: cppFiles.length });
-      
-      const nodes: any[] = [];
-      const links: { source: string; target: string }[] = [];
-      const inDegree: Record<string, number> = {};
-      const internalFiles = new Set(cppFiles.map(f => f.name));
-
-      cppFiles.forEach(f => {
-        nodes.push({ id: f.name, group: 1, val: 10, isExternal: false, isSystem: false, fullPath: f.path });
-        inDegree[f.name] = 0;
-      });
-
-      const externalNodes = new Map<string, { fullPath: string; isSystem: boolean }>();
-
-      for (let i = 0; i < cppFiles.length; i++) {
-        const file = cppFiles[i];
-        try {
-          const content = await fetchFileContent(file.path, GITHUB_TOKEN);
-          const includes = parseIncludes(content);
-          
-          includes.forEach(inc => {
-            const incName = inc.path.split('/').pop() || '';
-            if (internalFiles.has(incName)) {
-              links.push({ source: file.name, target: incName });
-              inDegree[incName]++;
-            } else {
-              // External dependency
-              links.push({ source: file.name, target: incName });
-              externalNodes.set(incName, { fullPath: inc.path, isSystem: inc.isSystem });
-              inDegree[incName] = (inDegree[incName] || 0) + 1;
-            }
-          });
-          setProgress(prev => ({ ...prev, current: i + 1 }));
-        } catch (e: any) {
-          if (e.response?.status === 403) throw new Error('GitHub API rate limit exceeded. Please ensure your Personal Access Token is configured.');
-          console.error(`Failed to fetch ${file.path}`, e);
-        }
-      }
-
-      // Add external nodes to the list
-      externalNodes.forEach((info, name) => {
-        nodes.push({ id: name, group: 2, val: 8, isExternal: true, isSystem: info.isSystem, fullPath: info.fullPath });
-      });
-
-      const leafNodes = Object.keys(inDegree).filter(name => inDegree[name] === 0 && !externalNodes.has(name));
-      const finalNodes = nodes.map(n => ({
-        ...n,
-        inDegree: inDegree[n.id] || 0
-      }));
-      setGraphData({ nodes: finalNodes, links, leafNodes });
-    } catch (err: any) {
-      setError(err.message || 'Failed to fetch data from GitHub');
-    } finally {
-      setLoading(false);
+    // Try pre-fetched data
+    if (preFetchedData.graphs?.[targetPath]) {
+      const { graph, subDirs: fetchedSubDirs } = preFetchedData.graphs[targetPath];
+      setGraphData(graph);
+      setSubDirs(fetchedSubDirs || []);
+    } else {
+      setGraphData({ nodes: [], links: [], leafNodes: [] });
+      setError(`No pre-fetched data available for "${targetPath}". Run the fetch-data script to include this directory.`);
     }
+    setLoading(false);
   };
 
   const filteredData = useMemo(() => {
@@ -319,17 +268,9 @@ function App() {
           </div>
           <div className="space-y-2">
             {loading ? (
-              <div className="space-y-4 py-4">
-                <div className="flex flex-col items-center justify-center gap-2">
-                  <Loader2 className="animate-spin text-blue-500" />
-                  <span className="text-xs text-slate-500">Scanning {progress.current} / {progress.total} files</span>
-                </div>
-                <div className="w-full bg-slate-700 rounded-full h-1.5 overflow-hidden">
-                  <div 
-                    className="bg-blue-500 h-full transition-all duration-300 ease-out" 
-                    style={{ width: `${(progress.current / (progress.total || 1)) * 100}%` }}
-                  ></div>
-                </div>
+              <div className="flex flex-col items-center justify-center py-8 gap-2">
+                <Loader2 className="animate-spin text-blue-500" />
+                <span className="text-xs text-slate-500">Loading dependencies...</span>
               </div>
             ) : (
               graphData.leafNodes.map(node => (
@@ -438,7 +379,7 @@ function App() {
           />
         ) : !loading && (
           <div className="flex items-center justify-center h-full text-slate-500">
-            {error ? 'Analysis failed. Check token or path.' : 'Loading initial directory...'}
+            {error ? `Analysis failed: ${error}` : 'Loading initial directory...'}
           </div>
         )}
       </div>

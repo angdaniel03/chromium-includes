@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,6 +24,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Fetch data
+        run: npm run fetch-data
+        env:
+          VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN || vars.VITE_GITHUB_TOKEN }}
 
       - name: Build
         run: npm run build

@@ -26,6 +26,7 @@ jobs:
         run: npm install
 
       - name: Fetch data
+        if: github.event_name == 'schedule'
         run: npm run fetch-data
         env:
           VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN || vars.VITE_GITHUB_TOKEN }}

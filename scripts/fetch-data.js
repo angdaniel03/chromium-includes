@@ -19,7 +19,7 @@ const headers = {
 };
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-const REQUEST_DELAY = 500; // ms
+const REQUEST_DELAY = 1000; // ms
 
 if (TOKEN) {
   headers['Authorization'] = `token ${TOKEN}`; 

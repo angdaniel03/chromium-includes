@@ -1,0 +1,60 @@
+{
+  "graphs": {
+    "buildtools": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "buildtools/checkdeps",
+        "buildtools/clang_format",
+        "buildtools/reclient_cfgs",
+        "buildtools/third_party"
+      ]
+    },
+    "buildtools/checkdeps": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "buildtools/checkdeps/testdata"
+      ]
+    },
+    "buildtools/clang_format": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "buildtools/reclient_cfgs": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "buildtools/reclient_cfgs/linux",
+        "buildtools/reclient_cfgs/linux_chroot",
+        "buildtools/reclient_cfgs/linux_cros",
+        "buildtools/reclient_cfgs/reproxy_cfg_templates"
+      ]
+    },
+    "buildtools/third_party": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "buildtools/third_party/libc++",
+        "buildtools/third_party/libc++abi",
+        "buildtools/third_party/libunwind"
+      ]
+    }
+  }
+}

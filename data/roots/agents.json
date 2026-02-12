@@ -1,0 +1,87 @@
+{
+  "graphs": {
+    "agents": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/common",
+        "agents/extensions",
+        "agents/projects",
+        "agents/prompts",
+        "agents/skills",
+        "agents/testing"
+      ]
+    },
+    "agents/common": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "agents/extensions": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/extensions/blink-spec",
+        "agents/extensions/build-information",
+        "agents/extensions/chromium-tools",
+        "agents/extensions/depot-tools",
+        "agents/extensions/example-server",
+        "agents/extensions/landmines",
+        "agents/extensions/perf"
+      ]
+    },
+    "agents/projects": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/projects/modernization"
+      ]
+    },
+    "agents/prompts": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/prompts/eval",
+        "agents/prompts/projects",
+        "agents/prompts/templates"
+      ]
+    },
+    "agents/skills": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/skills/chromium-docs",
+        "agents/skills/fuzzing"
+      ]
+    },
+    "agents/testing": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/testing/asserts",
+        "agents/testing/extensions"
+      ]
+    }
+  }
+}

@@ -1,3 +1,1008 @@
 {
-  "graphs": {}
+  "graphs": {
+    "build": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "build_config.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 0
+          },
+          {
+            "id": "buildflag.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/buildflag.h",
+            "inDegree": 1
+          },
+          {
+            "id": "precompile.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/precompile.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "precompile.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/precompile.h",
+            "inDegree": 0
+          },
+          {
+            "id": "TargetConditionals.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "TargetConditionals.h",
+            "inDegree": 1
+          },
+          {
+            "id": "features.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "foo_flags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "foo_flags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "errno.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "errno.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcntl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fcntl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "limits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "math.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "math.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "signal.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "signal.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdarg.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdarg.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdio.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdio.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdlib.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdlib.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "time.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "bitset",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "bitset",
+            "inDegree": 1
+          },
+          {
+            "id": "cmath",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cmath",
+            "inDegree": 1
+          },
+          {
+            "id": "cstddef",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstddef",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdio",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdio",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdlib",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdlib",
+            "inDegree": 1
+          },
+          {
+            "id": "cstring",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstring",
+            "inDegree": 1
+          },
+          {
+            "id": "fstream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fstream",
+            "inDegree": 1
+          },
+          {
+            "id": "functional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "functional",
+            "inDegree": 1
+          },
+          {
+            "id": "iomanip",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "iomanip",
+            "inDegree": 1
+          },
+          {
+            "id": "iosfwd",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "iosfwd",
+            "inDegree": 1
+          },
+          {
+            "id": "iterator",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "iterator",
+            "inDegree": 1
+          },
+          {
+            "id": "limits",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits",
+            "inDegree": 1
+          },
+          {
+            "id": "list",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "list",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 1
+          },
+          {
+            "id": "numeric",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "numeric",
+            "inDegree": 1
+          },
+          {
+            "id": "ostream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "ostream",
+            "inDegree": 1
+          },
+          {
+            "id": "queue",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "queue",
+            "inDegree": 1
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 1
+          },
+          {
+            "id": "sstream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "sstream",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "build_config.h",
+            "target": "buildflag.h"
+          },
+          {
+            "source": "build_config.h",
+            "target": "TargetConditionals.h"
+          },
+          {
+            "source": "build_config.h",
+            "target": "features.h"
+          },
+          {
+            "source": "buildflag.h",
+            "target": "foo_flags.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "errno.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "fcntl.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "limits.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "math.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "memory.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "signal.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "stdarg.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "stdio.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "stdlib.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "string.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "time.h"
+          },
+          {
+            "source": "precompile.h",
+            "target": "algorithm"
+          },
+          {
+            "source": "precompile.h",
+            "target": "bitset"
+          },
+          {
+            "source": "precompile.h",
+            "target": "cmath"
+          },
+          {
+            "source": "precompile.h",
+            "target": "cstddef"
+          },
+          {
+            "source": "precompile.h",
+            "target": "cstdio"
+          },
+          {
+            "source": "precompile.h",
+            "target": "cstdlib"
+          },
+          {
+            "source": "precompile.h",
+            "target": "cstring"
+          },
+          {
+            "source": "precompile.h",
+            "target": "fstream"
+          },
+          {
+            "source": "precompile.h",
+            "target": "functional"
+          },
+          {
+            "source": "precompile.h",
+            "target": "iomanip"
+          },
+          {
+            "source": "precompile.h",
+            "target": "iosfwd"
+          },
+          {
+            "source": "precompile.h",
+            "target": "iterator"
+          },
+          {
+            "source": "precompile.h",
+            "target": "limits"
+          },
+          {
+            "source": "precompile.h",
+            "target": "list"
+          },
+          {
+            "source": "precompile.h",
+            "target": "map"
+          },
+          {
+            "source": "precompile.h",
+            "target": "numeric"
+          },
+          {
+            "source": "precompile.h",
+            "target": "ostream"
+          },
+          {
+            "source": "precompile.h",
+            "target": "queue"
+          },
+          {
+            "source": "precompile.h",
+            "target": "set"
+          },
+          {
+            "source": "precompile.h",
+            "target": "sstream"
+          },
+          {
+            "source": "precompile.h",
+            "target": "string"
+          },
+          {
+            "source": "precompile.h",
+            "target": "utility"
+          },
+          {
+            "source": "precompile.h",
+            "target": "vector"
+          }
+        ],
+        "leafNodes": [
+          "build_config.h",
+          "precompile.cc",
+          "precompile.h"
+        ]
+      },
+      "subDirs": [
+        "build/3pp_common",
+        "build/android",
+        "build/apple",
+        "build/args",
+        "build/autoroll",
+        "build/bench",
+        "build/chromeos",
+        "build/cipd",
+        "build/config",
+        "build/docs",
+        "build/fuchsia",
+        "build/gn_ast",
+        "build/internal",
+        "build/ios",
+        "build/linux",
+        "build/mac",
+        "build/mcp_servers",
+        "build/modules",
+        "build/private_code_test",
+        "build/rust",
+        "build/sanitizers",
+        "build/skia_gold_common",
+        "build/toolchain",
+        "build/util",
+        "build/win"
+      ]
+    },
+    "build/3pp_common": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/android": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/android/bytecode",
+        "build/android/docs",
+        "build/android/gradle",
+        "build/android/gtest_apk",
+        "build/android/gyp",
+        "build/android/incremental_install",
+        "build/android/java",
+        "build/android/junit",
+        "build/android/location_rewriter",
+        "build/android/native_flags",
+        "build/android/pylib",
+        "build/android/stacktrace",
+        "build/android/test",
+        "build/android/test_wrapper",
+        "build/android/tests",
+        "build/android/unused_resources",
+        "build/android/update_deps"
+      ]
+    },
+    "build/apple": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/args": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/args/chromeos"
+      ]
+    },
+    "build/autoroll": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/bench": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/bench/protos"
+      ]
+    },
+    "build/chromeos": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/cipd": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/config": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/config/aix",
+        "build/config/android",
+        "build/config/apple",
+        "build/config/c++",
+        "build/config/chromebox_for_meetings",
+        "build/config/chromecast",
+        "build/config/chromeos",
+        "build/config/clang",
+        "build/config/compiler",
+        "build/config/coverage",
+        "build/config/cronet",
+        "build/config/cuttlefish",
+        "build/config/freetype",
+        "build/config/fuchsia",
+        "build/config/gcc",
+        "build/config/ios",
+        "build/config/linux",
+        "build/config/mac",
+        "build/config/posix",
+        "build/config/profiling",
+        "build/config/sanitizers",
+        "build/config/siso",
+        "build/config/squid",
+        "build/config/tvos",
+        "build/config/win",
+        "build/config/zos"
+      ]
+    },
+    "build/docs": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/fuchsia": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/fuchsia/cipd",
+        "build/fuchsia/test"
+      ]
+    },
+    "build/gn_ast": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/internal": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/ios": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/ios/test_data"
+      ]
+    },
+    "build/linux": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/linux/libncursesw",
+        "build/linux/libpci",
+        "build/linux/sysroot_scripts",
+        "build/linux/unbundle"
+      ]
+    },
+    "build/mac": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/mcp_servers": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/modules": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/modules/android-arm",
+        "build/modules/android-arm64",
+        "build/modules/android-x64",
+        "build/modules/android-x86",
+        "build/modules/fuchsia",
+        "build/modules/linux",
+        "build/modules/linux-x64",
+        "build/modules/mac_xcode2600",
+        "build/modules/modularize",
+        "build/modules/win"
+      ]
+    },
+    "build/private_code_test": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/rust": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/rust/allocator",
+        "build/rust/chromium_prelude",
+        "build/rust/crubit",
+        "build/rust/gni_impl",
+        "build/rust/std",
+        "build/rust/tests"
+      ]
+    },
+    "build/sanitizers": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "asan_suppressions.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/asan_suppressions.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "lsan_suppressions.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/lsan_suppressions.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sanitizer_hooks.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/sanitizer_hooks.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sanitizer_options.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/sanitizer_options.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sanitizer_shared_hooks.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/sanitizer_shared_hooks.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sanitizer_shared_hooks.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/sanitizer_shared_hooks.h",
+            "inDegree": 2
+          },
+          {
+            "id": "tsan_suppressions.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "build/sanitizers/tsan_suppressions.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 5
+          },
+          {
+            "id": "cstddef",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstddef",
+            "inDegree": 2
+          },
+          {
+            "id": "atomic",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "atomic",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "lsan_suppressions.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "sanitizer_hooks.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "sanitizer_hooks.cc",
+            "target": "cstddef"
+          },
+          {
+            "source": "sanitizer_hooks.cc",
+            "target": "sanitizer_shared_hooks.h"
+          },
+          {
+            "source": "sanitizer_options.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "sanitizer_shared_hooks.cc",
+            "target": "sanitizer_shared_hooks.h"
+          },
+          {
+            "source": "sanitizer_shared_hooks.cc",
+            "target": "atomic"
+          },
+          {
+            "source": "sanitizer_shared_hooks.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "sanitizer_shared_hooks.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "sanitizer_shared_hooks.h",
+            "target": "cstddef"
+          }
+        ],
+        "leafNodes": [
+          "asan_suppressions.cc",
+          "lsan_suppressions.cc",
+          "sanitizer_hooks.cc",
+          "sanitizer_options.cc",
+          "sanitizer_shared_hooks.cc",
+          "tsan_suppressions.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "build/skia_gold_common": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "build/toolchain": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/toolchain/aix",
+        "build/toolchain/android",
+        "build/toolchain/apple",
+        "build/toolchain/cros",
+        "build/toolchain/fuchsia",
+        "build/toolchain/ios",
+        "build/toolchain/linux",
+        "build/toolchain/mac",
+        "build/toolchain/wasm",
+        "build/toolchain/win",
+        "build/toolchain/zos"
+      ]
+    },
+    "build/util": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "build/util/lib"
+      ]
+    },
+    "build/win": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    }
+  }
 }

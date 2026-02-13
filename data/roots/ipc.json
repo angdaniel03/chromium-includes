@@ -1,0 +1,5228 @@
+{
+  "graphs": {
+    "ipc": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "handle_attachment_fuchsia.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_attachment_fuchsia.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "handle_attachment_fuchsia.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_attachment_fuchsia.h",
+            "inDegree": 3
+          },
+          {
+            "id": "handle_attachment_win.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_attachment_win.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "handle_attachment_win.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_attachment_win.h",
+            "inDegree": 3
+          },
+          {
+            "id": "handle_win.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_win.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "handle_win.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_win.h",
+            "inDegree": 4
+          },
+          {
+            "id": "handle_win_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/handle_win_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_channel.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_channel.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel.h",
+            "inDegree": 9
+          },
+          {
+            "id": "ipc_channel_factory.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel_factory.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_channel_factory.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel_factory.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ipc_channel_proxy.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel_proxy.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_channel_proxy.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel_proxy.h",
+            "inDegree": 6
+          },
+          {
+            "id": "ipc_channel_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_channel_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_cpu_perftest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_cpu_perftest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_listener.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_listener.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_listener.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_listener.h",
+            "inDegree": 7
+          },
+          {
+            "id": "ipc_message.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_message.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ipc_message_attachment.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_attachment.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_message_attachment.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_attachment.h",
+            "inDegree": 10
+          },
+          {
+            "id": "ipc_message_attachment_set.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_attachment_set.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_message_attachment_set.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_attachment_set.h",
+            "inDegree": 5
+          },
+          {
+            "id": "ipc_message_attachment_set_posix_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_attachment_set_posix_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_message_pipe_reader.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_pipe_reader.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_message_pipe_reader.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_pipe_reader.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ipc_message_support_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_support_export.h",
+            "inDegree": 11
+          },
+          {
+            "id": "ipc_message_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_message_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_mojo_bootstrap.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_bootstrap.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_mojo_bootstrap.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_bootstrap.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ipc_mojo_bootstrap_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_bootstrap_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_mojo_handle_attachment.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_handle_attachment.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_mojo_handle_attachment.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_handle_attachment.h",
+            "inDegree": 7
+          },
+          {
+            "id": "ipc_mojo_message_helper.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_message_helper.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_mojo_message_helper.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_message_helper.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ipc_mojo_perftest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_mojo_perftest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_perftest_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_perftest_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_perftest_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_perftest_util.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ipc_platform_file_attachment_posix.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_platform_file_attachment_posix.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_platform_file_attachment_posix.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_platform_file_attachment_posix.h",
+            "inDegree": 6
+          },
+          {
+            "id": "ipc_sync_channel.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_sync_channel.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ipc_sync_channel.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_sync_channel.h",
+            "inDegree": 5
+          },
+          {
+            "id": "ipc_sync_channel_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_sync_channel_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mach_port_attachment_mac.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mach_port_attachment_mac.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mach_port_attachment_mac.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mach_port_attachment_mac.h",
+            "inDegree": 3
+          },
+          {
+            "id": "mach_port_mac.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mach_port_mac.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mach_port_mac.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mach_port_mac.h",
+            "inDegree": 3
+          },
+          {
+            "id": "message_mojom_traits.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/message_mojom_traits.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "message_mojom_traits.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/message_mojom_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "message_view.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/message_view.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "message_view.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/message_view.h",
+            "inDegree": 2
+          },
+          {
+            "id": "mojo_param_traits.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mojo_param_traits.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mojo_param_traits.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/mojo_param_traits.h",
+            "inDegree": 4
+          },
+          {
+            "id": "param_traits.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits.h",
+            "inDegree": 5
+          },
+          {
+            "id": "param_traits_macros.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_macros.h",
+            "inDegree": 3
+          },
+          {
+            "id": "param_traits_protobuf_utils.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_protobuf_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "param_traits_protobuf_utils_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_protobuf_utils_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "param_traits_read_macros.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_read_macros.h",
+            "inDegree": 0
+          },
+          {
+            "id": "param_traits_utils.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_utils.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "param_traits_utils.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_utils.h",
+            "inDegree": 7
+          },
+          {
+            "id": "param_traits_utils_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_utils_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "param_traits_write_macros.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/param_traits_write_macros.h",
+            "inDegree": 0
+          },
+          {
+            "id": "run_all_perftests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/run_all_perftests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "run_all_unittests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/run_all_unittests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "urgent_message_observer.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "ipc/urgent_message_observer.h",
+            "inDegree": 2
+          },
+          {
+            "id": "syscalls.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "zircon/syscalls.h",
+            "inDegree": 1
+          },
+          {
+            "id": "types.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/c/system/types.h",
+            "inDegree": 4
+          },
+          {
+            "id": "fuchsia_logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/fuchsia/fuchsia_logging.h",
+            "inDegree": 2
+          },
+          {
+            "id": "handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/handle.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 21
+          },
+          {
+            "id": "windows.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.h",
+            "inDegree": 5
+          },
+          {
+            "id": "windows_handle_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/windows_handle_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/scoped_handle.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 13
+          },
+          {
+            "id": "ref_counted.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted.h",
+            "inDegree": 6
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 4
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 7
+          },
+          {
+            "id": "file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file.h",
+            "inDegree": 3
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 7
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 16
+          },
+          {
+            "id": "limits",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 16
+          },
+          {
+            "id": "atomic_sequence_num.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/atomic_sequence_num.h",
+            "inDegree": 2
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 3
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 13
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 3
+          },
+          {
+            "id": "lazy_instance.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/lazy_instance.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ptr_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ptr_util.h",
+            "inDegree": 10
+          },
+          {
+            "id": "raw_ref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ref.h",
+            "inDegree": 2
+          },
+          {
+            "id": "process_handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/process_handle.h",
+            "inDegree": 4
+          },
+          {
+            "id": "rand_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/rand_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 17
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 29
+          },
+          {
+            "id": "associated_receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/associated_receiver.h",
+            "inDegree": 4
+          },
+          {
+            "id": "associated_remote.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/associated_remote.h",
+            "inDegree": 6
+          },
+          {
+            "id": "generic_pending_associated_receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/generic_pending_associated_receiver.h",
+            "inDegree": 4
+          },
+          {
+            "id": "pending_associated_receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pending_associated_receiver.h",
+            "inDegree": 7
+          },
+          {
+            "id": "thread_safe_proxy.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/thread_safe_proxy.h",
+            "inDegree": 2
+          },
+          {
+            "id": "platform_handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/platform_handle.h",
+            "inDegree": 2
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 4
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 11
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 12
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 10
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 13
+          },
+          {
+            "id": "scoped_refptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/scoped_refptr.h",
+            "inDegree": 6
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 2
+          },
+          {
+            "id": "lock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/lock.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ipc.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ipc/ipc.mojom.h",
+            "inDegree": 5
+          },
+          {
+            "id": "scoped_interface_endpoint_handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/scoped_interface_endpoint_handle.h",
+            "inDegree": 4
+          },
+          {
+            "id": "shared_remote.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/shared_remote.h",
+            "inDegree": 2
+          },
+          {
+            "id": "message_pipe.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/message_pipe.h",
+            "inDegree": 15
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 8
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 5
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 4
+          },
+          {
+            "id": "sequence_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/sequence_checker.h",
+            "inDegree": 2
+          },
+          {
+            "id": "shared_associated_remote.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/shared_associated_remote.h",
+            "inDegree": 1
+          },
+          {
+            "id": "atomic",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "atomic",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdint",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdint",
+            "inDegree": 2
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 5
+          },
+          {
+            "id": "base_paths.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_paths.h",
+            "inDegree": 1
+          },
+          {
+            "id": "queue.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/queue.h",
+            "inDegree": 1
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 5
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 1
+          },
+          {
+            "id": "platform_shared_memory_region.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/platform_shared_memory_region.h",
+            "inDegree": 2
+          },
+          {
+            "id": "read_only_shared_memory_region.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/read_only_shared_memory_region.h",
+            "inDegree": 2
+          },
+          {
+            "id": "shared_memory_mapping.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/shared_memory_mapping.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unsafe_shared_memory_region.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/unsafe_shared_memory_region.h",
+            "inDegree": 2
+          },
+          {
+            "id": "writable_shared_memory_region.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/writable_shared_memory_region.h",
+            "inDegree": 2
+          },
+          {
+            "id": "message_pump_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/message_loop/message_pump_type.h",
+            "inDegree": 2
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pickle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/pickle.h",
+            "inDegree": 9
+          },
+          {
+            "id": "process.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/process.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 8
+          },
+          {
+            "id": "waitable_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/waitable_event.h",
+            "inDegree": 6
+          },
+          {
+            "id": "multiprocess_test.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/multiprocess_test.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_feature_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 5
+          },
+          {
+            "id": "test_io_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_io_thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "test_shared_memory_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_shared_memory_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "test_timeouts.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_timeouts.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ipc_test.test-mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ipc/ipc_test.test-mojom.h",
+            "inDegree": 4
+          },
+          {
+            "id": "mojo_test_base.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/test/mojo_test_base.h",
+            "inDegree": 3
+          },
+          {
+            "id": "multiprocess_test_helper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/test/multiprocess_test_helper.h",
+            "inDegree": 6
+          },
+          {
+            "id": "validation_errors.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/lib/validation_errors.h",
+            "inDegree": 1
+          },
+          {
+            "id": "self_owned_associated_receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/self_owned_associated_receiver.h",
+            "inDegree": 1
+          },
+          {
+            "id": "urgent_message_scope.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/urgent_message_scope.h",
+            "inDegree": 1
+          },
+          {
+            "id": "functions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/functions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "wait.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/wait.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_descriptor_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/file_descriptor_posix.h",
+            "inDegree": 3
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 3
+          },
+          {
+            "id": "tuple",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "tuple",
+            "inDegree": 5
+          },
+          {
+            "id": "check_op.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_op.h",
+            "inDegree": 2
+          },
+          {
+            "id": "process_metrics.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/process_metrics.h",
+            "inDegree": 3
+          },
+          {
+            "id": "perf_log.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/perf_log.h",
+            "inDegree": 1
+          },
+          {
+            "id": "timer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/timer/timer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "expected.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/expected.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pending_remote.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pending_remote.h",
+            "inDegree": 2
+          },
+          {
+            "id": "remote.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/remote.h",
+            "inDegree": 2
+          },
+          {
+            "id": "limits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits.h",
+            "inDegree": 2
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 10
+          },
+          {
+            "id": "trace_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_event.h",
+            "inDegree": 3
+          },
+          {
+            "id": "trace_log.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_log.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest_prod_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/gtest_prod_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_file.h",
+            "inDegree": 2
+          },
+          {
+            "id": "unistd.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "unistd.h",
+            "inDegree": 2
+          },
+          {
+            "id": "eintr_wrapper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/posix/eintr_wrapper.h",
+            "inDegree": 3
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 2
+          },
+          {
+            "id": "fcntl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fcntl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fdio.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "lib/fdio/fdio.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 4
+          },
+          {
+            "id": "message.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/message.h",
+            "inDegree": 2
+          },
+          {
+            "id": "thread_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_checker.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdio.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdio.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 2
+          },
+          {
+            "id": "platform_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/platform_thread.h",
+            "inDegree": 2
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/values.h",
+            "inDegree": 2
+          },
+          {
+            "id": "inttypes.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "inttypes.h",
+            "inDegree": 1
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 2
+          },
+          {
+            "id": "circular_deque.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/circular_deque.h",
+            "inDegree": 2
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "hash.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/hash/hash.h",
+            "inDegree": 1
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_annotator.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/common/task_annotator.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_annotations.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/thread_annotations.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory_allocator_dump.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/memory_allocator_dump.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory_dump_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/memory_dump_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory_dump_provider.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/memory_dump_provider.h",
+            "inDegree": 1
+          },
+          {
+            "id": "typed_macros.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/typed_macros.h",
+            "inDegree": 1
+          },
+          {
+            "id": "associated_group.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/associated_group.h",
+            "inDegree": 2
+          },
+          {
+            "id": "associated_group_controller.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/associated_group_controller.h",
+            "inDegree": 1
+          },
+          {
+            "id": "connector.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/connector.h",
+            "inDegree": 1
+          },
+          {
+            "id": "interface_endpoint_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/interface_endpoint_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "interface_endpoint_controller.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/interface_endpoint_controller.h",
+            "inDegree": 1
+          },
+          {
+            "id": "interface_id.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/interface_id.h",
+            "inDegree": 1
+          },
+          {
+            "id": "message_header_validator.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/message_header_validator.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mojo_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/mojo_buildflags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pipe_control_message_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pipe_control_message_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pipe_control_message_handler_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pipe_control_message_handler_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pipe_control_message_proxy.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pipe_control_message_proxy.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_message_error_crash_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/scoped_message_error_crash_key.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sequence_local_sync_event_watcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/sequence_local_sync_event_watcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "tracing_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/tracing_helpers.h",
+            "inDegree": 1
+          },
+          {
+            "id": "auto_reset.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/auto_reset.h",
+            "inDegree": 1
+          },
+          {
+            "id": "perf_time_logger.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/perf_time_logger.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 2
+          },
+          {
+            "id": "embedder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/embedder.h",
+            "inDegree": 4
+          },
+          {
+            "id": "associated_receiver_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/associated_receiver_set.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pending_receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/pending_receiver.h",
+            "inDegree": 1
+          },
+          {
+            "id": "receiver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/receiver.h",
+            "inDegree": 2
+          },
+          {
+            "id": "receiver_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/receiver_set.h",
+            "inDegree": 1
+          },
+          {
+            "id": "single_thread_task_executor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_executor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "platform_file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/platform_file.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sync_event_watcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/sync_event_watcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "waitable_event_watcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/waitable_event_watcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "simple_watcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/simple_watcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "raw_ptr_exclusion.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr_exclusion.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mach_logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/apple/mach_logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mach.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "mach/mach.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ipc.mojom-shared.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ipc/ipc.mojom-shared.h",
+            "inDegree": 1
+          },
+          {
+            "id": "struct_traits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/struct_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "native_struct.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/interfaces/bindings/native_struct.mojom.h",
+            "inDegree": 2
+          },
+          {
+            "id": "raw_span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_span.h",
+            "inDegree": 1
+          },
+          {
+            "id": "native_struct.mojom-forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/interfaces/bindings/native_struct.mojom-forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "data_pipe.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/data_pipe.h",
+            "inDegree": 1
+          },
+          {
+            "id": "type_traits",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "type_traits",
+            "inDegree": 2
+          },
+          {
+            "id": "repeated_field.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/protobuf/src/google/protobuf/repeated_field.h",
+            "inDegree": 1
+          },
+          {
+            "id": "initializer_list",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "initializer_list",
+            "inDegree": 1
+          },
+          {
+            "id": "test_proto.pb.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ipc/test_proto.pb.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 2
+          },
+          {
+            "id": "json_writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_writer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unguessable_token.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/unguessable_token.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ascii.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/abseil-cpp/absl/strings/ascii.h",
+            "inDegree": 1
+          },
+          {
+            "id": "tchar.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "tchar.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_hardware_buffer_handle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/android/scoped_hardware_buffer_handle.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scope_to_message_pipe.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/system/scope_to_message_pipe.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unordered_map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "unordered_map",
+            "inDegree": 1
+          },
+          {
+            "id": "variant",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "variant",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "flat_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/flat_map.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "id_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/id_type.h",
+            "inDegree": 1
+          },
+          {
+            "id": "strong_alias.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/strong_alias.h",
+            "inDegree": 2
+          },
+          {
+            "id": "inlined_vector.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/abseil-cpp/absl/container/inlined_vector.h",
+            "inDegree": 1
+          },
+          {
+            "id": "channel.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "lib/zx/channel.h",
+            "inDegree": 1
+          },
+          {
+            "id": "vmo.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "lib/zx/vmo.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util_win.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util_win.h",
+            "inDegree": 1
+          },
+          {
+            "id": "json_reader.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_reader.h",
+            "inDegree": 1
+          },
+          {
+            "id": "perf_test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/perf_test_suite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_ipc_support.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/scoped_ipc_support.h",
+            "inDegree": 2
+          },
+          {
+            "id": "test_support_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/test/test_support_impl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "base_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_suite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "multinode_test.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/ipcz/src/test/multinode_test.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/ipcz/src/test_buildflags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_child_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/ipcz/src/test/test_child_launcher.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "handle_attachment_fuchsia.cc",
+            "target": "handle_attachment_fuchsia.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.cc",
+            "target": "syscalls.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.cc",
+            "target": "types.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.cc",
+            "target": "fuchsia_logging.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.h",
+            "target": "handle.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.h",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "handle_attachment_fuchsia.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "handle_attachment_win.cc",
+            "target": "handle_attachment_win.h"
+          },
+          {
+            "source": "handle_attachment_win.cc",
+            "target": "windows.h"
+          },
+          {
+            "source": "handle_attachment_win.cc",
+            "target": "windows_handle_util.h"
+          },
+          {
+            "source": "handle_attachment_win.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "handle_attachment_win.h",
+            "target": "scoped_handle.h"
+          },
+          {
+            "source": "handle_attachment_win.h",
+            "target": "handle_win.h"
+          },
+          {
+            "source": "handle_attachment_win.h",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "handle_attachment_win.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "handle_win.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "utility"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "windows_handle_util.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "handle_attachment_win.h"
+          },
+          {
+            "source": "handle_win.cc",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "handle_win.h",
+            "target": "windows.h"
+          },
+          {
+            "source": "handle_win.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "handle_win.h",
+            "target": "param_traits.h"
+          },
+          {
+            "source": "handle_win_unittest.cc",
+            "target": "handle_win.h"
+          },
+          {
+            "source": "handle_win_unittest.cc",
+            "target": "windows.h"
+          },
+          {
+            "source": "handle_win_unittest.cc",
+            "target": "file.h"
+          },
+          {
+            "source": "handle_win_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "limits"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "atomic_sequence_num.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "lazy_instance.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "raw_ref.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "process_handle.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "rand_util.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ipc_message_attachment_set.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ipc_mojo_bootstrap.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "generic_pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "thread_safe_proxy.h"
+          },
+          {
+            "source": "ipc_channel.cc",
+            "target": "platform_handle.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "map"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "lock.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "ipc.mojom.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "ipc_message_pipe_reader.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "generic_pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "scoped_interface_endpoint_handle.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "shared_remote.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_channel.h",
+            "target": "types.h"
+          },
+          {
+            "source": "ipc_channel_factory.cc",
+            "target": "ipc_channel_factory.h"
+          },
+          {
+            "source": "ipc_channel_factory.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_channel_factory.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel_factory.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_channel_factory.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "ipc_channel_factory.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "param_traits_macros.h"
+          },
+          {
+            "source": "ipc_channel_proxy.cc",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "map"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "lock.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "ipc.mojom.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "generic_pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "scoped_interface_endpoint_handle.h"
+          },
+          {
+            "source": "ipc_channel_proxy.h",
+            "target": "shared_associated_remote.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "atomic"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "cstdint"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "queue.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "file.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "platform_shared_memory_region.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "read_only_shared_memory_region.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "shared_memory_mapping.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "unsafe_shared_memory_region.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "writable_shared_memory_region.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "pickle.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "process.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "multiprocess_test.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "test_io_thread.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "test_shared_memory_util.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "test_timeouts.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_channel_factory.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_sync_channel.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_test.test-mojom.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "mojo_param_traits.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "urgent_message_observer.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "mojo_test_base.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "validation_errors.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "self_owned_associated_receiver.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "urgent_message_scope.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "functions.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "wait.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "ipc_channel_unittest.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "process_metrics.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "perf_log.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "timer.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "expected.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "ipc_perftest_util.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "ipc_sync_channel.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "ipc_test.test-mojom.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "mojo_test_base.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "pending_remote.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "remote.h"
+          },
+          {
+            "source": "ipc_cpu_perftest.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_listener.cc",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_listener.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_listener.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_listener.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_listener.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_listener.h",
+            "target": "scoped_interface_endpoint_handle.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "ipc_message.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "limits.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "atomic_sequence_num.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "pickle.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "trace_log.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "ipc_message_attachment_set.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "ipc_message.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "gtest_prod_util.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "platform_handle.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "mach_port_attachment_mac.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "handle_attachment_win.h"
+          },
+          {
+            "source": "ipc_message_attachment.cc",
+            "target": "handle_attachment_fuchsia.h"
+          },
+          {
+            "source": "ipc_message_attachment.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ipc_message_attachment.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "ipc_message_attachment.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_attachment.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_message_attachment.h",
+            "target": "handle.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "ipc_message_attachment_set.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.cc",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_message_attachment_set.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_attachment_set.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "ipc_message_attachment_set.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "fcntl.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ipc_message_attachment_set_posix_unittest.cc",
+            "target": "fdio.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "ipc_message_pipe_reader.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "raw_ref.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.cc",
+            "target": "thread_safe_proxy.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "process_handle.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "thread_checker.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "ipc.mojom.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "associated_receiver.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "generic_pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "scoped_interface_endpoint_handle.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "shared_remote.h"
+          },
+          {
+            "source": "ipc_message_pipe_reader.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "ipc_message.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "stdio.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "string.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "limits"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "param_traits_macros.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "ipc_message_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "ipc_mojo_bootstrap.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "inttypes.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "map"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "optional"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "set"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "circular_deque.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "lock.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "task_annotator.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "thread_annotations.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "memory_allocator_dump.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "memory_dump_manager.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "memory_dump_provider.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "typed_macros.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "urgent_message_observer.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "types.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "associated_group.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "associated_group_controller.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "connector.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "interface_endpoint_client.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "interface_endpoint_controller.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "interface_id.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "message_header_validator.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "mojo_buildflags.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "pipe_control_message_handler.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "pipe_control_message_handler_delegate.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "pipe_control_message_proxy.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "scoped_message_error_crash_key.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "sequence_local_sync_event_watcher.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.cc",
+            "target": "tracing_helpers.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "auto_reset.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "ipc.mojom.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "associated_group.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "ipc_mojo_bootstrap.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "cstdint"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "ipc.mojom.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "associated_receiver.h"
+          },
+          {
+            "source": "ipc_mojo_bootstrap_unittest.cc",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.h",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_mojo_handle_attachment.h",
+            "target": "handle.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.cc",
+            "target": "ipc_mojo_message_helper.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_mojo_message_helper.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_mojo_message_helper.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "process_metrics.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "perf_time_logger.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "ipc_channel.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "ipc_perftest_util.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "ipc_sync_channel.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "ipc_test.test-mojom.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "embedder.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "mojo_test_base.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "associated_receiver_set.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "associated_remote.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "pending_associated_receiver.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "pending_receiver.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "pending_remote.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "receiver.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "receiver_set.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "remote.h"
+          },
+          {
+            "source": "ipc_mojo_perftest.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "ipc_perftest_util.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "embedder.h"
+          },
+          {
+            "source": "ipc_perftest_util.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "process_metrics.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "ipc_test.test-mojom.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "receiver.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_perftest_util.h",
+            "target": "windows.h"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.h",
+            "target": "platform_file.h"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.h",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.h",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "ipc_platform_file_attachment_posix.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "ipc_sync_channel.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "ipc_channel_factory.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "param_traits_macros.h"
+          },
+          {
+            "source": "ipc_sync_channel.cc",
+            "target": "sync_event_watcher.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "string"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "circular_deque.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "lock.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "waitable_event_watcher.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "ipc_channel_proxy.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "types.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_sync_channel.h",
+            "target": "simple_watcher.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "ipc_sync_channel.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "raw_ptr_exclusion.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "process_handle.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "ipc_listener.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "ipc_sync_channel_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.cc",
+            "target": "mach_port_attachment_mac.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.cc",
+            "target": "mach_logging.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "mach.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "process_handle.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "mach_port_attachment_mac.h",
+            "target": "mach_port_mac.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "mach_port_mac.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "mach_port_mac.cc",
+            "target": "mach_port_attachment_mac.h"
+          },
+          {
+            "source": "mach_port_mac.h",
+            "target": "mach.h"
+          },
+          {
+            "source": "mach_port_mac.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "mach_port_mac.h",
+            "target": "ipc_message_support_export.h"
+          },
+          {
+            "source": "mach_port_mac.h",
+            "target": "param_traits.h"
+          },
+          {
+            "source": "message_mojom_traits.cc",
+            "target": "message_mojom_traits.h"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "optional"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "vector"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "span.h"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "ipc.mojom-shared.h"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "message_view.h"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "struct_traits.h"
+          },
+          {
+            "source": "message_mojom_traits.h",
+            "target": "native_struct.mojom.h"
+          },
+          {
+            "source": "message_view.cc",
+            "target": "message_view.h"
+          },
+          {
+            "source": "message_view.cc",
+            "target": "native_struct.mojom.h"
+          },
+          {
+            "source": "message_view.h",
+            "target": "optional"
+          },
+          {
+            "source": "message_view.h",
+            "target": "vector"
+          },
+          {
+            "source": "message_view.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "message_view.h",
+            "target": "span.h"
+          },
+          {
+            "source": "message_view.h",
+            "target": "raw_span.h"
+          },
+          {
+            "source": "message_view.h",
+            "target": "native_struct.mojom-forward.h"
+          },
+          {
+            "source": "mojo_param_traits.cc",
+            "target": "mojo_param_traits.h"
+          },
+          {
+            "source": "mojo_param_traits.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "mojo_param_traits.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "mojo_param_traits.cc",
+            "target": "ipc_mojo_message_helper.h"
+          },
+          {
+            "source": "mojo_param_traits.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "mojo_param_traits.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "mojo_param_traits.h",
+            "target": "param_traits.h"
+          },
+          {
+            "source": "mojo_param_traits.h",
+            "target": "data_pipe.h"
+          },
+          {
+            "source": "mojo_param_traits.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "param_traits_macros.h",
+            "target": "string"
+          },
+          {
+            "source": "param_traits_macros.h",
+            "target": "type_traits"
+          },
+          {
+            "source": "param_traits_protobuf_utils.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils.h",
+            "target": "param_traits.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils.h",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils.h",
+            "target": "repeated_field.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "param_traits_protobuf_utils.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "initializer_list"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "pickle.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "test_proto.pb.h"
+          },
+          {
+            "source": "param_traits_protobuf_utils_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "type_traits"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "unguessable_token.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ipc_message.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ipc_message_attachment.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ipc_message_attachment_set.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "mojo_param_traits.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ascii.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "mach_port_mac.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "tchar.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "handle_win.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ipc_platform_file_attachment_posix.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "fuchsia_logging.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "handle_attachment_fuchsia.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "scoped_hardware_buffer_handle.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "ipc_mojo_handle_attachment.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "param_traits_utils.cc",
+            "target": "scope_to_message_pipe.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "limits.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "map"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "memory"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "optional"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "set"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "string"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "string_view"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "tuple"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "unordered_map"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "variant"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "vector"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "check.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "file.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "platform_shared_memory_region.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "read_only_shared_memory_region.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "unsafe_shared_memory_region.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "writable_shared_memory_region.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "pickle.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "id_type.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "strong_alias.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "values.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "mojo_param_traits.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "param_traits.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "inlined_vector.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "scoped_hardware_buffer_handle.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "channel.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "vmo.h"
+          },
+          {
+            "source": "param_traits_utils.h",
+            "target": "string_util_win.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "param_traits_utils.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "test_shared_memory_util.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "strong_alias.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "unguessable_token.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "ipc_message.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "message_pipe.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "param_traits_utils_unittest.cc",
+            "target": "windows.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "perf_test_suite.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "test_io_thread.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "embedder.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "scoped_ipc_support.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "multiprocess_test_helper.h"
+          },
+          {
+            "source": "run_all_perftests.cc",
+            "target": "test_support_impl.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "base_switches.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "multiprocess_test.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_io_thread.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "embedder.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "scoped_ipc_support.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "multinode_test.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_buildflags.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_child_launcher.h"
+          }
+        ],
+        "leafNodes": [
+          "handle_attachment_fuchsia.cc",
+          "handle_attachment_win.cc",
+          "handle_win.cc",
+          "handle_win_unittest.cc",
+          "ipc_channel.cc",
+          "ipc_channel_factory.cc",
+          "ipc_channel_proxy.cc",
+          "ipc_channel_unittest.cc",
+          "ipc_cpu_perftest.cc",
+          "ipc_listener.cc",
+          "ipc_message.cc",
+          "ipc_message_attachment.cc",
+          "ipc_message_attachment_set.cc",
+          "ipc_message_attachment_set_posix_unittest.cc",
+          "ipc_message_pipe_reader.cc",
+          "ipc_message_unittest.cc",
+          "ipc_mojo_bootstrap.cc",
+          "ipc_mojo_bootstrap_unittest.cc",
+          "ipc_mojo_handle_attachment.cc",
+          "ipc_mojo_message_helper.cc",
+          "ipc_mojo_perftest.cc",
+          "ipc_perftest_util.cc",
+          "ipc_platform_file_attachment_posix.cc",
+          "ipc_sync_channel.cc",
+          "ipc_sync_channel_unittest.cc",
+          "mach_port_attachment_mac.cc",
+          "mach_port_mac.cc",
+          "message_mojom_traits.cc",
+          "message_view.cc",
+          "mojo_param_traits.cc",
+          "param_traits_protobuf_utils_unittest.cc",
+          "param_traits_read_macros.h",
+          "param_traits_utils.cc",
+          "param_traits_utils_unittest.cc",
+          "param_traits_write_macros.h",
+          "run_all_perftests.cc",
+          "run_all_unittests.cc"
+        ]
+      },
+      "subDirs": []
+    }
+  }
+}

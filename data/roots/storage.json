@@ -1,0 +1,129 @@
+{
+  "graphs": {
+    "storage": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "storage/browser",
+        "storage/common",
+        "storage/test"
+      ]
+    },
+    "storage/browser": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "storage/browser/blob",
+        "storage/browser/file_system",
+        "storage/browser/quota",
+        "storage/browser/test"
+      ]
+    },
+    "storage/common": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "run_all_unittests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "storage/common/run_all_unittests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_suite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/embedder.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "run_all_unittests.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "embedder.h"
+          }
+        ],
+        "leafNodes": [
+          "run_all_unittests.cc"
+        ]
+      },
+      "subDirs": [
+        "storage/common/database",
+        "storage/common/file_system",
+        "storage/common/quota"
+      ]
+    },
+    "storage/test": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "storage/test/data"
+      ]
+    }
+  }
+}

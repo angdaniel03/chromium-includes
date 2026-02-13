@@ -1,0 +1,85 @@
+{
+  "graphs": {
+    "styleguide": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "styleguide/c++",
+        "styleguide/java",
+        "styleguide/markdown",
+        "styleguide/objective-c",
+        "styleguide/python",
+        "styleguide/rust",
+        "styleguide/swift",
+        "styleguide/web"
+      ]
+    },
+    "styleguide/c++": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/java": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/markdown": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/objective-c": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/python": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/rust": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/web": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "styleguide/swift": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    }
+  }
+}

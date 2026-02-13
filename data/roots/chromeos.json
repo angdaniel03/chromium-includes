@@ -1,0 +1,6427 @@
+{
+  "graphs": {
+    "chromeos": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "chromeos_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/chromeos_export.h",
+            "inDegree": 0
+          }
+        ],
+        "links": [],
+        "leafNodes": [
+          "chromeos_export.h"
+        ]
+      },
+      "subDirs": [
+        "chromeos/ash",
+        "chromeos/assistant",
+        "chromeos/chromeos_strings_grd",
+        "chromeos/components",
+        "chromeos/constants",
+        "chromeos/crosapi",
+        "chromeos/dbus",
+        "chromeos/hugepage_text",
+        "chromeos/ime",
+        "chromeos/printing",
+        "chromeos/process_proxy",
+        "chromeos/profiles",
+        "chromeos/recorder_strings_grdp",
+        "chromeos/resources",
+        "chromeos/services",
+        "chromeos/strings",
+        "chromeos/system",
+        "chromeos/test",
+        "chromeos/tools",
+        "chromeos/ui",
+        "chromeos/utils",
+        "chromeos/version"
+      ]
+    },
+    "chromeos/ash": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/ash/components",
+        "chromeos/ash/experiences",
+        "chromeos/ash/resources",
+        "chromeos/ash/services"
+      ]
+    },
+    "chromeos/assistant": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/chromeos_strings_grd": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/components": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "chromeos_components_test_suite.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/components/chromeos_components_test_suite.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chromeos_components_test_suite.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/components/chromeos_components_test_suite.h",
+            "inDegree": 2
+          },
+          {
+            "id": "run_all_unittests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/components/run_all_unittests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "base_paths.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_paths.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "rtl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/i18n/rtl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "resource_bundle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/resource/resource_bundle.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ui_base_paths.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/ui_base_paths.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_suite.h",
+            "inDegree": 2
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "chromeos_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/chromeos_buildflags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/embedder.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "chromeos_components_test_suite.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "rtl.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "resource_bundle.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.cc",
+            "target": "ui_base_paths.h"
+          },
+          {
+            "source": "chromeos_components_test_suite.h",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "chromeos_buildflags.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "chromeos_components_test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "embedder.h"
+          }
+        ],
+        "leafNodes": [
+          "chromeos_components_test_suite.cc",
+          "run_all_unittests.cc"
+        ]
+      },
+      "subDirs": [
+        "chromeos/components/cdm_factory_daemon",
+        "chromeos/components/certificate_provider",
+        "chromeos/components/disks",
+        "chromeos/components/drivefs",
+        "chromeos/components/firewall_hole",
+        "chromeos/components/in_session_auth",
+        "chromeos/components/kiosk",
+        "chromeos/components/libsegmentation",
+        "chromeos/components/magic_boost",
+        "chromeos/components/mahi",
+        "chromeos/components/mgs",
+        "chromeos/components/mojo_bootstrap",
+        "chromeos/components/onc",
+        "chromeos/components/payments",
+        "chromeos/components/print_management",
+        "chromeos/components/quick_answers",
+        "chromeos/components/remote_apps",
+        "chromeos/components/security_token_pin",
+        "chromeos/components/sensors",
+        "chromeos/components/sharesheet",
+        "chromeos/components/test",
+        "chromeos/components/webauthn"
+      ]
+    },
+    "chromeos/constants": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "chromeos_features.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/chromeos_features.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chromeos_features.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/chromeos_features.h",
+            "inDegree": 2
+          },
+          {
+            "id": "chromeos_switches.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/chromeos_switches.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chromeos_switches.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/chromeos_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "devicetype.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/devicetype.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "devicetype.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/devicetype.h",
+            "inDegree": 2
+          },
+          {
+            "id": "devicetype_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/devicetype_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "pkcs11_definitions.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/pkcs11_definitions.h",
+            "inDegree": 0
+          },
+          {
+            "id": "pref_names.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/pref_names.h",
+            "inDegree": 0
+          },
+          {
+            "id": "url_constants.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/constants/url_constants.h",
+            "inDegree": 0
+          },
+          {
+            "id": "byte_count.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/byte_count.h",
+            "inDegree": 1
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 2
+          },
+          {
+            "id": "field_trial_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/field_trial_params.h",
+            "inDegree": 2
+          },
+          {
+            "id": "sys_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/system/sys_info.h",
+            "inDegree": 2
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 3
+          },
+          {
+            "id": "buildflag.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/buildflag.h",
+            "inDegree": 2
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 3
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 2
+          },
+          {
+            "id": "auto_reset.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/auto_reset.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "chromeos_features.cc",
+            "target": "chromeos_features.h"
+          },
+          {
+            "source": "chromeos_features.cc",
+            "target": "byte_count.h"
+          },
+          {
+            "source": "chromeos_features.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "chromeos_features.cc",
+            "target": "field_trial_params.h"
+          },
+          {
+            "source": "chromeos_features.cc",
+            "target": "sys_info.h"
+          },
+          {
+            "source": "chromeos_features.cc",
+            "target": "chromeos_features.h"
+          },
+          {
+            "source": "chromeos_features.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "chromeos_features.h",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "chromeos_features.h",
+            "target": "field_trial_params.h"
+          },
+          {
+            "source": "chromeos_features.h",
+            "target": "buildflag.h"
+          },
+          {
+            "source": "chromeos_switches.cc",
+            "target": "chromeos_switches.h"
+          },
+          {
+            "source": "chromeos_switches.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "optional"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "string"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "auto_reset.h"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "time.h"
+          },
+          {
+            "source": "chromeos_switches.h",
+            "target": "buildflag.h"
+          },
+          {
+            "source": "devicetype.cc",
+            "target": "devicetype.h"
+          },
+          {
+            "source": "devicetype.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "devicetype.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "devicetype.cc",
+            "target": "sys_info.h"
+          },
+          {
+            "source": "devicetype.h",
+            "target": "string"
+          },
+          {
+            "source": "devicetype.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "devicetype_unittest.cc",
+            "target": "devicetype.h"
+          },
+          {
+            "source": "devicetype_unittest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "devicetype_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "devicetype_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "pkcs11_definitions.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "url_constants.h",
+            "target": "string_view"
+          }
+        ],
+        "leafNodes": [
+          "chromeos_features.cc",
+          "chromeos_switches.cc",
+          "devicetype.cc",
+          "devicetype_unittest.cc",
+          "pkcs11_definitions.h",
+          "pref_names.h",
+          "url_constants.h"
+        ]
+      },
+      "subDirs": []
+    },
+    "chromeos/crosapi": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/crosapi/cpp",
+        "chromeos/crosapi/mojom"
+      ]
+    },
+    "chromeos/dbus": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/dbus/common",
+        "chromeos/dbus/config",
+        "chromeos/dbus/constants",
+        "chromeos/dbus/dlp",
+        "chromeos/dbus/init",
+        "chromeos/dbus/ip_peripheral",
+        "chromeos/dbus/machine_learning",
+        "chromeos/dbus/missive",
+        "chromeos/dbus/permission_broker",
+        "chromeos/dbus/power",
+        "chromeos/dbus/regmon",
+        "chromeos/dbus/tpm_manager",
+        "chromeos/dbus/u2f"
+      ]
+    },
+    "chromeos/hugepage_text": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/ime": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/printing": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "cups_printer_status.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/cups_printer_status.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "cups_printer_status.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/cups_printer_status.h",
+            "inDegree": 5
+          },
+          {
+            "id": "cups_printer_status_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/cups_printer_status_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fake_printer_config_cache.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/fake_printer_config_cache.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fake_printer_config_cache.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/fake_printer_config_cache.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ppd_cache.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_cache.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_cache.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_cache.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ppd_cache_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_cache_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_line_reader.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_line_reader.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_line_reader.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_line_reader.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ppd_line_reader_fuzzer.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_line_reader_fuzzer.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_line_reader_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_line_reader_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_metadata_manager.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_manager.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_metadata_manager.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_manager.h",
+            "inDegree": 5
+          },
+          {
+            "id": "ppd_metadata_manager_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_manager_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_metadata_matchers.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_matchers.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ppd_metadata_parser.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_parser.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_metadata_parser.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_parser.h",
+            "inDegree": 6
+          },
+          {
+            "id": "ppd_metadata_parser_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_metadata_parser_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_provider.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_provider.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ppd_provider.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_provider.h",
+            "inDegree": 5
+          },
+          {
+            "id": "ppd_provider_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/ppd_provider_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "print_settings_test_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/print_settings_test_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "print_settings_test_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/print_settings_test_util.h",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_config_cache.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_config_cache.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_config_cache.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_config_cache.h",
+            "inDegree": 9
+          },
+          {
+            "id": "printer_config_cache_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_config_cache_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_configuration.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_configuration.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_configuration.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_configuration.h",
+            "inDegree": 8
+          },
+          {
+            "id": "printer_configuration_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_configuration_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_translator.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_translator.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printer_translator.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_translator.h",
+            "inDegree": 2
+          },
+          {
+            "id": "printer_translator_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printer_translator_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "printing_constants.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/printing_constants.h",
+            "inDegree": 3
+          },
+          {
+            "id": "remote_ppd_fetcher.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/remote_ppd_fetcher.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "remote_ppd_fetcher.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/remote_ppd_fetcher.h",
+            "inDegree": 4
+          },
+          {
+            "id": "remote_ppd_fetcher_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/remote_ppd_fetcher_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "uri.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "uri.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri.h",
+            "inDegree": 10
+          },
+          {
+            "id": "uri_fuzzer.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_fuzzer.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "uri_impl.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_impl.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "uri_impl.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_impl.h",
+            "inDegree": 2
+          },
+          {
+            "id": "uri_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "uri_unittest.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_unittest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "uri_unittest_consistency.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/uri_unittest_consistency.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "usb_printer_id.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/usb_printer_id.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "usb_printer_id.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/usb_printer_id.h",
+            "inDegree": 3
+          },
+          {
+            "id": "usb_printer_id_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/printing/usb_printer_id_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/values.h",
+            "inDegree": 9
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 31
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 13
+          },
+          {
+            "id": "flat_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/flat_set.h",
+            "inDegree": 2
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 10
+          },
+          {
+            "id": "local_printer.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/crosapi/mojom/local_printer.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 18
+          },
+          {
+            "id": "scoped_mock_clock_override.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_mock_clock_override.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 7
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 13
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 16
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 20
+          },
+          {
+            "id": "flat_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/flat_map.h",
+            "inDegree": 8
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 9
+          },
+          {
+            "id": "clock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/clock.h",
+            "inDegree": 7
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 4
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 3
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 11
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ptr_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ptr_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 6
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 10
+          },
+          {
+            "id": "string_view_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_view_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "lock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/lock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_pool.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/thread_pool.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_blocking_call.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/scoped_blocking_call.h",
+            "inDegree": 2
+          },
+          {
+            "id": "sha2.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/sha2.h",
+            "inDegree": 1
+          },
+          {
+            "id": "io_buffer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/io_buffer.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gzip_header.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/filter/gzip_header.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 19
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 2
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 6
+          },
+          {
+            "id": "ref_counted.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 2
+          },
+          {
+            "id": "hash.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/hash/hash.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 3
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 2
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 5
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 2
+          },
+          {
+            "id": "raw_ref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ref.h",
+            "inDegree": 1
+          },
+          {
+            "id": "completion_once_callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/completion_once_callback.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gzip_source_stream.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/filter/gzip_source_stream.h",
+            "inDegree": 1
+          },
+          {
+            "id": "source_stream.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/filter/source_stream.h",
+            "inDegree": 1
+          },
+          {
+            "id": "source_stream_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/filter/source_stream_type.h",
+            "inDegree": 1
+          },
+          {
+            "id": "FuzzedDataProvider.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fuzzer/FuzzedDataProvider.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string_split.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_split.h",
+            "inDegree": 3
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 8
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 10
+          },
+          {
+            "id": "queue.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/queue.h",
+            "inDegree": 3
+          },
+          {
+            "id": "json_reader.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_reader.h",
+            "inDegree": 3
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 4
+          },
+          {
+            "id": "sequence_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/sequence_checker.h",
+            "inDegree": 2
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 5
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 3
+          },
+          {
+            "id": "simple_test_clock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/simple_test_clock.h",
+            "inDegree": 3
+          },
+          {
+            "id": "gmock-matchers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock-matchers.h",
+            "inDegree": 6
+          },
+          {
+            "id": "version.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/version.h",
+            "inDegree": 4
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 3
+          },
+          {
+            "id": "scoped_refptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/scoped_refptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_traits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/task_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "device_event_log.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/device_event_log/device_event_log.h",
+            "inDegree": 1
+          },
+          {
+            "id": "filename_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/filename_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 4
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_message_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_message_loop.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 6
+          },
+          {
+            "id": "print_preview_cros.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/crosapi/mojom/print_preview_cros.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/mojom/print.mojom.h",
+            "inDegree": 2
+          },
+          {
+            "id": "print_preview_cros.mojom-forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/crosapi/mojom/print_preview_cros.mojom-forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 2
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "load_flags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/load_flags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "net_errors.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/net_errors.h",
+            "inDegree": 2
+          },
+          {
+            "id": "resource_request.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/cpp/resource_request.h",
+            "inDegree": 2
+          },
+          {
+            "id": "simple_url_loader.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/cpp/simple_url_loader.h",
+            "inDegree": 2
+          },
+          {
+            "id": "test_future.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_future.h",
+            "inDegree": 1
+          },
+          {
+            "id": "http_status_code.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/http/http_status_code.h",
+            "inDegree": 2
+          },
+          {
+            "id": "test_url_loader_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/test/test_url_loader_factory.h",
+            "inDegree": 2
+          },
+          {
+            "id": "fixed_flat_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/fixed_flat_map.h",
+            "inDegree": 2
+          },
+          {
+            "id": "fixed_flat_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/fixed_flat_set.h",
+            "inDegree": 1
+          },
+          {
+            "id": "uuid.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/uuid.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ip_endpoint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/ip_endpoint.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_parse.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/third_party/mozilla/url_parse.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_constants.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/url_constants.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cstdint",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdint",
+            "inDegree": 2
+          },
+          {
+            "id": "host_port_pair.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/host_port_pair.h",
+            "inDegree": 1
+          },
+          {
+            "id": "values_test_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/values_test_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_traffic_annotation.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/traffic_annotation/network_traffic_annotation.h",
+            "inDegree": 1
+          },
+          {
+            "id": "callback_forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_loader_factory.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/mojom/url_loader_factory.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check_op.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_op.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cstddef",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstddef",
+            "inDegree": 1
+          },
+          {
+            "id": "array",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "array",
+            "inDegree": 1
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 1
+          },
+          {
+            "id": "streaming_utf8_validator.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/i18n/streaming_utf8_validator.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversion_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversion_utils.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "cups_printer_status.cc",
+            "target": "cups_printer_status.h"
+          },
+          {
+            "source": "cups_printer_status.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "cups_printer_status.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "string"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "flat_set.h"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "time.h"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "values.h"
+          },
+          {
+            "source": "cups_printer_status.h",
+            "target": "local_printer.mojom.h"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "cups_printer_status.h"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "scoped_mock_clock_override.h"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "cups_printer_status_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "fake_printer_config_cache.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "string"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "utility"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "clock.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "fake_printer_config_cache.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "string"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "string_view"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "flat_set.h"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "clock.h"
+          },
+          {
+            "source": "fake_printer_config_cache.h",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "ppd_cache.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "string_view_util.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "lock.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "printing_constants.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "sha2.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "io_buffer.h"
+          },
+          {
+            "source": "ppd_cache.cc",
+            "target": "gzip_header.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "file_path.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ppd_cache.h",
+            "target": "time.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "ppd_cache.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ppd_cache_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "ppd_line_reader.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "raw_ref.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "completion_once_callback.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "io_buffer.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "gzip_header.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "gzip_source_stream.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "source_stream.h"
+          },
+          {
+            "source": "ppd_line_reader.cc",
+            "target": "source_stream_type.h"
+          },
+          {
+            "source": "ppd_line_reader.h",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_line_reader.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_line_reader.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ppd_line_reader_fuzzer.cc",
+            "target": "ppd_line_reader.h"
+          },
+          {
+            "source": "ppd_line_reader_fuzzer.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_line_reader_fuzzer.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_line_reader_fuzzer.cc",
+            "target": "FuzzedDataProvider.h"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "ppd_line_reader.h"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "ppd_line_reader_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "ppd_metadata_manager.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "optional"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "queue.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "clock.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "ppd_provider.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_metadata_manager.cc",
+            "target": "ppd_metadata_manager.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "time.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "ppd_provider.h"
+          },
+          {
+            "source": "ppd_metadata_manager.h",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "ppd_metadata_manager.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "simple_test_clock.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "clock.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "fake_printer_config_cache.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "ppd_metadata_matchers.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "ppd_provider.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "ppd_metadata_manager_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ppd_metadata_matchers.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_matchers.h",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "ppd_metadata_matchers.h",
+            "target": "version.h"
+          },
+          {
+            "source": "ppd_metadata_matchers.h",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_matchers.h",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "optional"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "ppd_metadata_parser.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "optional"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "ppd_metadata_parser.h",
+            "target": "version.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "ppd_metadata_parser.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "ppd_metadata_matchers.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "ppd_metadata_parser_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "ppd_provider.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "queue.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "task_traits.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "ppd_cache.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "ppd_metadata_manager.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "printing_constants.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "remote_ppd_fetcher.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "device_event_log.h"
+          },
+          {
+            "source": "ppd_provider.cc",
+            "target": "filename_util.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "map"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "string"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "string_view"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "version.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "ppd_provider.h",
+            "target": "usb_printer_id.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "ppd_provider.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "map"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "simple_test_clock.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "test_message_loop.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "version.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "fake_printer_config_cache.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "ppd_cache.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "ppd_metadata_manager.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "remote_ppd_fetcher.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ppd_provider_unittest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "print_settings_test_util.cc",
+            "target": "utility"
+          },
+          {
+            "source": "print_settings_test_util.cc",
+            "target": "vector"
+          },
+          {
+            "source": "print_settings_test_util.cc",
+            "target": "print_preview_cros.mojom.h"
+          },
+          {
+            "source": "print_settings_test_util.cc",
+            "target": "print.mojom.h"
+          },
+          {
+            "source": "print_settings_test_util.cc",
+            "target": "print.mojom.h"
+          },
+          {
+            "source": "print_settings_test_util.h",
+            "target": "print_preview_cros.mojom-forward.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "memory"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "optional"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "string"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "utility"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "vector"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "queue.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "clock.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "load_flags.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "resource_request.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "simple_url_loader.h"
+          },
+          {
+            "source": "printer_config_cache.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "memory"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "string"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "clock.h"
+          },
+          {
+            "source": "printer_config_cache.h",
+            "target": "time.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "printer_config_cache.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "simple_test_clock.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "test_future.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "clock.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "http_status_code.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "test_url_loader_factory.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "printer_config_cache_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "optional"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "fixed_flat_map.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "fixed_flat_set.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "uuid.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "printing_constants.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "ip_endpoint.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "url_parse.h"
+          },
+          {
+            "source": "printer_configuration.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "cstdint"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "optional"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "string"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "utility"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "vector"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "cups_printer_status.h"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "uri.h"
+          },
+          {
+            "source": "printer_configuration.h",
+            "target": "host_port_pair.h"
+          },
+          {
+            "source": "printer_configuration_unittest.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "printer_configuration_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "printer_translator.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "memory"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "optional"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "string"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "utility"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "cups_printer_status.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "printer_translator.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "printer_translator.h",
+            "target": "memory"
+          },
+          {
+            "source": "printer_translator.h",
+            "target": "optional"
+          },
+          {
+            "source": "printer_translator.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "printer_translator.h",
+            "target": "values.h"
+          },
+          {
+            "source": "printer_translator.h",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "printer_translator.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "values_test_util.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "cups_printer_status.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "printer_configuration.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "printer_translator_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "printing_constants.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "remote_ppd_fetcher.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "memory"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "optional"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "string"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "utility"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "network_traffic_annotation.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "resource_request.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "simple_url_loader.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.h",
+            "target": "memory"
+          },
+          {
+            "source": "remote_ppd_fetcher.h",
+            "target": "string"
+          },
+          {
+            "source": "remote_ppd_fetcher.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.h",
+            "target": "callback_forward.h"
+          },
+          {
+            "source": "remote_ppd_fetcher.h",
+            "target": "gurl.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "remote_ppd_fetcher.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "http_status_code.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "url_loader_factory.mojom.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "test_url_loader_factory.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "remote_ppd_fetcher_unittest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "uri.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "uri.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "fixed_flat_map.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "uri.cc",
+            "target": "uri_impl.h"
+          },
+          {
+            "source": "uri.h",
+            "target": "memory"
+          },
+          {
+            "source": "uri.h",
+            "target": "string"
+          },
+          {
+            "source": "uri.h",
+            "target": "string_view"
+          },
+          {
+            "source": "uri.h",
+            "target": "utility"
+          },
+          {
+            "source": "uri.h",
+            "target": "vector"
+          },
+          {
+            "source": "uri.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "uri.h",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "uri_fuzzer.cc",
+            "target": "FuzzedDataProvider.h"
+          },
+          {
+            "source": "uri_fuzzer.cc",
+            "target": "cstddef"
+          },
+          {
+            "source": "uri_fuzzer.cc",
+            "target": "cstdint"
+          },
+          {
+            "source": "uri_fuzzer.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "uri_impl.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "array"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "set"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "streaming_utf8_validator.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "utf_string_conversion_utils.h"
+          },
+          {
+            "source": "uri_impl.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_impl.h",
+            "target": "string"
+          },
+          {
+            "source": "uri_impl.h",
+            "target": "utility"
+          },
+          {
+            "source": "uri_impl.h",
+            "target": "vector"
+          },
+          {
+            "source": "uri_impl.h",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "uri_unittest.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "uri_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "uri_unittest.h",
+            "target": "string"
+          },
+          {
+            "source": "uri_unittest.h",
+            "target": "utility"
+          },
+          {
+            "source": "uri_unittest.h",
+            "target": "vector"
+          },
+          {
+            "source": "uri_unittest.h",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_unittest_consistency.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "uri_unittest_consistency.cc",
+            "target": "uri.h"
+          },
+          {
+            "source": "uri_unittest_consistency.cc",
+            "target": "uri_unittest.h"
+          },
+          {
+            "source": "uri_unittest_consistency.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "usb_printer_id.cc",
+            "target": "usb_printer_id.h"
+          },
+          {
+            "source": "usb_printer_id.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "usb_printer_id.cc",
+            "target": "utility"
+          },
+          {
+            "source": "usb_printer_id.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "map"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "memory"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "string"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "utility"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "vector"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "usb_printer_id.h",
+            "target": "span.h"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "usb_printer_id.h"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "map"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "usb_printer_id_unittest.cc",
+            "target": "gtest.h"
+          }
+        ],
+        "leafNodes": [
+          "cups_printer_status.cc",
+          "cups_printer_status_unittest.cc",
+          "fake_printer_config_cache.cc",
+          "ppd_cache.cc",
+          "ppd_cache_unittest.cc",
+          "ppd_line_reader.cc",
+          "ppd_line_reader_fuzzer.cc",
+          "ppd_line_reader_unittest.cc",
+          "ppd_metadata_manager.cc",
+          "ppd_metadata_manager_unittest.cc",
+          "ppd_metadata_parser.cc",
+          "ppd_metadata_parser_unittest.cc",
+          "ppd_provider.cc",
+          "ppd_provider_unittest.cc",
+          "print_settings_test_util.cc",
+          "print_settings_test_util.h",
+          "printer_config_cache.cc",
+          "printer_config_cache_unittest.cc",
+          "printer_configuration.cc",
+          "printer_configuration_unittest.cc",
+          "printer_translator.cc",
+          "printer_translator_unittest.cc",
+          "remote_ppd_fetcher.cc",
+          "remote_ppd_fetcher_unittest.cc",
+          "uri.cc",
+          "uri_fuzzer.cc",
+          "uri_impl.cc",
+          "uri_unittest.cc",
+          "uri_unittest_consistency.cc",
+          "usb_printer_id.cc",
+          "usb_printer_id_unittest.cc"
+        ]
+      },
+      "subDirs": [
+        "chromeos/printing/uri_fuzzer_seed_corpus"
+      ]
+    },
+    "chromeos/process_proxy": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "process_output_watcher.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_output_watcher.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_output_watcher.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_output_watcher.h",
+            "inDegree": 3
+          },
+          {
+            "id": "process_output_watcher_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_output_watcher_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_proxy.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_proxy.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_proxy.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_proxy.h",
+            "inDegree": 2
+          },
+          {
+            "id": "process_proxy_registry.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_proxy_registry.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_proxy_registry.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_proxy_registry.h",
+            "inDegree": 2
+          },
+          {
+            "id": "process_proxy_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/process_proxy/process_proxy_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 5
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdio",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdio",
+            "inDegree": 2
+          },
+          {
+            "id": "cstring",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstring",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 3
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 5
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 4
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 2
+          },
+          {
+            "id": "eintr_wrapper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/posix/eintr_wrapper.h",
+            "inDegree": 3
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 4
+          },
+          {
+            "id": "icu_utf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/third_party/icu/icu_utf.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 6
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 5
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_descriptor_watcher_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_descriptor_watcher_posix.h",
+            "inDegree": 1
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 3
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "gtest/gtest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "queue",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "queue",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "message_pump_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/message_loop/message_pump_type.h",
+            "inDegree": 2
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 2
+          },
+          {
+            "id": "thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stdlib.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdlib.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ioctl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "sys/ioctl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "termios.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "termios.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 5
+          },
+          {
+            "id": "file_descriptor_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/file_descriptor_posix.h",
+            "inDegree": 1
+          },
+          {
+            "id": "kill.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/kill.h",
+            "inDegree": 2
+          },
+          {
+            "id": "launch.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/launch.h",
+            "inDegree": 1
+          },
+          {
+            "id": "process.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/process.h",
+            "inDegree": 3
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 2
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 4
+          },
+          {
+            "id": "thread_pool.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/thread_pool.h",
+            "inDegree": 1
+          },
+          {
+            "id": "uuid.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/uuid.h",
+            "inDegree": 1
+          },
+          {
+            "id": "chrome_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/cros_system_api/switches/chrome_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcntl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fcntl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "signal.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "signal.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ref_counted.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted.h",
+            "inDegree": 1
+          },
+          {
+            "id": "lazy_thread_pool_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/lazy_thread_pool_task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 1
+          },
+          {
+            "id": "lazy_instance.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/lazy_instance.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_refptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/scoped_refptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sequence_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/sequence_checker.h",
+            "inDegree": 1
+          },
+          {
+            "id": "at_exit.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/at_exit.h",
+            "inDegree": 1
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_future.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_future.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "process_output_watcher.cc",
+            "target": "process_output_watcher.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "cstdio"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "cstring"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "process_output_watcher.cc",
+            "target": "icu_utf.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "memory"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "string"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "file.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "file_descriptor_watcher_posix.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "process_output_watcher.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "process_output_watcher.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "queue"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "process_output_watcher_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "process_proxy.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "stdlib.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "ioctl.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "termios.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "utility"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "kill.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "launch.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "process.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "uuid.h"
+          },
+          {
+            "source": "process_proxy.cc",
+            "target": "chrome_switches.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "fcntl.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "signal.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "cstdio"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "memory"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "string"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "command_line.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "process.h"
+          },
+          {
+            "source": "process_proxy.h",
+            "target": "process_output_watcher.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "process_proxy_registry.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "memory"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "lazy_thread_pool_task_runner.h"
+          },
+          {
+            "source": "process_proxy_registry.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "map"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "memory"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "string"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "command_line.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "lazy_instance.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "thread.h"
+          },
+          {
+            "source": "process_proxy_registry.h",
+            "target": "process_proxy.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "at_exit.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "kill.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "process.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "test_future.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "process_proxy_unittest.cc",
+            "target": "process_proxy_registry.h"
+          }
+        ],
+        "leafNodes": [
+          "process_output_watcher.cc",
+          "process_output_watcher_unittest.cc",
+          "process_proxy.cc",
+          "process_proxy_registry.cc",
+          "process_proxy_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "chromeos/profiles": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/recorder_strings_grdp": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/resources": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/services": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/services/assistant",
+        "chromeos/services/chromebox_for_meetings",
+        "chromeos/services/machine_learning",
+        "chromeos/services/media_perception",
+        "chromeos/services/network_config",
+        "chromeos/services/network_health",
+        "chromeos/services/tts"
+      ]
+    },
+    "chromeos/strings": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "chromeos/system": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "core_scheduling.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/system/core_scheduling.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "core_scheduling.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/system/core_scheduling.h",
+            "inDegree": 1
+          },
+          {
+            "id": "cpu_temperature_reader.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/system/cpu_temperature_reader.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "cpu_temperature_reader.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/system/cpu_temperature_reader.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cpu_temperature_reader_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/system/cpu_temperature_reader_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "errno.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "errno.h",
+            "inDegree": 1
+          },
+          {
+            "id": "prctl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "sys/prctl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 3
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 3
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 2
+          },
+          {
+            "id": "field_trial_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/field_trial_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sys_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/system/sys_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_restrictions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_restrictions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "chromeos_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/chromeos_export.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_enumerator.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_enumerator.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 2
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_traits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/task_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "core_scheduling.cc",
+            "target": "core_scheduling.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "errno.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "prctl.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "set"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "string"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "field_trial_params.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "sys_info.h"
+          },
+          {
+            "source": "core_scheduling.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "core_scheduling.h",
+            "target": "chromeos_export.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "cpu_temperature_reader.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "file_enumerator.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "cpu_temperature_reader.cc",
+            "target": "task_traits.h"
+          },
+          {
+            "source": "cpu_temperature_reader.h",
+            "target": "string"
+          },
+          {
+            "source": "cpu_temperature_reader.h",
+            "target": "utility"
+          },
+          {
+            "source": "cpu_temperature_reader.h",
+            "target": "vector"
+          },
+          {
+            "source": "cpu_temperature_reader.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "cpu_temperature_reader.h",
+            "target": "file_path.h"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "cpu_temperature_reader.h"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "file.h"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "cpu_temperature_reader_unittest.cc",
+            "target": "gtest.h"
+          }
+        ],
+        "leafNodes": [
+          "core_scheduling.cc",
+          "cpu_temperature_reader.cc",
+          "cpu_temperature_reader_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "chromeos/test": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "chromeos_test_utils.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/test/chromeos_test_utils.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chromeos_test_utils.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/test/chromeos_test_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_all_unittests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/test/run_all_unittests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_restrictions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_restrictions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 1
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "chromeos_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/chromeos_buildflags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ash_test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/ash/components/test/ash_test_suite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/embedder.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "chromeos_test_utils.cc",
+            "target": "chromeos_test_utils.h"
+          },
+          {
+            "source": "chromeos_test_utils.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "chromeos_test_utils.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "chromeos_test_utils.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "chromeos_test_utils.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "chromeos_test_utils.h",
+            "target": "string"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "chromeos_buildflags.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "ash_test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "embedder.h"
+          }
+        ],
+        "leafNodes": [
+          "chromeos_test_utils.cc",
+          "run_all_unittests.cc"
+        ]
+      },
+      "subDirs": [
+        "chromeos/test/data"
+      ]
+    },
+    "chromeos/tools": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/tools/onc_validator"
+      ]
+    },
+    "chromeos/ui": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "chromeos/ui/base",
+        "chromeos/ui/clipboard_history",
+        "chromeos/ui/frame",
+        "chromeos/ui/vector_icons",
+        "chromeos/ui/wm"
+      ]
+    },
+    "chromeos/utils": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "haptics_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/utils/haptics_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "haptics_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/utils/haptics_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pdf_conversion.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/utils/pdf_conversion.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "pdf_conversion.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/utils/pdf_conversion.h",
+            "inDegree": 2
+          },
+          {
+            "id": "pdf_conversion_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/utils/pdf_conversion_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "haptic_touchpad_effects.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/events/devices/haptic_touchpad_effects.h",
+            "inDegree": 1
+          },
+          {
+            "id": "input_controller.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/ozone/public/input_controller.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ozone_platform.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/ozone/public/ozone_platform.h",
+            "inDegree": 1
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "units.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/units.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkCodec.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/codec/SkCodec.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkJpegDecoder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/codec/SkJpegDecoder.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkCanvas.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkCanvas.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkData.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkData.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkImage.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkImage.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkRect.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkRect.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkStream.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkStream.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkTypes.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkTypes.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkPDFDocument.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/docs/SkPDFDocument.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 2
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 2
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 2
+          },
+          {
+            "id": "fstream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fstream",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkBitmap.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkBitmap.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image_unittest_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_unittest_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_util.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "haptics_util.cc",
+            "target": "haptics_util.h"
+          },
+          {
+            "source": "haptics_util.cc",
+            "target": "haptic_touchpad_effects.h"
+          },
+          {
+            "source": "haptics_util.cc",
+            "target": "input_controller.h"
+          },
+          {
+            "source": "haptics_util.cc",
+            "target": "ozone_platform.h"
+          },
+          {
+            "source": "haptics_util.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "pdf_conversion.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "units.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkCodec.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkJpegDecoder.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkCanvas.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkData.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkImage.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkRect.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkStream.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkTypes.h"
+          },
+          {
+            "source": "pdf_conversion.cc",
+            "target": "SkPDFDocument.h"
+          },
+          {
+            "source": "pdf_conversion.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "pdf_conversion.h",
+            "target": "optional"
+          },
+          {
+            "source": "pdf_conversion.h",
+            "target": "string"
+          },
+          {
+            "source": "pdf_conversion.h",
+            "target": "vector"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "pdf_conversion.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "fstream"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "image.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "image_unittest_util.h"
+          },
+          {
+            "source": "pdf_conversion_unittest.cc",
+            "target": "image_util.h"
+          }
+        ],
+        "leafNodes": [
+          "haptics_util.cc",
+          "pdf_conversion.cc",
+          "pdf_conversion_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "chromeos/version": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "version_loader.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/version/version_loader.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "version_loader.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/version/version_loader.h",
+            "inDegree": 2
+          },
+          {
+            "id": "version_loader_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "chromeos/version/version_loader_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 3
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time_formatting.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/i18n/time_formatting.h",
+            "inDegree": 1
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_split.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_split.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sys_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/system/sys_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 1
+          },
+          {
+            "id": "chromeos_strings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "chromeos/strings/grit/chromeos_strings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "timezone.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/icu/source/i18n/unicode/timezone.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "version_loader.cc",
+            "target": "version_loader.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "string"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "utility"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "vector"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "time_formatting.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "sys_info.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "chromeos_strings.h"
+          },
+          {
+            "source": "version_loader.cc",
+            "target": "timezone.h"
+          },
+          {
+            "source": "version_loader.h",
+            "target": "optional"
+          },
+          {
+            "source": "version_loader.h",
+            "target": "string"
+          },
+          {
+            "source": "version_loader.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "version_loader_unittest.cc",
+            "target": "version_loader.h"
+          },
+          {
+            "source": "version_loader_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "version_loader_unittest.cc",
+            "target": "gtest.h"
+          }
+        ],
+        "leafNodes": [
+          "version_loader.cc",
+          "version_loader_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    }
+  }
+}

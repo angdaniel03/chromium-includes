@@ -1,0 +1,435 @@
+{
+  "graphs": {
+    "docs": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/accessibility",
+        "docs/autofill",
+        "docs/chromeos",
+        "docs/client_hints",
+        "docs/design",
+        "docs/enterprise",
+        "docs/experiments",
+        "docs/fuchsia",
+        "docs/gpu",
+        "docs/graphics",
+        "docs/images",
+        "docs/imported",
+        "docs/infra",
+        "docs/intl",
+        "docs/ios",
+        "docs/linux",
+        "docs/login",
+        "docs/mac",
+        "docs/media",
+        "docs/memory",
+        "docs/memory-infra",
+        "docs/patterns",
+        "docs/permissions",
+        "docs/pgo",
+        "docs/privacy",
+        "docs/process",
+        "docs/rust",
+        "docs/security",
+        "docs/speed",
+        "docs/speed_metrics",
+        "docs/standards",
+        "docs/telemetry_extension",
+        "docs/testing",
+        "docs/transcripts",
+        "docs/ui",
+        "docs/updater",
+        "docs/user_agent",
+        "docs/webapps",
+        "docs/webui",
+        "docs/workflow"
+      ]
+    },
+    "docs/accessibility": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/accessibility/browser",
+        "docs/accessibility/os"
+      ]
+    },
+    "docs/autofill": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/chromeos": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/client_hints": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/client_hints/images"
+      ]
+    },
+    "docs/design": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/enterprise": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/experiments": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/fuchsia": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/gpu": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/graphics": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/graphics/scrolling"
+      ]
+    },
+    "docs/images": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/imported": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/imported/gn"
+      ]
+    },
+    "docs/infra": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/infra/images"
+      ]
+    },
+    "docs/intl": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/ios": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/linux": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/login": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/mac": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/media": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/media/capture",
+        "docs/media/gpu"
+      ]
+    },
+    "docs/memory": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/memory-infra": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/patterns": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/permissions": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/pgo": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/pgo/images"
+      ]
+    },
+    "docs/privacy": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/process": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/process/images",
+        "docs/process/lsc"
+      ]
+    },
+    "docs/rust": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/security": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/security/ask-before-http",
+        "docs/security/ev-to-page-info-images",
+        "docs/security/lookalikes",
+        "docs/security/no-prompts-please-images",
+        "docs/security/research",
+        "docs/security/safe_browsing",
+        "docs/security/takes",
+        "docs/security/url_display_guidelines"
+      ]
+    },
+    "docs/speed": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/speed/benchmark",
+        "docs/speed/binary_size",
+        "docs/speed/debug-janks-resources",
+        "docs/speed/images",
+        "docs/speed/metrics_changelog",
+        "docs/speed/startup"
+      ]
+    },
+    "docs/speed_metrics": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/standards": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/standards/positions"
+      ]
+    },
+    "docs/telemetry_extension": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/telemetry_extension/images"
+      ]
+    },
+    "docs/testing": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/testing/chromeos_integration",
+        "docs/testing/images"
+      ]
+    },
+    "docs/transcripts": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/ui": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/ui/android",
+        "docs/ui/animation_builder",
+        "docs/ui/ask",
+        "docs/ui/aura",
+        "docs/ui/compositor",
+        "docs/ui/create",
+        "docs/ui/display",
+        "docs/ui/input_event",
+        "docs/ui/learn",
+        "docs/ui/product_excellence",
+        "docs/ui/text_rendering",
+        "docs/ui/ui_devtools",
+        "docs/ui/views"
+      ]
+    },
+    "docs/updater": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/updater/images"
+      ]
+    },
+    "docs/user_agent": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "docs/webapps": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/webapps/cdp"
+      ]
+    },
+    "docs/webui": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "docs/webui/images"
+      ]
+    },
+    "docs/workflow": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    }
+  }
+}

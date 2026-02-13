@@ -1,0 +1,5820 @@
+{
+  "graphs": {
+    "crypto": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "aead.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aead.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "aead.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aead.h",
+            "inDegree": 3
+          },
+          {
+            "id": "aead_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aead_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "aes_cbc.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_cbc.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "aes_cbc.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_cbc.h",
+            "inDegree": 2
+          },
+          {
+            "id": "aes_cbc_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_cbc_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "aes_ctr.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_ctr.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "aes_ctr.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_ctr.h",
+            "inDegree": 2
+          },
+          {
+            "id": "aes_ctr_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/aes_ctr_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chaps_support.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/chaps_support.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "chaps_support.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/chaps_support.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cose.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/cose.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "cose.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/cose.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cose_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/cose_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "crypto_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/crypto_export.h",
+            "inDegree": 33
+          },
+          {
+            "id": "ecdsa_utils.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/ecdsa_utils.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "ecdsa_utils.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/ecdsa_utils.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ecdsa_utils_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/ecdsa_utils_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "evp.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/evp.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "evp.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/evp.h",
+            "inDegree": 17
+          },
+          {
+            "id": "evp_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/evp_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "features.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/features.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "features.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "hash.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hash.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "hash.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hash.h",
+            "inDegree": 6
+          },
+          {
+            "id": "hash_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hash_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "hkdf.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hkdf.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "hkdf.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hkdf.h",
+            "inDegree": 4
+          },
+          {
+            "id": "hmac.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hmac.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "hmac.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hmac.h",
+            "inDegree": 4
+          },
+          {
+            "id": "hmac_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/hmac_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "kdf.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kdf.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "kdf.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kdf.h",
+            "inDegree": 2
+          },
+          {
+            "id": "kdf_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kdf_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "kex.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kex.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "kex.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kex.h",
+            "inDegree": 2
+          },
+          {
+            "id": "kex_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/kex_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "keypair.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/keypair.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "keypair.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/keypair.h",
+            "inDegree": 11
+          },
+          {
+            "id": "keypair_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/keypair_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "nss_crypto_module_delegate.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_crypto_module_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "nss_key_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_key_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "nss_key_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_key_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "nss_key_util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_key_util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "nss_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "nss_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_util.h",
+            "inDegree": 8
+          },
+          {
+            "id": "nss_util_chromeos.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_util_chromeos.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "nss_util_internal.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_util_internal.h",
+            "inDegree": 7
+          },
+          {
+            "id": "nss_util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/nss_util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "openssl_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/openssl_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "openssl_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/openssl_util.h",
+            "inDegree": 9
+          },
+          {
+            "id": "pem.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/pem.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "pem.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/pem.h",
+            "inDegree": 4
+          },
+          {
+            "id": "pem_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/pem_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_bound_string.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/process_bound_string.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "process_bound_string.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/process_bound_string.h",
+            "inDegree": 2
+          },
+          {
+            "id": "process_bound_string_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/process_bound_string_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "random.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/random.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "random.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/random.h",
+            "inDegree": 4
+          },
+          {
+            "id": "random_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/random_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_capi_types.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_capi_types.h",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_cng_types.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_cng_types.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_fake_unexportable_key_provider.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_fake_unexportable_key_provider.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_fake_unexportable_key_provider.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_fake_unexportable_key_provider.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_fake_user_verifying_key_provider.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_fake_user_verifying_key_provider.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_fake_user_verifying_key_provider.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_fake_user_verifying_key_provider.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_nss_types.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_nss_types.h",
+            "inDegree": 6
+          },
+          {
+            "id": "scoped_test_nss_chromeos_user.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_nss_chromeos_user.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_test_nss_chromeos_user.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_nss_chromeos_user.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_test_nss_db.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_nss_db.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_test_nss_db.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_nss_db.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_test_system_nss_key_slot.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_system_nss_key_slot.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_test_system_nss_key_slot.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/scoped_test_system_nss_key_slot.h",
+            "inDegree": 1
+          },
+          {
+            "id": "secure_hash.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/secure_hash.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "secure_hash.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/secure_hash.h",
+            "inDegree": 3
+          },
+          {
+            "id": "secure_hash_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/secure_hash_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "secure_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/secure_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "secure_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/secure_util.h",
+            "inDegree": 3
+          },
+          {
+            "id": "sha2.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sha2.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sha2.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sha2.h",
+            "inDegree": 3
+          },
+          {
+            "id": "sha2_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sha2_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sign.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sign.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sign.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sign.h",
+            "inDegree": 3
+          },
+          {
+            "id": "sign_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/sign_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "signature_verifier.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/signature_verifier.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "signature_verifier.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/signature_verifier.h",
+            "inDegree": 7
+          },
+          {
+            "id": "signature_verifier_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/signature_verifier_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "subtle_passkey.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/subtle_passkey.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "subtle_passkey.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/subtle_passkey.h",
+            "inDegree": 3
+          },
+          {
+            "id": "test_support.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/test_support.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "test_support.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/test_support.h",
+            "inDegree": 6
+          },
+          {
+            "id": "unexportable_key.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key.h",
+            "inDegree": 11
+          },
+          {
+            "id": "unexportable_key_metrics.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_metrics.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key_metrics.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_metrics.h",
+            "inDegree": 3
+          },
+          {
+            "id": "unexportable_key_metrics_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_metrics_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key_software_unsecure.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_software_unsecure.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key_win.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_win.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "unexportable_key_win.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key_win.h",
+            "inDegree": 3
+          },
+          {
+            "id": "user_verifying_key.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/user_verifying_key.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "user_verifying_key.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/user_verifying_key.h",
+            "inDegree": 4
+          },
+          {
+            "id": "user_verifying_key_win.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/user_verifying_key_win.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 20
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 13
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 20
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 14
+          },
+          {
+            "id": "check_op.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_op.h",
+            "inDegree": 10
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 33
+          },
+          {
+            "id": "checked_math.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/checked_math.h",
+            "inDegree": 2
+          },
+          {
+            "id": "aes.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/aes.h",
+            "inDegree": 4
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 7
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 8
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 24
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 4
+          },
+          {
+            "id": "raw_span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_span.h",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 12
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 22
+          },
+          {
+            "id": "cstring",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstring",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 6
+          },
+          {
+            "id": "array",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "array",
+            "inDegree": 13
+          },
+          {
+            "id": "dlfcn.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "dlfcn.h",
+            "inDegree": 1
+          },
+          {
+            "id": "secmod.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "secmod.h",
+            "inDegree": 4
+          },
+          {
+            "id": "secmodt.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "secmodt.h",
+            "inDegree": 3
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 11
+          },
+          {
+            "id": "raw_ptr_exclusion.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr_exclusion.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stack_allocated.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/stack_allocated.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_blocking_call.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/scoped_blocking_call.h",
+            "inDegree": 4
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 5
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/cbor/values.h",
+            "inDegree": 1
+          },
+          {
+            "id": "writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/cbor/writer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "base.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/base.h",
+            "inDegree": 4
+          },
+          {
+            "id": "bn.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/bn.h",
+            "inDegree": 5
+          },
+          {
+            "id": "rsa.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/rsa.h",
+            "inDegree": 6
+          },
+          {
+            "id": "gtest_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/gtest_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "bytestring.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/bytestring.h",
+            "inDegree": 6
+          },
+          {
+            "id": "ec.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/ec.h",
+            "inDegree": 5
+          },
+          {
+            "id": "ecdsa.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/ecdsa.h",
+            "inDegree": 3
+          },
+          {
+            "id": "to_vector.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/to_vector.h",
+            "inDegree": 3
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 3
+          },
+          {
+            "id": "ostream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "ostream",
+            "inDegree": 1
+          },
+          {
+            "id": "heap_array.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/heap_array.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file.h",
+            "inDegree": 2
+          },
+          {
+            "id": "page_size.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/page_size.h",
+            "inDegree": 1
+          },
+          {
+            "id": "digest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/digest.h",
+            "inDegree": 5
+          },
+          {
+            "id": "cstddef",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstddef",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdint",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdint",
+            "inDegree": 2
+          },
+          {
+            "id": "base_paths.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_paths.h",
+            "inDegree": 4
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 6
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 4
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 4
+          },
+          {
+            "id": "stl_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/stl_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 18
+          },
+          {
+            "id": "string.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ec_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/ec_key.h",
+            "inDegree": 4
+          },
+          {
+            "id": "ecdh.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/ecdh.h",
+            "inDegree": 1
+          },
+          {
+            "id": "curve25519.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/curve25519.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mem.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/mem.h",
+            "inDegree": 4
+          },
+          {
+            "id": "list",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "list",
+            "inDegree": 1
+          },
+          {
+            "id": "ref_counted.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted.h",
+            "inDegree": 3
+          },
+          {
+            "id": "cryptohi.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cryptohi.h",
+            "inDegree": 1
+          },
+          {
+            "id": "keyhi.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "keyhi.h",
+            "inDegree": 3
+          },
+          {
+            "id": "pk11pub.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "pk11pub.h",
+            "inDegree": 5
+          },
+          {
+            "id": "secoidt.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "secoidt.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 11
+          },
+          {
+            "id": "nss.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "nss.h",
+            "inDegree": 3
+          },
+          {
+            "id": "plarena.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "plarena.h",
+            "inDegree": 3
+          },
+          {
+            "id": "prerror.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "prerror.h",
+            "inDegree": 2
+          },
+          {
+            "id": "prinit.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "prinit.h",
+            "inDegree": 2
+          },
+          {
+            "id": "prtime.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "prtime.h",
+            "inDegree": 3
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 6
+          },
+          {
+            "id": "flat_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/flat_map.h",
+            "inDegree": 2
+          },
+          {
+            "id": "alias.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/debug/alias.h",
+            "inDegree": 1
+          },
+          {
+            "id": "environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/environment.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 4
+          },
+          {
+            "id": "xdg_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/nix/xdg_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 4
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 3
+          },
+          {
+            "id": "thread_restrictions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_restrictions.h",
+            "inDegree": 4
+          },
+          {
+            "id": "callback_forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 1
+          },
+          {
+            "id": "callback_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/callback_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 3
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 2
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 2
+          },
+          {
+            "id": "thread_pool.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/thread_pool.h",
+            "inDegree": 3
+          },
+          {
+            "id": "thread_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_checker.h",
+            "inDegree": 1
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 4
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 3
+          },
+          {
+            "id": "scoped_environment_variable_override.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/scoped_environment_variable_override.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_path_override.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_path_override.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 3
+          },
+          {
+            "id": "err.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/err.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_view_util.h",
+            "inDegree": 3
+          },
+          {
+            "id": "windows.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.h",
+            "inDegree": 2
+          },
+          {
+            "id": "dpapi.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "dpapi.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/memory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "trace_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_event.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest_prod_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/gtest_prod_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_feature_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "rand_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/rand_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_generic.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/scoped_generic.h",
+            "inDegree": 2
+          },
+          {
+            "id": "wincrypt_shim.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/wincrypt_shim.h",
+            "inDegree": 2
+          },
+          {
+            "id": "windows_types.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/windows_types.h",
+            "inDegree": 1
+          },
+          {
+            "id": "base64.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base64.h",
+            "inDegree": 2
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 2
+          },
+          {
+            "id": "cert.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cert.h",
+            "inDegree": 2
+          },
+          {
+            "id": "certt.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "certt.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ptr_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ptr_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "notimplemented.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notimplemented.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pickle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/pickle.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sha.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/sha.h",
+            "inDegree": 3
+          },
+          {
+            "id": "span_writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span_writer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fixed_array.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/fixed_array.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unexportable_key_apple.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/apple/unexportable_key_apple.h",
+            "inDegree": 1
+          },
+          {
+            "id": "histogram_functions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/histogram_functions.h",
+            "inDegree": 3
+          },
+          {
+            "id": "task_traits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/task_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "elapsed_timer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/timer/elapsed_timer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "functional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "functional",
+            "inDegree": 2
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 1
+          },
+          {
+            "id": "histogram_tester.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/metrics/histogram_tester.h",
+            "inDegree": 1
+          },
+          {
+            "id": "obj.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/obj.h",
+            "inDegree": 1
+          },
+          {
+            "id": "tuple",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "tuple",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_fake_keychain_v2.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_fake_keychain_v2.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util_win.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util_win.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sys_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/sys_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_thread_priority.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/scoped_thread_priority.h",
+            "inDegree": 2
+          },
+          {
+            "id": "expected.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/expected.h",
+            "inDegree": 2
+          },
+          {
+            "id": "optional_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/optional_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "nid.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/nid.h",
+            "inDegree": 1
+          },
+          {
+            "id": "variant",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "variant",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_lacontext.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_lacontext.h",
+            "inDegree": 1
+          },
+          {
+            "id": "windows.foundation.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.foundation.h",
+            "inDegree": 1
+          },
+          {
+            "id": "windows.security.credentials.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.security.credentials.h",
+            "inDegree": 1
+          },
+          {
+            "id": "windows.security.cryptography.core.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.security.cryptography.core.h",
+            "inDegree": 1
+          },
+          {
+            "id": "windows.storage.streams.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "windows.storage.streams.h",
+            "inDegree": 1
+          },
+          {
+            "id": "atomic",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "atomic",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_refptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/scoped_refptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 1
+          },
+          {
+            "id": "atomic_flag.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/atomic_flag.h",
+            "inDegree": 1
+          },
+          {
+            "id": "bind_post_task.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/bind_post_task.h",
+            "inDegree": 1
+          },
+          {
+            "id": "core_winrt_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/core_winrt_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "post_async_results.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/post_async_results.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_hstring.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/scoped_hstring.h",
+            "inDegree": 1
+          },
+          {
+            "id": "winrt_storage_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/winrt_storage_util.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "aead.cc",
+            "target": "aead.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "string"
+          },
+          {
+            "source": "aead.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "checked_math.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "aes.h"
+          },
+          {
+            "source": "aead.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "optional"
+          },
+          {
+            "source": "aead.h",
+            "target": "string"
+          },
+          {
+            "source": "aead.h",
+            "target": "string_view"
+          },
+          {
+            "source": "aead.h",
+            "target": "vector"
+          },
+          {
+            "source": "aead.h",
+            "target": "span.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "raw_span.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "aead.h"
+          },
+          {
+            "source": "aead.h",
+            "target": "aes.h"
+          },
+          {
+            "source": "aead_unittest.cc",
+            "target": "aead.h"
+          },
+          {
+            "source": "aead_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "aead_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "aead_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "aes_cbc.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "aes.h"
+          },
+          {
+            "source": "aes_cbc.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "aes_cbc.h",
+            "target": "vector"
+          },
+          {
+            "source": "aes_cbc.h",
+            "target": "span.h"
+          },
+          {
+            "source": "aes_cbc.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "aes_cbc_unittest.cc",
+            "target": "aes_cbc.h"
+          },
+          {
+            "source": "aes_cbc_unittest.cc",
+            "target": "cstring"
+          },
+          {
+            "source": "aes_cbc_unittest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "aes_cbc_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "aes_ctr.h"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "array"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "vector"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "aes_ctr.cc",
+            "target": "aes.h"
+          },
+          {
+            "source": "aes_ctr.h",
+            "target": "vector"
+          },
+          {
+            "source": "aes_ctr.h",
+            "target": "span.h"
+          },
+          {
+            "source": "aes_ctr.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "aes_ctr_unittest.cc",
+            "target": "aes_ctr.h"
+          },
+          {
+            "source": "aes_ctr_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "chaps_support.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "dlfcn.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "secmod.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "secmodt.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "raw_ptr_exclusion.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "stack_allocated.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "chaps_support.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "chaps_support.h",
+            "target": "secmodt.h"
+          },
+          {
+            "source": "chaps_support.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "chaps_support.h",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "cose.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "vector"
+          },
+          {
+            "source": "cose.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "writer.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "base.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "bn.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "cose.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "cose.h",
+            "target": "vector"
+          },
+          {
+            "source": "cose.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "cose.h",
+            "target": "keypair.h"
+          },
+          {
+            "source": "cose_unittest.cc",
+            "target": "cose.h"
+          },
+          {
+            "source": "cose_unittest.cc",
+            "target": "gtest_util.h"
+          },
+          {
+            "source": "cose_unittest.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "cose_unittest.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "cose_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "ecdsa_utils.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "vector"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "bn.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "ec.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "ecdsa.h"
+          },
+          {
+            "source": "ecdsa_utils.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "ecdsa_utils.h",
+            "target": "optional"
+          },
+          {
+            "source": "ecdsa_utils.h",
+            "target": "vector"
+          },
+          {
+            "source": "ecdsa_utils.h",
+            "target": "span.h"
+          },
+          {
+            "source": "ecdsa_utils.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "ecdsa_utils.h",
+            "target": "ec.h"
+          },
+          {
+            "source": "ecdsa_utils_unittest.cc",
+            "target": "ecdsa_utils.h"
+          },
+          {
+            "source": "ecdsa_utils_unittest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "ecdsa_utils_unittest.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "ecdsa_utils_unittest.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "ecdsa_utils_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "evp.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "evp.cc",
+            "target": "to_vector.h"
+          },
+          {
+            "source": "evp.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "evp.h",
+            "target": "vector"
+          },
+          {
+            "source": "evp.h",
+            "target": "span.h"
+          },
+          {
+            "source": "evp.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "evp.h",
+            "target": "evp.h"
+          },
+          {
+            "source": "evp_unittest.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "evp_unittest.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "evp_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "features.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "features.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "features.h",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "features.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "ostream"
+          },
+          {
+            "source": "hash.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "heap_array.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "file.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "page_size.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "digest.h"
+          },
+          {
+            "source": "hash.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "hash.h",
+            "target": "array"
+          },
+          {
+            "source": "hash.h",
+            "target": "cstddef"
+          },
+          {
+            "source": "hash.h",
+            "target": "cstdint"
+          },
+          {
+            "source": "hash.h",
+            "target": "string_view"
+          },
+          {
+            "source": "hash.h",
+            "target": "span.h"
+          },
+          {
+            "source": "hash.h",
+            "target": "notreached.h"
+          },
+          {
+            "source": "hash.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "hash.h",
+            "target": "base.h"
+          },
+          {
+            "source": "hash.h",
+            "target": "digest.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "file.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "hash_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "hkdf.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "string"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "digest.h"
+          },
+          {
+            "source": "hkdf.cc",
+            "target": "hkdf.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "array"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "string"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "string_view"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "check.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "span.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "digest.h"
+          },
+          {
+            "source": "hkdf.h",
+            "target": "hkdf.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "hmac.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "string"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "stl_util.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "secure_util.h"
+          },
+          {
+            "source": "hmac.cc",
+            "target": "hmac.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "array"
+          },
+          {
+            "source": "hmac.h",
+            "target": "memory"
+          },
+          {
+            "source": "hmac.h",
+            "target": "string_view"
+          },
+          {
+            "source": "hmac.h",
+            "target": "vector"
+          },
+          {
+            "source": "hmac.h",
+            "target": "check.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "span.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "hash.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "secure_util.h"
+          },
+          {
+            "source": "hmac.h",
+            "target": "hmac.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "hmac.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "string.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "hmac_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "kdf.cc",
+            "target": "kdf.h"
+          },
+          {
+            "source": "kdf.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "kdf.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "kdf.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "kdf.cc",
+            "target": "hkdf.h"
+          },
+          {
+            "source": "kdf.h",
+            "target": "span.h"
+          },
+          {
+            "source": "kdf.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "kdf.h",
+            "target": "hash.h"
+          },
+          {
+            "source": "kdf.h",
+            "target": "subtle_passkey.h"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "kdf.h"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "kdf_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "kex.cc",
+            "target": "kex.h"
+          },
+          {
+            "source": "kex.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "kex.cc",
+            "target": "ec_key.h"
+          },
+          {
+            "source": "kex.cc",
+            "target": "ecdh.h"
+          },
+          {
+            "source": "kex.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "kex.h",
+            "target": "span.h"
+          },
+          {
+            "source": "kex.h",
+            "target": "keypair.h"
+          },
+          {
+            "source": "kex_unittest.cc",
+            "target": "kex.h"
+          },
+          {
+            "source": "kex_unittest.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "kex_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "kex_unittest.cc",
+            "target": "ec_key.h"
+          },
+          {
+            "source": "kex_unittest.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "bn.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "curve25519.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "ec.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "mem.h"
+          },
+          {
+            "source": "keypair.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "keypair.h",
+            "target": "array"
+          },
+          {
+            "source": "keypair.h",
+            "target": "vector"
+          },
+          {
+            "source": "keypair.h",
+            "target": "span.h"
+          },
+          {
+            "source": "keypair.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "keypair.h",
+            "target": "subtle_passkey.h"
+          },
+          {
+            "source": "keypair.h",
+            "target": "base.h"
+          },
+          {
+            "source": "keypair_unittest.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "keypair_unittest.cc",
+            "target": "list"
+          },
+          {
+            "source": "keypair_unittest.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "keypair_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "nss_crypto_module_delegate.h",
+            "target": "string"
+          },
+          {
+            "source": "nss_crypto_module_delegate.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "nss_key_util.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "cryptohi.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "keyhi.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "pk11pub.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "secmod.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "memory"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "vector"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "nss_key_util.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "secoidt.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "span.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "nss_key_util.h",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "nss_key_util.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "keyhi.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "pk11pub.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "nss_key_util_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "nss.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "pk11pub.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "plarena.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "prerror.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "prinit.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "prtime.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "secmod.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "memory"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "utility"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "heap_array.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "alias.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "environment.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "xdg_util.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "nss_crypto_module_delegate.h"
+          },
+          {
+            "source": "nss_util.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "file_path.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "callback_forward.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "nss_util.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "nss.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "pk11pub.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "plarena.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "prerror.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "prinit.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "prtime.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "secmod.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "map"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "memory"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "utility"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "callback_list.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "thread_checker.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "chaps_support.h"
+          },
+          {
+            "source": "nss_util_chromeos.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "secmodt.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "string"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "nss_util_internal.h",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "prtime.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "environment.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "scoped_environment_variable_override.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "scoped_path_override.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "nss_util_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "openssl_util.cc",
+            "target": "err.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "string.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "location.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "openssl_util.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "pem.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "to_vector.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "string_view_util.h"
+          },
+          {
+            "source": "pem.cc",
+            "target": "pem.h"
+          },
+          {
+            "source": "pem.h",
+            "target": "optional"
+          },
+          {
+            "source": "pem.h",
+            "target": "vector"
+          },
+          {
+            "source": "pem.h",
+            "target": "span.h"
+          },
+          {
+            "source": "pem.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "pem.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "string_view_util.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "pem_unittest.cc",
+            "target": "pem.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "process_bound_string.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "windows.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "dpapi.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "memory.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "process_bound_string.cc",
+            "target": "mem.h"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "string"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "vector"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "check.h"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "span.h"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "gtest_prod_util.h"
+          },
+          {
+            "source": "process_bound_string.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "process_bound_string.h"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "process_bound_string_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "random.cc",
+            "target": "random.h"
+          },
+          {
+            "source": "random.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "random.cc",
+            "target": "vector"
+          },
+          {
+            "source": "random.cc",
+            "target": "rand_util.h"
+          },
+          {
+            "source": "random.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "random.h",
+            "target": "array"
+          },
+          {
+            "source": "random.h",
+            "target": "vector"
+          },
+          {
+            "source": "random.h",
+            "target": "span.h"
+          },
+          {
+            "source": "random.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "random_unittest.cc",
+            "target": "random.h"
+          },
+          {
+            "source": "random_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "random_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "random_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "random_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "scoped_capi_types.h",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_capi_types.h",
+            "target": "check.h"
+          },
+          {
+            "source": "scoped_capi_types.h",
+            "target": "scoped_generic.h"
+          },
+          {
+            "source": "scoped_capi_types.h",
+            "target": "wincrypt_shim.h"
+          },
+          {
+            "source": "scoped_capi_types.h",
+            "target": "windows_types.h"
+          },
+          {
+            "source": "scoped_cng_types.h",
+            "target": "scoped_generic.h"
+          },
+          {
+            "source": "scoped_cng_types.h",
+            "target": "wincrypt_shim.h"
+          },
+          {
+            "source": "scoped_fake_unexportable_key_provider.cc",
+            "target": "scoped_fake_unexportable_key_provider.h"
+          },
+          {
+            "source": "scoped_fake_unexportable_key_provider.cc",
+            "target": "vector"
+          },
+          {
+            "source": "scoped_fake_unexportable_key_provider.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "scoped_fake_user_verifying_key_provider.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "utility"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "vector"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "flat_map.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.cc",
+            "target": "user_verifying_key.h"
+          },
+          {
+            "source": "scoped_fake_user_verifying_key_provider.h",
+            "target": "user_verifying_key.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "cert.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "certt.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "keyhi.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "nss.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "pk11pub.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "plarena.h"
+          },
+          {
+            "source": "scoped_nss_types.h",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.cc",
+            "target": "scoped_test_nss_chromeos_user.h"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.h",
+            "target": "string"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.h",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "scoped_test_nss_chromeos_user.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "scoped_test_nss_db.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "cert.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "scoped_test_nss_db.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "scoped_test_nss_db.h",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "scoped_test_nss_db.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "scoped_test_nss_db.h",
+            "target": "scoped_nss_types.h"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.cc",
+            "target": "scoped_test_system_nss_key_slot.h"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.cc",
+            "target": "nss_util.h"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.cc",
+            "target": "nss_util_internal.h"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.cc",
+            "target": "scoped_test_nss_db.h"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.h",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_test_system_nss_key_slot.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "secure_hash.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "notimplemented.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "pickle.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "mem.h"
+          },
+          {
+            "source": "secure_hash.cc",
+            "target": "sha.h"
+          },
+          {
+            "source": "secure_hash.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "secure_hash.h",
+            "target": "memory"
+          },
+          {
+            "source": "secure_hash.h",
+            "target": "span.h"
+          },
+          {
+            "source": "secure_hash.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "secure_hash.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "span_writer.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "fixed_array.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "sha2.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "secure_hash_unittest.cc",
+            "target": "sha.h"
+          },
+          {
+            "source": "secure_util.cc",
+            "target": "secure_util.h"
+          },
+          {
+            "source": "secure_util.cc",
+            "target": "mem.h"
+          },
+          {
+            "source": "secure_util.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "secure_util.h",
+            "target": "span.h"
+          },
+          {
+            "source": "secure_util.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "sha2.h"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "memory"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "string_view_util.h"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "secure_hash.h"
+          },
+          {
+            "source": "sha2.cc",
+            "target": "sha.h"
+          },
+          {
+            "source": "sha2.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "sha2.h",
+            "target": "array"
+          },
+          {
+            "source": "sha2.h",
+            "target": "string"
+          },
+          {
+            "source": "sha2.h",
+            "target": "string_view"
+          },
+          {
+            "source": "sha2.h",
+            "target": "span.h"
+          },
+          {
+            "source": "sha2.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "sha2_unittest.cc",
+            "target": "sha2.h"
+          },
+          {
+            "source": "sha2_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "sha2_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "sha2_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "sha2_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "sign.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "sign.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "sign.h",
+            "target": "span.h"
+          },
+          {
+            "source": "sign.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "sign.h",
+            "target": "keypair.h"
+          },
+          {
+            "source": "sign.h",
+            "target": "base.h"
+          },
+          {
+            "source": "sign.h",
+            "target": "evp.h"
+          },
+          {
+            "source": "sign_unittest.cc",
+            "target": "sign.h"
+          },
+          {
+            "source": "sign_unittest.cc",
+            "target": "gtest_util.h"
+          },
+          {
+            "source": "sign_unittest.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "sign_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "memory"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "openssl_util.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "digest.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "signature_verifier.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "memory"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "vector"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "span.h"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "signature_verifier.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "signature_verifier_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "subtle_passkey.cc",
+            "target": "subtle_passkey.h"
+          },
+          {
+            "source": "subtle_passkey.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "test_support.cc",
+            "target": "test_support.h"
+          },
+          {
+            "source": "test_support.cc",
+            "target": "array"
+          },
+          {
+            "source": "test_support.h",
+            "target": "keypair.h"
+          },
+          {
+            "source": "unexportable_key.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "unexportable_key.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "unexportable_key.cc",
+            "target": "unexportable_key_win.h"
+          },
+          {
+            "source": "unexportable_key.cc",
+            "target": "unexportable_key_apple.h"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "memory"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "optional"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "string"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "vector"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "time.h"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "unexportable_key.h",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "unexportable_key_metrics.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "memory"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "task_traits.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "elapsed_timer.h"
+          },
+          {
+            "source": "unexportable_key_metrics.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_metrics.h",
+            "target": "string"
+          },
+          {
+            "source": "unexportable_key_metrics.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "unexportable_key_metrics.h",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "unexportable_key_metrics.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "cstdint"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "functional"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "set"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "to_vector.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "histogram_tester.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_metrics_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "bn.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "ec.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "ec_key.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "ecdsa.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "obj.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "unexportable_key_software_unsecure.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "scoped_fake_unexportable_key_provider.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "scoped_fake_keychain_v2.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "scoped_cng_types.h"
+          },
+          {
+            "source": "unexportable_key_unittest.cc",
+            "target": "unexportable_key_win.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "unexportable_key_win.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "string"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "vector"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "checked_math.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "string_util_win.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "sys_string_conversions.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "scoped_thread_priority.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "expected.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "optional_util.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "hash.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "keypair.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "random.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "sign.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "unexportable_key_metrics.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "bn.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "bytestring.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "ec.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "ec_key.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "ecdsa.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "nid.h"
+          },
+          {
+            "source": "unexportable_key_win.cc",
+            "target": "rsa.h"
+          },
+          {
+            "source": "unexportable_key_win.h",
+            "target": "memory"
+          },
+          {
+            "source": "unexportable_key_win.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "unexportable_key_win.h",
+            "target": "scoped_cng_types.h"
+          },
+          {
+            "source": "unexportable_key_win.h",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "user_verifying_key.cc",
+            "target": "user_verifying_key.h"
+          },
+          {
+            "source": "user_verifying_key.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "user_verifying_key.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "user_verifying_key.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "memory"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "optional"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "string"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "variant"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "vector"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "span.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "expected.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "scoped_lacontext.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "signature_verifier.h"
+          },
+          {
+            "source": "user_verifying_key.h",
+            "target": "unexportable_key.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "user_verifying_key.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "windows.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "windows.foundation.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "windows.security.credentials.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "windows.security.cryptography.core.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "windows.storage.streams.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "atomic"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "functional"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "utility"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "atomic_flag.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "bind_post_task.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "scoped_thread_priority.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "core_winrt_util.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "post_async_results.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "scoped_hstring.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "winrt_storage_util.h"
+          },
+          {
+            "source": "user_verifying_key_win.cc",
+            "target": "random.h"
+          }
+        ],
+        "leafNodes": [
+          "aead.cc",
+          "aead_unittest.cc",
+          "aes_cbc.cc",
+          "aes_cbc_unittest.cc",
+          "aes_ctr.cc",
+          "aes_ctr_unittest.cc",
+          "chaps_support.cc",
+          "cose.cc",
+          "cose_unittest.cc",
+          "ecdsa_utils.cc",
+          "ecdsa_utils_unittest.cc",
+          "evp.cc",
+          "evp_unittest.cc",
+          "features.cc",
+          "hash.cc",
+          "hash_unittest.cc",
+          "hkdf.cc",
+          "hmac.cc",
+          "hmac_unittest.cc",
+          "kdf.cc",
+          "kdf_unittest.cc",
+          "kex.cc",
+          "kex_unittest.cc",
+          "keypair.cc",
+          "keypair_unittest.cc",
+          "nss_key_util.cc",
+          "nss_key_util_unittest.cc",
+          "nss_util.cc",
+          "nss_util_chromeos.cc",
+          "nss_util_unittest.cc",
+          "openssl_util.cc",
+          "pem.cc",
+          "pem_unittest.cc",
+          "process_bound_string.cc",
+          "process_bound_string_unittest.cc",
+          "random.cc",
+          "random_unittest.cc",
+          "scoped_capi_types.h",
+          "scoped_fake_unexportable_key_provider.cc",
+          "scoped_fake_user_verifying_key_provider.cc",
+          "scoped_test_nss_chromeos_user.cc",
+          "scoped_test_nss_db.cc",
+          "scoped_test_system_nss_key_slot.cc",
+          "secure_hash.cc",
+          "secure_hash_unittest.cc",
+          "secure_util.cc",
+          "sha2.cc",
+          "sha2_unittest.cc",
+          "sign.cc",
+          "sign_unittest.cc",
+          "signature_verifier.cc",
+          "signature_verifier_unittest.cc",
+          "subtle_passkey.cc",
+          "test_support.cc",
+          "unexportable_key.cc",
+          "unexportable_key_metrics.cc",
+          "unexportable_key_metrics_unittest.cc",
+          "unexportable_key_software_unsecure.cc",
+          "unexportable_key_unittest.cc",
+          "unexportable_key_win.cc",
+          "user_verifying_key.cc",
+          "user_verifying_key_win.cc"
+        ]
+      },
+      "subDirs": [
+        "crypto/apple",
+        "crypto/obsolete",
+        "crypto/test"
+      ]
+    },
+    "crypto/apple": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "fake_keychain_v2.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/fake_keychain_v2.h",
+            "inDegree": 0
+          },
+          {
+            "id": "keychain_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/keychain_util.h",
+            "inDegree": 0
+          },
+          {
+            "id": "keychain_v2.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/keychain_v2.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_fake_keychain_v2.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_fake_keychain_v2.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_keychain_user_interaction_allowed.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_keychain_user_interaction_allowed.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_keychain_user_interaction_allowed.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_keychain_user_interaction_allowed.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_lacontext.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/scoped_lacontext.h",
+            "inDegree": 0
+          },
+          {
+            "id": "security_framework_lock.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/security_framework_lock.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "security_framework_lock.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/security_framework_lock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unexportable_key_apple.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/apple/unexportable_key_apple.h",
+            "inDegree": 0
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 3
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_cftyperef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/apple/scoped_cftyperef.h",
+            "inDegree": 3
+          },
+          {
+            "id": "crypto_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/crypto_export.h",
+            "inDegree": 7
+          },
+          {
+            "id": "CoreFoundation.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "CoreFoundation/CoreFoundation.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 2
+          },
+          {
+            "id": "buildflag.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/buildflag.h",
+            "inDegree": 1
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 2
+          },
+          {
+            "id": "expected.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/expected.h",
+            "inDegree": 1
+          },
+          {
+            "id": "MacTypes.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "MacTypes.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 3
+          },
+          {
+            "id": "Security.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "Security/Security.h",
+            "inDegree": 1
+          },
+          {
+            "id": "cleanup.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/abseil-cpp/absl/cleanup/cleanup.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "lock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/lock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unexportable_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/unexportable_key.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "string"
+          },
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "vector"
+          },
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "scoped_cftyperef.h"
+          },
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "keychain_v2.h"
+          },
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "scoped_fake_keychain_v2.h"
+          },
+          {
+            "source": "fake_keychain_v2.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "CoreFoundation.h"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "string"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "string_view"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "scoped_cftyperef.h"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "buildflag.h"
+          },
+          {
+            "source": "keychain_util.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "keychain_v2.h",
+            "target": "scoped_cftyperef.h"
+          },
+          {
+            "source": "keychain_v2.h",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "keychain_v2.h",
+            "target": "expected.h"
+          },
+          {
+            "source": "keychain_v2.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "scoped_fake_keychain_v2.h",
+            "target": "MacTypes.h"
+          },
+          {
+            "source": "scoped_fake_keychain_v2.h",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_fake_keychain_v2.h",
+            "target": "string"
+          },
+          {
+            "source": "scoped_fake_keychain_v2.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.cc",
+            "target": "scoped_keychain_user_interaction_allowed.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.cc",
+            "target": "Security.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.cc",
+            "target": "cleanup.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.h",
+            "target": "MacTypes.h"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.h",
+            "target": "optional"
+          },
+          {
+            "source": "scoped_keychain_user_interaction_allowed.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "scoped_lacontext.h",
+            "target": "memory"
+          },
+          {
+            "source": "scoped_lacontext.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "security_framework_lock.cc",
+            "target": "security_framework_lock.h"
+          },
+          {
+            "source": "security_framework_lock.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "security_framework_lock.cc",
+            "target": "lock.h"
+          },
+          {
+            "source": "security_framework_lock.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "unexportable_key_apple.h",
+            "target": "memory"
+          },
+          {
+            "source": "unexportable_key_apple.h",
+            "target": "unexportable_key.h"
+          }
+        ],
+        "leafNodes": [
+          "fake_keychain_v2.h",
+          "keychain_util.h",
+          "scoped_keychain_user_interaction_allowed.cc",
+          "scoped_lacontext.h",
+          "security_framework_lock.cc",
+          "unexportable_key_apple.h"
+        ]
+      },
+      "subDirs": []
+    },
+    "crypto/obsolete": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "md5.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/md5.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "md5.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/md5.h",
+            "inDegree": 2
+          },
+          {
+            "id": "md5_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/md5_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sha1.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/sha1.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "sha1.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/sha1.h",
+            "inDegree": 2
+          },
+          {
+            "id": "sha1_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "crypto/obsolete/sha1_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "digest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/digest.h",
+            "inDegree": 4
+          },
+          {
+            "id": "evp.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/boringssl/src/include/openssl/evp.h",
+            "inDegree": 2
+          },
+          {
+            "id": "array",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "array",
+            "inDegree": 2
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gtest_prod_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/gtest_prod_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "crypto_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "crypto/crypto_export.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "md5.cc",
+            "target": "md5.h"
+          },
+          {
+            "source": "md5.cc",
+            "target": "digest.h"
+          },
+          {
+            "source": "md5.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "md5.h",
+            "target": "array"
+          },
+          {
+            "source": "md5.h",
+            "target": "span.h"
+          },
+          {
+            "source": "md5.h",
+            "target": "gtest_prod_util.h"
+          },
+          {
+            "source": "md5.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "md5.h",
+            "target": "digest.h"
+          },
+          {
+            "source": "md5_unittest.cc",
+            "target": "md5.h"
+          },
+          {
+            "source": "md5_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "sha1.cc",
+            "target": "sha1.h"
+          },
+          {
+            "source": "sha1.cc",
+            "target": "digest.h"
+          },
+          {
+            "source": "sha1.cc",
+            "target": "evp.h"
+          },
+          {
+            "source": "sha1.h",
+            "target": "array"
+          },
+          {
+            "source": "sha1.h",
+            "target": "string_view"
+          },
+          {
+            "source": "sha1.h",
+            "target": "vector"
+          },
+          {
+            "source": "sha1.h",
+            "target": "span.h"
+          },
+          {
+            "source": "sha1.h",
+            "target": "gtest_prod_util.h"
+          },
+          {
+            "source": "sha1.h",
+            "target": "crypto_export.h"
+          },
+          {
+            "source": "sha1.h",
+            "target": "digest.h"
+          },
+          {
+            "source": "sha1_unittest.cc",
+            "target": "sha1.h"
+          },
+          {
+            "source": "sha1_unittest.cc",
+            "target": "gtest.h"
+          }
+        ],
+        "leafNodes": [
+          "md5.cc",
+          "md5_unittest.cc",
+          "sha1.cc",
+          "sha1_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "crypto/test": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "crypto/test/data"
+      ]
+    }
+  }
+}

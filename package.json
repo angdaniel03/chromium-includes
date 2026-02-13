@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-data": "node scripts/fetch-data.js"
+    "fetch-data": "node scripts/fetch-data.js",
+    "fetch-data-incremental": "node scripts/fetch-data.js --incremental"
   },
   "dependencies": {
     "axios": "^1.13.4",

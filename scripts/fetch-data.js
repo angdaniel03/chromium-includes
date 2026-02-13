@@ -147,6 +147,11 @@ async function analyzeDependencies(targetPath) {
 }
 
 async function main() {
+  const isIncremental = process.argv.includes('--incremental');
+  if (isIncremental) {
+    console.log('Incremental mode enabled: skipping already fetched dependencies.');
+  }
+
   const outputDir = path.join(__dirname, '../public/data');
   const rootsDir = path.join(outputDir, 'roots');
 
@@ -165,30 +170,59 @@ async function main() {
     fs.writeFileSync(path.join(outputDir, 'roots.json'), JSON.stringify(rootDirs, null, 2));
 
     // Limit crawling to prevent extreme API usage while demonstrating the multi-file approach
-    // In a real run with a high-limit token, you'd remove the slice(0, 10)
-    const activeRoots = rootDirs.slice(0, 10); 
+    const activeRoots = rootDirs; 
 
     for (const root of activeRoots) {
-      const rootData = { graphs: {} };
+      const safeFileName = root.replace(/\//g, '_') + '.json';
+      const filePath = path.join(rootsDir, safeFileName);
       
-      // 1. Analyze the root itself
-      const rootResult = await analyzeDependencies(root);
-      if (rootResult) {
-        rootData.graphs[root] = rootResult;
-        
-        // 2. Analyze subdirectories of this root
-        for (const subDir of rootResult.subDirs) {
-          const subResult = await analyzeDependencies(subDir);
-          if (subResult) {
-            rootData.graphs[subDir] = subResult;
+      let rootData = { graphs: {} };
+      const exists = fs.existsSync(filePath);
+
+      if (isIncremental && exists) {
+        try {
+          rootData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          console.log(`Loaded existing data for ${root}.`);
+        } catch (e) {
+          console.error(`Failed to parse existing file for ${root}, starting fresh.`);
+        }
+      }
+      
+      let changed = false;
+
+      // 1. Analyze the root itself if missing OR not in incremental mode
+      if (!isIncremental || !rootData.graphs[root]) {
+        const rootResult = await analyzeDependencies(root);
+        if (rootResult) {
+          rootData.graphs[root] = rootResult;
+          changed = true;
+        }
+      } else {
+        console.log(`Skipping already fetched root: ${root}`);
+      }
+
+      // 2. Check subdirectories
+      if (rootData.graphs[root]) {
+        for (const subDir of rootData.graphs[root].subDirs) {
+          if (!isIncremental || !rootData.graphs[subDir]) {
+            const subResult = await analyzeDependencies(subDir);
+            if (subResult) {
+              rootData.graphs[subDir] = subResult;
+              changed = true;
+            }
+          } else {
+            console.log(`Skipping already fetched subdirectory: ${subDir}`);
           }
         }
       }
 
-      // Save each root to its own file
-      const safeFileName = root.replace(/\//g, '_') + '.json';
-      fs.writeFileSync(path.join(rootsDir, safeFileName), JSON.stringify(rootData, null, 2));
-      console.log(`Saved root data for ${root} to roots/${safeFileName}`);
+      // Save if new data was added OR if we are NOT in incremental mode
+      if (changed || !isIncremental) {
+        fs.writeFileSync(filePath, JSON.stringify(rootData, null, 2));
+        console.log(`Saved root data for ${root} to roots/${safeFileName}`);
+      } else {
+        console.log(`No updates needed for ${root}.`);
+      }
     }
 
     console.log(`Successfully generated roots.json and individual root files.`);

@@ -1,0 +1,5424 @@
+{
+  "graphs": {
+    "headless": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "headless/app",
+        "headless/lib",
+        "headless/public",
+        "headless/test"
+      ]
+    },
+    "headless/app": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "headless_shell.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/app/headless_shell.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_shell_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/app/headless_shell_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_shell.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_shell.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 1
+          },
+          {
+            "id": "base_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check_deref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_deref.h",
+            "inDegree": 1
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_pool.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/thread_pool.h",
+            "inDegree": 1
+          },
+          {
+            "id": "version_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/version_info/version_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "branding_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/branding_buildflags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 2
+          },
+          {
+            "id": "os_crypt_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/os_crypt/common/os_crypt_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_main.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/app/content_main.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_browser_impl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_web_contents_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_web_contents_impl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_content_main_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_main_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser_context.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser_context.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_web_contents.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_web_contents.h",
+            "inDegree": 1
+          },
+          {
+            "id": "switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "filename_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/filename_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/app/crash_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_as_crashpad_handler_win.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/app/run_as_crashpad_handler_win.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sandbox_types.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "sandbox/win/src/sandbox_types.h",
+            "inDegree": 2
+          },
+          {
+            "id": "headless_mode_policy.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/policy/headless_mode_policy.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_command_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/command_handler/headless_command_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sandbox_helper_win.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/app/sandbox_helper_win.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "seatbelt_exec.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "sandbox/mac/seatbelt_exec.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_shell.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "base_switches.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "check_deref.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "version_info.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "branding_buildflags.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "os_crypt_switches.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "content_main.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_content_main_delegate.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_browser_context.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "filename_util.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "crash_switches.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "run_as_crashpad_handler_win.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "sandbox_types.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_mode_policy.h"
+          },
+          {
+            "source": "headless_shell.cc",
+            "target": "headless_command_handler.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "headless_shell.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "sandbox_helper_win.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "sandbox_types.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "headless_shell_main.cc",
+            "target": "seatbelt_exec.h"
+          }
+        ],
+        "leafNodes": [
+          "headless_shell.cc",
+          "headless_shell_main.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "headless/lib": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "headless_content_client.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_client.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_content_client.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_client.h",
+            "inDegree": 2
+          },
+          {
+            "id": "headless_content_main_delegate.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_main_delegate.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_content_main_delegate.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_main_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_crash_reporter_client.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_crash_reporter_client.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_crash_reporter_client.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_crash_reporter_client.h",
+            "inDegree": 2
+          },
+          {
+            "id": "origin_trial_policy_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/embedder_support/origin_trials/origin_trial_policy_impl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "l10n_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/l10n/l10n_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "resource_bundle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/resource/resource_bundle.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 3
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "lock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/lock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdint",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdint",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 2
+          },
+          {
+            "id": "variant",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "variant",
+            "inDegree": 2
+          },
+          {
+            "id": "base_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 2
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          },
+          {
+            "id": "environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/environment.h",
+            "inDegree": 2
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "lazy_instance.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/lazy_instance.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging_settings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging/logging_settings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "notimplemented.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notimplemented.h",
+            "inDegree": 1
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 2
+          },
+          {
+            "id": "current_process.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/current_process.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "trace_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_event.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 4
+          },
+          {
+            "id": "switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/switches.h",
+            "inDegree": 6
+          },
+          {
+            "id": "crash_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/common/crash_key.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_keys.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/common/crash_keys.h",
+            "inDegree": 1
+          },
+          {
+            "id": "devtools_pipe.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/devtools/devtools_pipe/devtools_pipe.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_main_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/browser_main_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_switches.h",
+            "inDegree": 2
+          },
+          {
+            "id": "main_function_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/main_function_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "profiling.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/profiling.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gpu_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "command_line_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/command_line_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_browser_impl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_content_browser_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_content_browser_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_content_renderer_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/renderer/headless_content_renderer_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_content_utility_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/utility/headless_content_utility_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ui_base_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/ui_base_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gl_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gl/gl_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ozone_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/ozone/public/ozone_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dark_mode_support.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/dark_mode_support.h",
+            "inDegree": 1
+          },
+          {
+            "id": "resource_exhaustion.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/resource_exhaustion.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedded_resource_pack_data.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/embedded_resource_pack_data.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedded_resource_pack_strings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/embedded_resource_pack_strings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crashpad.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/app/crashpad.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/app/crash_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "signal.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "signal.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pref_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/prefs/pref_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "initialize_mojo_core.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/app/initialize_mojo_core.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_field_trials.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_field_trials.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 3
+          },
+          {
+            "id": "content_main_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/app/content_main_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_browser_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/content_browser_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_renderer_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/renderer/content_renderer_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_export.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "version_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/version_info/version_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_reporter_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/crash/core/app/crash_reporter_client.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "headless_content_client.cc",
+            "target": "headless_content_client.h"
+          },
+          {
+            "source": "headless_content_client.cc",
+            "target": "origin_trial_policy_impl.h"
+          },
+          {
+            "source": "headless_content_client.cc",
+            "target": "l10n_util.h"
+          },
+          {
+            "source": "headless_content_client.cc",
+            "target": "resource_bundle.h"
+          },
+          {
+            "source": "headless_content_client.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_content_client.h",
+            "target": "string_view"
+          },
+          {
+            "source": "headless_content_client.h",
+            "target": "lock.h"
+          },
+          {
+            "source": "headless_content_client.h",
+            "target": "content_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_content_main_delegate.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "cstdint"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "utility"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "variant"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "base_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "environment.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "lazy_instance.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "logging_settings.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "notimplemented.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "current_process.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "crash_key.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "crash_keys.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "devtools_pipe.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "browser_main_runner.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "main_function_params.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "profiling.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "gpu_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "command_line_handler.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_content_browser_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_crash_reporter_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_content_renderer_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_content_utility_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "l10n_util.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "resource_bundle.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "ui_base_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "gl_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "ozone_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "dark_mode_support.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "resource_exhaustion.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "embedded_resource_pack_data.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "embedded_resource_pack_strings.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "crashpad.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "crash_switches.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "signal.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "pref_service.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "initialize_mojo_core.h"
+          },
+          {
+            "source": "headless_content_main_delegate.cc",
+            "target": "headless_field_trials.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "optional"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "variant"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "content_main_delegate.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "content_browser_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "content_renderer_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "headless_content_client.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_content_main_delegate.h",
+            "target": "headless_export.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "headless_crash_reporter_client.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "utility"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "environment.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "version_info.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_crash_reporter_client.h",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_crash_reporter_client.h",
+            "target": "crash_reporter_client.h"
+          }
+        ],
+        "leafNodes": [
+          "headless_content_client.cc",
+          "headless_content_main_delegate.cc",
+          "headless_crash_reporter_client.cc"
+        ]
+      },
+      "subDirs": [
+        "headless/lib/browser",
+        "headless/lib/common",
+        "headless/lib/renderer",
+        "headless/lib/utility"
+      ]
+    },
+    "headless/public": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "headless_browser.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser.h",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser_context.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser_context.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_export.h",
+            "inDegree": 3
+          },
+          {
+            "id": "headless_shell.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_shell.h",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_web_contents.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_web_contents.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_window_state.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_window_state.h",
+            "inDegree": 1
+          },
+          {
+            "id": "switches.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/public/switches.h",
+            "inDegree": 0
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 2
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 2
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 3
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 2
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 3
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 1
+          },
+          {
+            "id": "font_render_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/font_render_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "size.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/size.h",
+            "inDegree": 1
+          },
+          {
+            "id": "list",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "list",
+            "inDegree": 1
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 1
+          },
+          {
+            "id": "proxy_resolution_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/proxy_resolution/proxy_resolution_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_preferences.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/web_preferences/web_preferences.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_main.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/app/content_main.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 2
+          },
+          {
+            "id": "kill.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/process/kill.h",
+            "inDegree": 1
+          },
+          {
+            "id": "rect.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/rect.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "headless_browser.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "optional"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "vector"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "headless_browser_context.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "headless_export.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "font_render_params.h"
+          },
+          {
+            "source": "headless_browser.h",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "list"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "vector"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "headless_export.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "proxy_resolution_service.h"
+          },
+          {
+            "source": "headless_browser_context.h",
+            "target": "web_preferences.h"
+          },
+          {
+            "source": "headless_shell.h",
+            "target": "content_main.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "string_view"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "kill.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "headless_export.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "headless_window_state.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "rect.h"
+          },
+          {
+            "source": "headless_web_contents.h",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_window_state.h",
+            "target": "optional"
+          },
+          {
+            "source": "headless_window_state.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_window_state.h",
+            "target": "string_view"
+          }
+        ],
+        "leafNodes": [
+          "headless_browser.h",
+          "headless_shell.h",
+          "switches.h"
+        ]
+      },
+      "subDirs": [
+        "headless/public/domains"
+      ]
+    },
+    "headless/test": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "headless_browser_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser_context_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_context_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser_test.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_test.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser_test.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_test.h",
+            "inDegree": 13
+          },
+          {
+            "id": "headless_browser_test_utils.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_test_utils.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser_test_utils.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_test_utils.h",
+            "inDegree": 14
+          },
+          {
+            "id": "headless_browser_user_agent_metadata_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_browser_user_agent_metadata_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_client_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_client_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_command_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_command_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_compositor_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_compositor_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_devtooled_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_devtooled_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_devtooled_browsertest.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_devtooled_browsertest.h",
+            "inDegree": 8
+          },
+          {
+            "id": "headless_devtools_client_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_devtools_client_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_origin_trials_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_origin_trials_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_pdf_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_pdf_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_pdf_browsertest.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_pdf_browsertest.h",
+            "inDegree": 3
+          },
+          {
+            "id": "headless_policy_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_policy_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_printtopdf_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_printtopdf_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_protocol_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_protocol_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_protocol_browsertest.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_protocol_browsertest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "headless_structured_pdf_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_structured_pdf_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_test_launcher.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_test_launcher.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_web_contents_browsertest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "headless/test/headless_web_contents_browsertest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "headless_browser.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser.h",
+            "inDegree": 9
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 12
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 10
+          },
+          {
+            "id": "tuple",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "tuple",
+            "inDegree": 2
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 6
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 8
+          },
+          {
+            "id": "file_enumerator.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_enumerator.h",
+            "inDegree": 2
+          },
+          {
+            "id": "file_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_util.h",
+            "inDegree": 6
+          },
+          {
+            "id": "scoped_temp_dir.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_temp_dir.h",
+            "inDegree": 4
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 13
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 5
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 5
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 5
+          },
+          {
+            "id": "utf_string_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/utf_string_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread_restrictions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_restrictions.h",
+            "inDegree": 6
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/values.h",
+            "inDegree": 11
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 12
+          },
+          {
+            "id": "simple_devtools_protocol_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/devtools/simple_devtools_protocol_client/simple_devtools_protocol_client.h",
+            "inDegree": 6
+          },
+          {
+            "id": "headless_select_file_dialog.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/select_file_dialog/headless_select_file_dialog.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_infobar_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/infobars/content/content_infobar_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "confirm_infobar_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/infobars/core/confirm_infobar_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "infobar.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/infobars/core/infobar.h",
+            "inDegree": 1
+          },
+          {
+            "id": "infobars_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/infobars/core/infobars_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_browser_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/content_browser_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "navigation_controller.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/navigation_controller.h",
+            "inDegree": 1
+          },
+          {
+            "id": "navigation_entry.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/navigation_entry.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_controller_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_controller_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_descriptor_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_descriptor_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ssl_status.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/ssl_status.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_contents.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/web_contents.h",
+            "inDegree": 6
+          },
+          {
+            "id": "content_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_switches.h",
+            "inDegree": 7
+          },
+          {
+            "id": "url_constants.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/url_constants.h",
+            "inDegree": 3
+          },
+          {
+            "id": "browser_test.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/browser_test.h",
+            "inDegree": 14
+          },
+          {
+            "id": "browser_test_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/browser_test_utils.h",
+            "inDegree": 2
+          },
+          {
+            "id": "no_renderer_crashes_assertion.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/no_renderer_crashes_assertion.h",
+            "inDegree": 2
+          },
+          {
+            "id": "prerender_test_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/prerender_test_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_navigation_observer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/test_navigation_observer.h",
+            "inDegree": 2
+          },
+          {
+            "id": "headless_browser_context_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_browser_context_impl.h",
+            "inDegree": 4
+          },
+          {
+            "id": "headless_browser_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_browser_impl.h",
+            "inDegree": 6
+          },
+          {
+            "id": "headless_web_contents_impl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_web_contents_impl.h",
+            "inDegree": 10
+          },
+          {
+            "id": "headless_web_contents.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_web_contents.h",
+            "inDegree": 9
+          },
+          {
+            "id": "switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/switches.h",
+            "inDegree": 12
+          },
+          {
+            "id": "net_errors.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/net_errors.h",
+            "inDegree": 3
+          },
+          {
+            "id": "cert_status_flags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/cert/cert_status_flags.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ssl_server_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/ssl/ssl_server_config.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedded_test_server.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/embedded_test_server.h",
+            "inDegree": 6
+          },
+          {
+            "id": "external_mount_points.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "storage/browser/file_system/external_mount_points.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 10
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 15
+          },
+          {
+            "id": "chrome_debug_urls.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/chrome_debug_urls.h",
+            "inDegree": 2
+          },
+          {
+            "id": "permission_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/permissions/permission_utils.h",
+            "inDegree": 2
+          },
+          {
+            "id": "user_activation_notification_type.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/mojom/frame/user_activation_notification_type.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "blink_resources.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/resources/grit/blink_resources.h",
+            "inDegree": 1
+          },
+          {
+            "id": "blink_strings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/strings/grit/blink_strings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "clipboard.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/clipboard/clipboard.h",
+            "inDegree": 1
+          },
+          {
+            "id": "clipboard_non_backed.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/clipboard/clipboard_non_backed.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_clipboard_writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/clipboard/scoped_clipboard_writer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "resource_bundle.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/resource/resource_bundle.h",
+            "inDegree": 1
+          },
+          {
+            "id": "size.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/size.h",
+            "inDegree": 5
+          },
+          {
+            "id": "gl_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gl/gl_switches.h",
+            "inDegree": 2
+          },
+          {
+            "id": "select_file_dialog.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/shell_dialogs/select_file_dialog.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_report_database.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/crashpad/crashpad/client/crash_report_database.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mac_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/mac/mac_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "render_view_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/render_view_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser_context.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/public/headless_browser_context.h",
+            "inDegree": 3
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 3
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 4
+          },
+          {
+            "id": "current_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/current_thread.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/browser_thread.h",
+            "inDegree": 1
+          },
+          {
+            "id": "render_process_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/render_process_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "v8_initializer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "gin/v8_initializer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_browser_main_parts.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/browser/headless_browser_main_parts.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_content_main_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "headless/lib/headless_content_main_delegate.h",
+            "inDegree": 2
+          },
+          {
+            "id": "buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/config/linux/dbus/buildflags.h",
+            "inDegree": 5
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 5
+          },
+          {
+            "id": "geolocation_system_permission_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/device/public/cpp/geolocation/geolocation_system_permission_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fake_geolocation_system_permission_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/device/public/cpp/test/fake_geolocation_system_permission_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "password_manager_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/password_manager/core/browser/password_manager_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "os_crypt_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/os_crypt/common/os_crypt_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_test_base.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/browser_test_base.h",
+            "inDegree": 2
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 6
+          },
+          {
+            "id": "json_writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_writer.h",
+            "inDegree": 5
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 2
+          },
+          {
+            "id": "gmock-matchers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock-matchers.h",
+            "inDegree": 1
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 6
+          },
+          {
+            "id": "user_agent_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/embedder_support/user_agent_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "version_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/version_info/version_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "http_request.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/http_request.h",
+            "inDegree": 1
+          },
+          {
+            "id": "http_response.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/http_response.h",
+            "inDegree": 1
+          },
+          {
+            "id": "cmath",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cmath",
+            "inDegree": 1
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 3
+          },
+          {
+            "id": "to_string.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/to_string.h",
+            "inDegree": 1
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_timeouts.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_timeouts.h",
+            "inDegree": 2
+          },
+          {
+            "id": "headless_command_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/command_handler/headless_command_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_command_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/command_handler/headless_command_switches.h",
+            "inDegree": 2
+          },
+          {
+            "id": "bitmap_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/test/bitmap_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "capture_std_stream.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/test/capture_std_stream.h",
+            "inDegree": 2
+          },
+          {
+            "id": "web_contents_observer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/web_contents_observer.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkBitmap.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkBitmap.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkColor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkColor.h",
+            "inDegree": 2
+          },
+          {
+            "id": "display_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/display/display_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "png_codec.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/codec/png_codec.h",
+            "inDegree": 2
+          },
+          {
+            "id": "point.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/point.h",
+            "inDegree": 1
+          },
+          {
+            "id": "rect.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/rect.h",
+            "inDegree": 2
+          },
+          {
+            "id": "size_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/size_conversions.h",
+            "inDegree": 2
+          },
+          {
+            "id": "signal.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "signal.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unistd.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "unistd.h",
+            "inDegree": 2
+          },
+          {
+            "id": "Windows.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "Windows.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pdf_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/test/pdf_utils.h",
+            "inDegree": 3
+          },
+          {
+            "id": "check_deref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_deref.h",
+            "inDegree": 2
+          },
+          {
+            "id": "base_paths.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base_paths.h",
+            "inDegree": 2
+          },
+          {
+            "id": "json_reader.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_reader.h",
+            "inDegree": 2
+          },
+          {
+            "id": "render_widget_host_view.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/render_widget_host_view.h",
+            "inDegree": 1
+          },
+          {
+            "id": "register_basic_auth_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/register_basic_auth_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dispatch.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/inspector_protocol/crdtp/dispatch.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_feature_list.h",
+            "inDegree": 4
+          },
+          {
+            "id": "content_features.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/common/content_features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_loader_interceptor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/url_loader_interceptor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "base64.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/base64.h",
+            "inDegree": 4
+          },
+          {
+            "id": "pdf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "pdf/pdf.h",
+            "inDegree": 3
+          },
+          {
+            "id": "fcntl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fcntl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "eintr_wrapper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/posix/eintr_wrapper.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pattern.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/pattern.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 3
+          },
+          {
+            "id": "string_split.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_split.h",
+            "inDegree": 2
+          },
+          {
+            "id": "platform_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/platform_thread.h",
+            "inDegree": 1
+          },
+          {
+            "id": "headless_mode_policy.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/policy/headless_mode_policy.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_policy_connector_base.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/policy/core/browser/browser_policy_connector_base.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mock_configuration_policy_provider.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/policy/core/common/mock_configuration_policy_provider.h",
+            "inDegree": 1
+          },
+          {
+            "id": "policy_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/policy/core/common/policy_map.h",
+            "inDegree": 1
+          },
+          {
+            "id": "host_port_pair.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/host_port_pair.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "values_test_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/values_test_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pdf_render_settings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/pdf_render_settings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "units.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/units.h",
+            "inDegree": 1
+          },
+          {
+            "id": "size_f.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/size_f.h",
+            "inDegree": 2
+          },
+          {
+            "id": "scoped_refptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/scoped_refptr.h",
+            "inDegree": 1
+          },
+          {
+            "id": "shared_test_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/test/shared_test_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/cpp/network_switches.h",
+            "inDegree": 1
+          },
+          {
+            "id": "features_generated.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/features_generated.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_meta_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/headless/test/test_meta_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "devtools_agent_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/devtools_agent_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 1
+          },
+          {
+            "id": "allow_check_is_test_for_testing.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/allow_check_is_test_for_testing.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/test_launcher.h",
+            "inDegree": 2
+          },
+          {
+            "id": "content_test_suite_base.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/content_test_suite_base.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_service_test_helper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/network_service_test_helper.h",
+            "inDegree": 1
+          },
+          {
+            "id": "win_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/win_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check_op.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_op.h",
+            "inDegree": 1
+          },
+          {
+            "id": "trace_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_event.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pixel_test_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "cc/test/pixel_test_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optimization_guide_features.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/optimization_guide/core/optimization_guide_features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "common_quality_data.pb.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/optimization_guide/proto/features/common_quality_data.pb.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_contents_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/web_contents_delegate.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "file_enumerator.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "utf_string_conversions.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_select_file_dialog.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "content_infobar_manager.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "confirm_infobar_delegate.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "infobar.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "infobars_switches.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "content_browser_client.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "navigation_controller.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "navigation_entry.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "permission_controller_delegate.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "permission_descriptor_util.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "ssl_status.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "content_client.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "no_renderer_crashes_assertion.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "prerender_test_util.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "test_navigation_observer.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_browser_context_impl.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "cert_status_flags.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "ssl_server_config.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "external_mount_points.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "chrome_debug_urls.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "permission_utils.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "user_activation_notification_type.mojom.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "blink_resources.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "blink_strings.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "clipboard.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "clipboard_non_backed.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "scoped_clipboard_writer.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "resource_bundle.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "gl_switches.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "select_file_dialog.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "crash_report_database.h"
+          },
+          {
+            "source": "headless_browser_browsertest.cc",
+            "target": "mac_util.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "render_view_host.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_browser_context.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_browser_context_browsertest.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "current_thread.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "browser_thread.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "render_process_host.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "v8_initializer.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_browser_main_parts.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_content_main_delegate.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "gl_switches.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "geolocation_system_permission_manager.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "fake_geolocation_system_permission_manager.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "password_manager_switches.h"
+          },
+          {
+            "source": "headless_browser_test.cc",
+            "target": "os_crypt_switches.h"
+          },
+          {
+            "source": "headless_browser_test.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_browser_test.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_browser_test.h",
+            "target": "browser_test_base.h"
+          },
+          {
+            "source": "headless_browser_test.h",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "test_navigation_observer.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_test_utils.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_browser_test_utils.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_browser_test_utils.h",
+            "target": "string_view"
+          },
+          {
+            "source": "headless_browser_test_utils.h",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_browser_test_utils.h",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "headless_browser_test_utils.h",
+            "target": "gmock-matchers.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "user_agent_utils.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "version_info.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_browser_context_impl.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "http_request.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "http_response.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_browser_user_agent_metadata_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_client_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "cmath"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "to_string.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "test_timeouts.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_command_handler.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_command_switches.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "bitmap_utils.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "capture_std_stream.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "web_contents_observer.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser_context_impl.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser_context.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "SkColor.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "display_switches.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "png_codec.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "point.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "rect.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "size_conversions.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "signal.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "Windows.h"
+          },
+          {
+            "source": "headless_command_browsertest.cc",
+            "target": "pdf_utils.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "headless_protocol_browsertest.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_compositor_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "check_deref.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "headless_browser_context.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "web_contents_observer.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "browser_test_base.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_devtooled_browsertest.h",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "render_widget_host_view.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "no_renderer_crashes_assertion.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "register_basic_auth_handler.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "chrome_debug_urls.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "dispatch.h"
+          },
+          {
+            "source": "headless_devtools_client_browsertest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "content_features.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "url_loader_interceptor.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "headless_browser_context_impl.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_origin_trials_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "headless_pdf_browsertest.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "pdf_utils.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "pdf.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_pdf_browsertest.h",
+            "target": "span.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.h",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_pdf_browsertest.h",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "fcntl.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "scoped_temp_dir.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "pattern.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "test_timeouts.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "headless_mode_policy.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "capture_std_stream.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "browser_policy_connector_base.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "mock_configuration_policy_provider.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "policy_map.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "host_port_pair.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_policy_browsertest.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "values_test_util.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "headless_command_switches.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "pdf_utils.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "headless_pdf_browsertest.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "pdf.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "pdf_render_settings.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "units.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "dispatch.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "rect.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "size_conversions.h"
+          },
+          {
+            "source": "headless_printtopdf_browsertest.cc",
+            "target": "size_f.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "headless_protocol_browsertest.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "base_paths.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "string_split.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "shared_test_util.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "network_switches.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "features_generated.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.cc",
+            "target": "permission_utils.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "memory"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "string"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "vector"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "test_meta_info.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "devtools_agent_host.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_protocol_browsertest.h",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "span.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "file_enumerator.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "headless_pdf_browsertest.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "pdf.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_structured_pdf_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "allow_check_is_test_for_testing.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "test_launcher.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "content_test_suite_base.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "network_service_test_helper.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "test_launcher.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "headless_browser_impl.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "headless_content_main_delegate.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_test_launcher.cc",
+            "target": "win_util.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_web_contents.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "string"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "base64.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "check_deref.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "pixel_test_utils.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "simple_devtools_protocol_client.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "optimization_guide_features.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "common_quality_data.pb.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "web_contents_delegate.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "browser_test.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_web_contents_impl.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_browser.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_browser_test.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_browser_test_utils.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "headless_devtooled_browsertest.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "switches.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "SkColor.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "png_codec.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "size_f.h"
+          },
+          {
+            "source": "headless_web_contents_browsertest.cc",
+            "target": "gurl.h"
+          }
+        ],
+        "leafNodes": [
+          "headless_browser_browsertest.cc",
+          "headless_browser_context_browsertest.cc",
+          "headless_browser_test.cc",
+          "headless_browser_test_utils.cc",
+          "headless_browser_user_agent_metadata_browsertest.cc",
+          "headless_client_browsertest.cc",
+          "headless_command_browsertest.cc",
+          "headless_compositor_browsertest.cc",
+          "headless_devtooled_browsertest.cc",
+          "headless_devtools_client_browsertest.cc",
+          "headless_origin_trials_browsertest.cc",
+          "headless_pdf_browsertest.cc",
+          "headless_policy_browsertest.cc",
+          "headless_printtopdf_browsertest.cc",
+          "headless_protocol_browsertest.cc",
+          "headless_structured_pdf_browsertest.cc",
+          "headless_test_launcher.cc",
+          "headless_web_contents_browsertest.cc"
+        ]
+      },
+      "subDirs": [
+        "headless/test/data"
+      ]
+    }
+  }
+}

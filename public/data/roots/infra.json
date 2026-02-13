@@ -1,0 +1,63 @@
+{
+  "graphs": {
+    "infra": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "infra/archive_config",
+        "infra/config",
+        "infra/orchestrator",
+        "infra/scripts"
+      ]
+    },
+    "infra/archive_config": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "infra/config": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "infra/config/dev",
+        "infra/config/generated",
+        "infra/config/generators",
+        "infra/config/gn_args",
+        "infra/config/groups",
+        "infra/config/lib",
+        "infra/config/migration",
+        "infra/config/outages",
+        "infra/config/scripts",
+        "infra/config/subprojects",
+        "infra/config/targets",
+        "infra/config/templates",
+        "infra/config/validators"
+      ]
+    },
+    "infra/orchestrator": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "infra/scripts": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    }
+  }
+}

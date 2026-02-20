@@ -1,24 +1,3 @@
 {
-  "graphs": {
-    "webkit": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "webkit/data"
-      ]
-    },
-    "webkit/data": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "webkit/data/test_shell"
-      ]
-    }
-  }
+  "graphs": {}
 }

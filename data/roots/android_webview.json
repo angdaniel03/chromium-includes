@@ -489,7 +489,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_devtools_server.h",
-            "inDegree": 0
+            "inDegree": 1
           },
           {
             "id": "aw_download_manager_delegate.cc",
@@ -1191,7 +1191,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "memory",
-            "inDegree": 22
+            "inDegree": 23
           },
           {
             "id": "string",
@@ -1209,7 +1209,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "utility",
-            "inDegree": 9
+            "inDegree": 10
           },
           {
             "id": "url_constants.h",
@@ -1281,7 +1281,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/base/net_errors.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "http_util.h",
@@ -1326,7 +1326,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "jni.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "back_forward_cache.h",
@@ -1380,7 +1380,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "vector",
-            "inDegree": 6
+            "inDegree": 7
           },
           {
             "id": "aw_metrics_service_client.h",
@@ -1497,7 +1497,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/command_line.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "map_util.h",
@@ -1506,6 +1506,15 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/containers/map_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "to_vector.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/to_vector.h",
             "inDegree": 1
           },
           {
@@ -1533,7 +1542,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/bind.h",
-            "inDegree": 8
+            "inDegree": 9
           },
           {
             "id": "callback.h",
@@ -2028,7 +2037,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/files/file_path.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "lazy_instance.h",
@@ -2136,7 +2145,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/strings/string_number_conversions.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "sequenced_task_runner.h",
@@ -2163,7 +2172,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/values.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "scoped_user_pref_update.h",
@@ -2631,7 +2640,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/common/content_switches.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "result_codes.h",
@@ -3018,7 +3027,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/strings/stringprintf.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "crash_metrics_reporter_android.h",
@@ -3378,7 +3387,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/ptr_util.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "histogram_macros.h",
@@ -5097,6 +5106,60 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/devtools_agent_host.h",
+            "inDegree": 2
+          },
+          {
+            "id": "devtools_manager_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/devtools_manager_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "devtools_auth.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/android/devtools_auth.h",
+            "inDegree": 1
+          },
+          {
+            "id": "devtools_socket_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/devtools_socket_factory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "tcp_server_socket.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/socket/tcp_server_socket.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unix_domain_server_socket_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/socket/unix_domain_server_socket_posix.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwDevToolsServer_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwDevToolsServer_jni.h",
             "inDegree": 1
           }
         ],
@@ -5336,6 +5399,10 @@
           {
             "source": "aw_browser_context.cc",
             "target": "map_util.h"
+          },
+          {
+            "source": "aw_browser_context.cc",
+            "target": "to_vector.h"
           },
           {
             "source": "aw_browser_context.cc",
@@ -9056,6 +9123,90 @@
           {
             "source": "aw_devtools_manager_delegate.cc",
             "target": "web_contents.h"
+          },
+          {
+            "source": "aw_devtools_manager_delegate.h",
+            "target": "jni.h"
+          },
+          {
+            "source": "aw_devtools_manager_delegate.h",
+            "target": "memory"
+          },
+          {
+            "source": "aw_devtools_manager_delegate.h",
+            "target": "vector"
+          },
+          {
+            "source": "aw_devtools_manager_delegate.h",
+            "target": "devtools_manager_delegate.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "aw_devtools_server.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "utility"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "devtools_auth.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "devtools_agent_host.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "devtools_socket_factory.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "content_switches.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "tcp_server_socket.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "unix_domain_server_socket_posix.h"
+          },
+          {
+            "source": "aw_devtools_server.cc",
+            "target": "AwDevToolsServer_jni.h"
           }
         ],
         "leafNodes": [
@@ -9087,7 +9238,6 @@
           "aw_dark_mode.cc",
           "aw_devtools_manager_delegate.cc",
           "aw_devtools_server.cc",
-          "aw_devtools_server.h",
           "aw_download_manager_delegate.cc",
           "aw_enterprise_authentication_app_link_manager.cc",
           "aw_feature_list_creator.cc",

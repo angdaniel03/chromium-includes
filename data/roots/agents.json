@@ -69,7 +69,9 @@
       },
       "subDirs": [
         "agents/skills/chromium-docs",
-        "agents/skills/fuzzing"
+        "agents/skills/fuzzing",
+        "agents/skills/jni-type-conversion",
+        "agents/skills/policy-creation"
       ]
     },
     "agents/testing": {

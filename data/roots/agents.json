@@ -70,8 +70,11 @@
       "subDirs": [
         "agents/skills/chromium-docs",
         "agents/skills/fuzzing",
+        "agents/skills/histograms",
         "agents/skills/jni-type-conversion",
-        "agents/skills/policy-creation"
+        "agents/skills/loadline",
+        "agents/skills/policy-creation",
+        "agents/skills/webui-lit-migration"
       ]
     },
     "agents/testing": {

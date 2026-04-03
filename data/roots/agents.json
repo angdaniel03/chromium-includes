@@ -69,11 +69,14 @@
       },
       "subDirs": [
         "agents/skills/chromium-docs",
+        "agents/skills/cl-description",
         "agents/skills/fuzzing",
         "agents/skills/histograms",
         "agents/skills/jni-type-conversion",
         "agents/skills/loadline",
+        "agents/skills/network-traffic-annotations",
         "agents/skills/policy-creation",
+        "agents/skills/trace-analysis",
         "agents/skills/webui-lit-migration"
       ]
     },

@@ -1,3 +1,17 @@
 {
-  "graphs": {}
+  "graphs": {
+    "headless": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "headless/app",
+        "headless/lib",
+        "headless/public",
+        "headless/test"
+      ]
+    }
+  }
 }

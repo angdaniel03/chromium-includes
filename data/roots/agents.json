@@ -46,6 +46,7 @@
         "leafNodes": []
       },
       "subDirs": [
+        "agents/projects/bedrock",
         "agents/projects/modernization"
       ]
     },

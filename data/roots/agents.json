@@ -47,6 +47,7 @@
       },
       "subDirs": [
         "agents/projects/bedrock",
+        "agents/projects/code-health",
         "agents/projects/modernization"
       ]
     },
@@ -71,13 +72,17 @@
       "subDirs": [
         "agents/skills/chromium-docs",
         "agents/skills/cl-description",
+        "agents/skills/feature-flag-removal",
         "agents/skills/fuzzing",
         "agents/skills/histograms",
+        "agents/skills/java-memory-leaks",
         "agents/skills/jni-type-conversion",
         "agents/skills/loadline",
         "agents/skills/network-traffic-annotations",
+        "agents/skills/nullaway",
         "agents/skills/policy-creation",
         "agents/skills/trace-analysis",
+        "agents/skills/utr",
         "agents/skills/webui-lit-migration"
       ]
     },

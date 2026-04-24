@@ -327,7 +327,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_contents_io_thread_client.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "aw_contents_origin_matcher.cc",
@@ -381,7 +381,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_context_menu_helper.h",
-            "inDegree": 0
+            "inDegree": 1
           },
           {
             "id": "aw_context_permissions_delegate.h",
@@ -408,7 +408,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_cookie_access_policy.h",
-            "inDegree": 2
+            "inDegree": 4
           },
           {
             "id": "aw_cookie_access_policy_unittest.cc",
@@ -435,7 +435,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_crash_keys.h",
-            "inDegree": 1
+            "inDegree": 3
           },
           {
             "id": "aw_crash_keys_unittest.cc",
@@ -1218,7 +1218,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "memory",
-            "inDegree": 22
+            "inDegree": 23
           },
           {
             "id": "string",
@@ -1227,7 +1227,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "string",
-            "inDegree": 14
+            "inDegree": 16
           },
           {
             "id": "utility",
@@ -1308,7 +1308,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/base/net_errors.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "http_util.h",
@@ -1335,7 +1335,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "url/gurl.h",
-            "inDegree": 7
+            "inDegree": 9
           },
           {
             "id": "AndroidProtocolHandler_jni.h",
@@ -1398,7 +1398,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "string_view",
-            "inDegree": 6
+            "inDegree": 8
           },
           {
             "id": "vector",
@@ -1444,6 +1444,15 @@
             "isSystem": false,
             "fullPath": "android_webview/browser/network_service/net_helpers.h",
             "inDegree": 3
+          },
+          {
+            "id": "aw_prefetch_prefs.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser/prefetch/aw_prefetch_prefs.h",
+            "inDegree": 1
           },
           {
             "id": "aw_preloading_utils.h",
@@ -1533,7 +1542,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/check_op.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "command_line.h",
@@ -1875,7 +1884,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/browser_thread.h",
-            "inDegree": 11
+            "inDegree": 12
           },
           {
             "id": "download_request_utils.h",
@@ -1893,7 +1902,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/render_process_host.h",
-            "inDegree": 10
+            "inDegree": 11
           },
           {
             "id": "spare_render_process_host_manager.h",
@@ -2172,7 +2181,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/no_destructor.h",
-            "inDegree": 5
+            "inDegree": 8
           },
           {
             "id": "strcat.h",
@@ -2190,7 +2199,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/strings/string_number_conversions.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "sequenced_task_runner.h",
@@ -2208,7 +2217,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/trace_event/trace_event.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "values.h",
@@ -2307,7 +2316,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "testing/gtest/include/gtest/gtest.h",
-            "inDegree": 5
+            "inDegree": 7
           },
           {
             "id": "set",
@@ -2316,7 +2325,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "set",
-            "inDegree": 1
+            "inDegree": 3
           },
           {
             "id": "aw_metrics_service_accessor.h",
@@ -2514,7 +2523,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "components/crash/core/common/crash_key.h",
-            "inDegree": 2
+            "inDegree": 4
           },
           {
             "id": "component_updater_utils.h",
@@ -2658,7 +2667,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/render_frame_host.h",
-            "inDegree": 7
+            "inDegree": 8
           },
           {
             "id": "synthetic_trial_syncer.h",
@@ -3072,7 +3081,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/strings/stringprintf.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "crash_metrics_reporter_android.h",
@@ -3270,7 +3279,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "testing/gmock/include/gmock/gmock.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "cstddef",
@@ -3774,7 +3783,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/cookies/site_for_cookies.h",
-            "inDegree": 1
+            "inDegree": 3
           },
           {
             "id": "net_buildflags.h",
@@ -4863,7 +4872,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/javascript_dialog_manager.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "ssl.h",
@@ -4908,7 +4917,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/synchronization/lock.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "scoped_blocking_call.h",
@@ -4935,7 +4944,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/frame_tree_node_id.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "web_contents_user_data.h",
@@ -4944,7 +4953,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/web_contents_user_data.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "data_url.h",
@@ -4989,7 +4998,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/global_routing_id.h",
-            "inDegree": 1
+            "inDegree": 3
           },
           {
             "id": "google_util.h",
@@ -5034,6 +5043,123 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "android_webview/browser_jni_headers/AwContentsStatics_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "socket_tag.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/socket/socket_tag.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwContextMenuHelper_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwContextMenuHelper_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "context_menu_builder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/embedder_support/android/contextmenu/context_menu_builder.h",
+            "inDegree": 1
+          },
+          {
+            "id": "view_android.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/android/view_android.h",
+            "inDegree": 1
+          },
+          {
+            "id": "context_menu_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/context_menu_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/permissions/permission_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "websocket_handshake_request_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/websocket_handshake_request_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "static_cookie_policy.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/cookies/static_cookie_policy.h",
+            "inDegree": 1
+          },
+          {
+            "id": "status.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/storage_access_api/status.h",
+            "inDegree": 2
+          },
+          {
+            "id": "optional_ref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/optional_ref.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/network_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "tokens.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/tokens/tokens.h",
+            "inDegree": 1
+          },
+          {
+            "id": "deque",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "deque",
             "inDegree": 1
           }
         ],
@@ -5225,6 +5351,10 @@
           {
             "source": "aw_browser_context.cc",
             "target": "net_helpers.h"
+          },
+          {
+            "source": "aw_browser_context.cc",
+            "target": "aw_prefetch_prefs.h"
           },
           {
             "source": "aw_browser_context.cc",
@@ -8428,6 +8558,10 @@
           },
           {
             "source": "aw_contents_client_bridge_unittest.cc",
+            "target": "javascript_dialog_manager.h"
+          },
+          {
+            "source": "aw_contents_client_bridge_unittest.cc",
             "target": "x509_certificate.h"
           },
           {
@@ -8805,6 +8939,214 @@
           {
             "source": "aw_contents_statics.cc",
             "target": "AwContentsStatics_jni.h"
+          },
+          {
+            "source": "aw_contents_statics.h",
+            "target": "socket_tag.h"
+          },
+          {
+            "source": "aw_context_menu_helper.cc",
+            "target": "aw_context_menu_helper.h"
+          },
+          {
+            "source": "aw_context_menu_helper.cc",
+            "target": "AwContextMenuHelper_jni.h"
+          },
+          {
+            "source": "aw_context_menu_helper.cc",
+            "target": "context_menu_builder.h"
+          },
+          {
+            "source": "aw_context_menu_helper.cc",
+            "target": "render_process_host.h"
+          },
+          {
+            "source": "aw_context_menu_helper.cc",
+            "target": "view_android.h"
+          },
+          {
+            "source": "aw_context_menu_helper.h",
+            "target": "context_menu_params.h"
+          },
+          {
+            "source": "aw_context_menu_helper.h",
+            "target": "web_contents_user_data.h"
+          },
+          {
+            "source": "aw_context_permissions_delegate.h",
+            "target": "permission_manager.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "aw_cookie_access_policy.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "aw_contents_io_thread_client.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "browser_thread.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "global_routing_id.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "render_frame_host.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "websocket_handshake_request_info.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "site_for_cookies.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "static_cookie_policy.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "status.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "lock.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "optional_ref.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "frame_tree_node_id.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "global_routing_id.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "network_delegate.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "status.h"
+          },
+          {
+            "source": "aw_cookie_access_policy.h",
+            "target": "tokens.h"
+          },
+          {
+            "source": "aw_cookie_access_policy_unittest.cc",
+            "target": "aw_cookie_access_policy.h"
+          },
+          {
+            "source": "aw_cookie_access_policy_unittest.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "aw_cookie_access_policy_unittest.cc",
+            "target": "site_for_cookies.h"
+          },
+          {
+            "source": "aw_cookie_access_policy_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aw_cookie_access_policy_unittest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "aw_crash_keys.h"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "deque"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "aw_crash_keys.cc",
+            "target": "crash_key.h"
+          },
+          {
+            "source": "aw_crash_keys.h",
+            "target": "set"
+          },
+          {
+            "source": "aw_crash_keys.h",
+            "target": "string"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "aw_crash_keys.h"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "crash_key.h"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "set"
+          },
+          {
+            "source": "aw_crash_keys_unittest.cc",
+            "target": "string"
           }
         ],
         "leafNodes": [
@@ -8830,7 +9172,6 @@
           "aw_contents_origin_matcher.cc",
           "aw_contents_statics.cc",
           "aw_context_menu_helper.cc",
-          "aw_context_menu_helper.h",
           "aw_cookie_access_policy.cc",
           "aw_cookie_access_policy_unittest.cc",
           "aw_crash_keys.cc",

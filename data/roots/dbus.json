@@ -1,3 +1,1890 @@
 {
-  "graphs": {}
+  "graphs": {
+    "dbus": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "bus.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/bus.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "bus.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/bus.h",
+            "inDegree": 7
+          },
+          {
+            "id": "bus_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/bus_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "dbus_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_export.h",
+            "inDegree": 6
+          },
+          {
+            "id": "dbus_result.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_result.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "dbus_result.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_result.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dbus_statistics.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_statistics.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "dbus_statistics.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_statistics.h",
+            "inDegree": 2
+          },
+          {
+            "id": "dbus_statistics_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/dbus_statistics_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "end_to_end_async_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/end_to_end_async_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "end_to_end_sync_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/end_to_end_sync_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "error.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/error.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "error.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/error.h",
+            "inDegree": 6
+          },
+          {
+            "id": "exported_object.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/exported_object.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "exported_object.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/exported_object.h",
+            "inDegree": 5
+          },
+          {
+            "id": "exported_object_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/exported_object_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "message.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/message.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "message.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/message.h",
+            "inDegree": 11
+          },
+          {
+            "id": "message_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/message_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mock_bus.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_bus.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mock_bus.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_bus.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mock_exported_object.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_exported_object.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mock_exported_object.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_exported_object.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mock_object_proxy.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_object_proxy.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mock_object_proxy.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_object_proxy.h",
+            "inDegree": 1
+          },
+          {
+            "id": "mock_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/mock_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "object_manager.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_manager.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "object_manager.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "object_manager_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_manager_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "object_path.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_path.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "object_path.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_path.h",
+            "inDegree": 13
+          },
+          {
+            "id": "object_proxy.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_proxy.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "object_proxy.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_proxy.h",
+            "inDegree": 6
+          },
+          {
+            "id": "object_proxy_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/object_proxy_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "property.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/property.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "property.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/property.h",
+            "inDegree": 0
+          },
+          {
+            "id": "property_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/property_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_dbus_error.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/scoped_dbus_error.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "scoped_dbus_error.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/scoped_dbus_error.h",
+            "inDegree": 2
+          },
+          {
+            "id": "signal_sender_verification_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/signal_sender_verification_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "string_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/string_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "string_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/string_util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "test_server.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/test_server.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "test_service.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/test_service.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "test_service.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/test_service.h",
+            "inDegree": 3
+          },
+          {
+            "id": "util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "values_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/values_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "values_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/values_util.h",
+            "inDegree": 0
+          },
+          {
+            "id": "values_util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "dbus/values_util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 4
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 9
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 10
+          },
+          {
+            "id": "file_descriptor_watcher_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_descriptor_watcher_posix.h",
+            "inDegree": 2
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/bind.h",
+            "inDegree": 5
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 5
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 5
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 2
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 3
+          },
+          {
+            "id": "waitable_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/waitable_event.h",
+            "inDegree": 3
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 3
+          },
+          {
+            "id": "scoped_blocking_call.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/scoped_blocking_call.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "thread_restrictions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread_restrictions.h",
+            "inDegree": 3
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 3
+          },
+          {
+            "id": "elapsed_timer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/timer/elapsed_timer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dbus.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "dbus/dbus.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 5
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 3
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 12
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 3
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ref_counted.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted.h",
+            "inDegree": 6
+          },
+          {
+            "id": "platform_thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/platform_thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "expected.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/expected.h",
+            "inDegree": 2
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 2
+          },
+          {
+            "id": "message_pump_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/message_loop/message_pump_type.h",
+            "inDegree": 2
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 4
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 4
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 6
+          },
+          {
+            "id": "tuple",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "tuple",
+            "inDegree": 1
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 2
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 2
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "array",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "array",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "single_thread_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_timeouts.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_timeouts.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "crash_logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/debug/crash_logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/gtest_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "uuid.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/uuid.h",
+            "inDegree": 1
+          },
+          {
+            "id": "format_macros.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/format_macros.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "message_lite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/protobuf/src/google/protobuf/message_lite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_file.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/scoped_file.h",
+            "inDegree": 1
+          },
+          {
+            "id": "eintr_wrapper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/posix/eintr_wrapper.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_proto.pb.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "dbus/test_proto.pb.h",
+            "inDegree": 1
+          },
+          {
+            "id": "location.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/location.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 3
+          }
+        ],
+        "links": [
+          {
+            "source": "bus.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "memory"
+          },
+          {
+            "source": "bus.cc",
+            "target": "utility"
+          },
+          {
+            "source": "bus.cc",
+            "target": "file_descriptor_watcher_posix.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "scoped_blocking_call.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "elapsed_timer.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "error.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "exported_object.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "object_manager.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "bus.cc",
+            "target": "scoped_dbus_error.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "dbus.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "map"
+          },
+          {
+            "source": "bus.h",
+            "target": "memory"
+          },
+          {
+            "source": "bus.h",
+            "target": "set"
+          },
+          {
+            "source": "bus.h",
+            "target": "string"
+          },
+          {
+            "source": "bus.h",
+            "target": "string_view"
+          },
+          {
+            "source": "bus.h",
+            "target": "utility"
+          },
+          {
+            "source": "bus.h",
+            "target": "vector"
+          },
+          {
+            "source": "bus.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "expected.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "error.h"
+          },
+          {
+            "source": "bus.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "file_descriptor_watcher_posix.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "error.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "exported_object.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "test_service.h"
+          },
+          {
+            "source": "bus_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "dbus_result.cc",
+            "target": "dbus_result.h"
+          },
+          {
+            "source": "dbus_result.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "dbus_result.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "dbus_result.h",
+            "target": "message.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "dbus_statistics.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "map"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "tuple"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "dbus_statistics.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "dbus_statistics.h",
+            "target": "string"
+          },
+          {
+            "source": "dbus_statistics.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "dbus_statistics_unittest.cc",
+            "target": "dbus_statistics.h"
+          },
+          {
+            "source": "dbus_statistics_unittest.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "dbus_statistics_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "array"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "optional"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "test_timeouts.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "thread.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "test_service.h"
+          },
+          {
+            "source": "end_to_end_async_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "test_service.h"
+          },
+          {
+            "source": "end_to_end_sync_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "error.cc",
+            "target": "error.h"
+          },
+          {
+            "source": "error.cc",
+            "target": "utility"
+          },
+          {
+            "source": "error.h",
+            "target": "string"
+          },
+          {
+            "source": "error.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "exported_object.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "string"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "utility"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "crash_logging.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "task_runner.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "error.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "scoped_dbus_error.h"
+          },
+          {
+            "source": "exported_object.cc",
+            "target": "util.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "dbus.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "map"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "memory"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "string"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "utility"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "waitable_event.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "platform_thread.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "exported_object.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "exported_object.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "ref_counted.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "gtest_util.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "uuid.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "bus.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "exported_object_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "string"
+          },
+          {
+            "source": "message.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "format_macros.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "message.cc",
+            "target": "message_lite.h"
+          },
+          {
+            "source": "message.h",
+            "target": "dbus.h"
+          },
+          {
+            "source": "message.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "message.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "message.h",
+            "target": "memory"
+          },
+          {
+            "source": "message.h",
+            "target": "string"
+          },
+          {
+            "source": "message.h",
+            "target": "vector"
+          },
+          {
+            "source": "message.h",
+            "target": "span.h"
+          },
+          {
+            "source": "message.h",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "message.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "message.h",
+            "target": "dbus_export.h"
+          },
+          {
+            "source": "message.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "message.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "eintr_wrapper.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "object_path.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "test_proto.pb.h"
+          },
+          {
+            "source": "message_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "mock_bus.cc",
+            "target": "mock_bus.h"
+          },
+          {
+            "source": "mock_bus.cc",
+            "target": "utility"
+          },
+          {
+            "source": "mock_bus.cc",
+            "target": "location.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "string"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "bus.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "message.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "mock_bus.h",
+            "target": "gmock.h"
+          },
+          {
+            "source": "mock_exported_object.cc",
+            "target": "mock_exported_object.h"
+          },
+          {
+            "source": "mock_exported_object.h",
+            "target": "string"
+          },
+          {
+            "source": "mock_exported_object.h",
+            "target": "exported_object.h"
+          },
+          {
+            "source": "mock_exported_object.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "mock_exported_object.h",
+            "target": "gmock.h"
+          },
+          {
+            "source": "mock_object_proxy.cc",
+            "target": "mock_object_proxy.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "memory"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "string"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "expected.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "error.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "message.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "object_path.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "object_proxy.h"
+          },
+          {
+            "source": "mock_object_proxy.h",
+            "target": "gmock.h"
+          }
+        ],
+        "leafNodes": [
+          "bus.cc",
+          "bus_unittest.cc",
+          "dbus_result.cc",
+          "dbus_statistics.cc",
+          "dbus_statistics_unittest.cc",
+          "end_to_end_async_unittest.cc",
+          "end_to_end_sync_unittest.cc",
+          "error.cc",
+          "exported_object.cc",
+          "exported_object_unittest.cc",
+          "message.cc",
+          "message_unittest.cc",
+          "mock_bus.cc",
+          "mock_exported_object.cc",
+          "mock_object_proxy.cc",
+          "mock_unittest.cc",
+          "object_manager.cc",
+          "object_manager_unittest.cc",
+          "object_path.cc",
+          "object_proxy.cc",
+          "object_proxy_unittest.cc",
+          "property.cc",
+          "property.h",
+          "property_unittest.cc",
+          "scoped_dbus_error.cc",
+          "signal_sender_verification_unittest.cc",
+          "string_util.cc",
+          "string_util_unittest.cc",
+          "test_server.cc",
+          "test_service.cc",
+          "util.cc",
+          "util_unittest.cc",
+          "values_util.cc",
+          "values_util.h",
+          "values_util_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    }
+  }
 }

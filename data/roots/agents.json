@@ -72,13 +72,10 @@
       "subDirs": [
         "agents/skills/chromevox-debugging-on-chromebook",
         "agents/skills/chromium-docs",
-        "agents/skills/cl-description",
         "agents/skills/feature-flag-removal",
         "agents/skills/fuzzing",
-        "agents/skills/git-cl-helper",
         "agents/skills/histograms",
         "agents/skills/java-memory-leaks",
-        "agents/skills/jj",
         "agents/skills/jni-type-conversion",
         "agents/skills/loadline",
         "agents/skills/network-traffic-annotations",
@@ -86,7 +83,6 @@
         "agents/skills/physical-chromebook-debugging",
         "agents/skills/policy-creation",
         "agents/skills/trace-analysis",
-        "agents/skills/utr",
         "agents/skills/webui-lit-migration"
       ]
     },

@@ -1,3 +1,349 @@
 {
-  "graphs": {}
+  "graphs": {
+    "fuchsia_web": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "fuchsia_web/av_testing",
+        "fuchsia_web/cast_streaming",
+        "fuchsia_web/common",
+        "fuchsia_web/runners",
+        "fuchsia_web/shell",
+        "fuchsia_web/webengine",
+        "fuchsia_web/webinstance_host"
+      ]
+    },
+    "fuchsia_web/av_testing": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "fuchsia_web/cast_streaming": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "cast_streaming.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/cast_streaming/cast_streaming.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "cast_streaming.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/cast_streaming/cast_streaming.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/fuchsia/file_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fidl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fuchsia/web/cpp/fidl.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "cast_streaming.cc",
+            "target": "cast_streaming.h"
+          },
+          {
+            "source": "cast_streaming.cc",
+            "target": "string"
+          },
+          {
+            "source": "cast_streaming.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "cast_streaming.cc",
+            "target": "file_utils.h"
+          },
+          {
+            "source": "cast_streaming.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "cast_streaming.h",
+            "target": "fidl.h"
+          }
+        ],
+        "leafNodes": [
+          "cast_streaming.cc"
+        ]
+      },
+      "subDirs": [
+        "fuchsia_web/cast_streaming/data"
+      ]
+    },
+    "fuchsia_web/common": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "fuchsia_dir_scheme.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/fuchsia_dir_scheme.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fuchsia_dir_scheme.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/fuchsia_dir_scheme.h",
+            "inDegree": 1
+          },
+          {
+            "id": "init_logging.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/init_logging.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "init_logging.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/init_logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/string_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "string_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "fuchsia_web/common/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/url_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 3
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging_settings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging/logging_settings.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stringprintf.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringprintf.h",
+            "inDegree": 1
+          },
+          {
+            "id": "version_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/version_info/version_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "fuchsia_dir_scheme.cc",
+            "target": "fuchsia_dir_scheme.h"
+          },
+          {
+            "source": "fuchsia_dir_scheme.cc",
+            "target": "url_util.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "init_logging.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "logging_settings.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "stringprintf.h"
+          },
+          {
+            "source": "init_logging.cc",
+            "target": "version_info.h"
+          },
+          {
+            "source": "init_logging.h",
+            "target": "string_view"
+          },
+          {
+            "source": "string_util.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "string_util.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "string_util.cc",
+            "target": "compiler_specific.h"
+          }
+        ],
+        "leafNodes": [
+          "fuchsia_dir_scheme.cc",
+          "init_logging.cc",
+          "string_util.cc"
+        ]
+      },
+      "subDirs": [
+        "fuchsia_web/common/test"
+      ]
+    }
+  }
 }

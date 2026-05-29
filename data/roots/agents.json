@@ -72,6 +72,7 @@
       "subDirs": [
         "agents/skills/chromevox-debugging-on-chromebook",
         "agents/skills/chromium-docs",
+        "agents/skills/disable-test",
         "agents/skills/feature-flag-removal",
         "agents/skills/fuzzing",
         "agents/skills/histograms",

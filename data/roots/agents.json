@@ -46,8 +46,6 @@
         "leafNodes": []
       },
       "subDirs": [
-        "agents/projects/bedrock",
-        "agents/projects/code-health",
         "agents/projects/modernization"
       ]
     },
@@ -70,21 +68,8 @@
         "leafNodes": []
       },
       "subDirs": [
-        "agents/skills/chromevox-debugging-on-chromebook",
         "agents/skills/chromium-docs",
-        "agents/skills/disable-test",
-        "agents/skills/feature-flag-removal",
-        "agents/skills/fuzzing",
-        "agents/skills/histograms",
-        "agents/skills/java-memory-leaks",
-        "agents/skills/jni-type-conversion",
-        "agents/skills/loadline",
-        "agents/skills/network-traffic-annotations",
-        "agents/skills/nullaway",
-        "agents/skills/physical-chromebook-debugging",
-        "agents/skills/policy-creation",
-        "agents/skills/trace-analysis",
-        "agents/skills/webui-lit-migration"
+        "agents/skills/fuzzing"
       ]
     },
     "agents/testing": {

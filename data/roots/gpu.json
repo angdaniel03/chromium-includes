@@ -1,3 +1,1224 @@
 {
-  "graphs": {}
+  "graphs": {
+    "gpu": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "dawn_end2end_tests_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/dawn_end2end_tests_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "dawn_perf_tests_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/dawn_perf_tests_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "dawn_unittests_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/dawn_unittests_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/gpu_export.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_gles2_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/gpu_gles2_export.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_util_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/gpu_util_export.h",
+            "inDegree": 0
+          },
+          {
+            "id": "raster_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/raster_export.h",
+            "inDegree": 0
+          },
+          {
+            "id": "swiftshader_tests_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/swiftshader_tests_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "tint_unittests_main.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/tint_unittests_main.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 5
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 5
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 2
+          },
+          {
+            "id": "single_thread_task_executor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/single_thread_task_executor.h",
+            "inDegree": 5
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 5
+          },
+          {
+            "id": "test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_suite.h",
+            "inDegree": 5
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 4
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "message_pump_type.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/message_loop/message_pump_type.h",
+            "inDegree": 3
+          }
+        ],
+        "links": [
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "dawn_end2end_tests_main.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "dawn_perf_tests_main.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "dawn_unittests_main.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "swiftshader_tests_main.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "message_pump_type.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "single_thread_task_executor.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "tint_unittests_main.cc",
+            "target": "gmock.h"
+          }
+        ],
+        "leafNodes": [
+          "dawn_end2end_tests_main.cc",
+          "dawn_perf_tests_main.cc",
+          "dawn_unittests_main.cc",
+          "gpu_export.h",
+          "gpu_gles2_export.h",
+          "gpu_util_export.h",
+          "raster_export.h",
+          "swiftshader_tests_main.cc",
+          "tint_unittests_main.cc"
+        ]
+      },
+      "subDirs": [
+        "gpu/GLES2",
+        "gpu/command_buffer",
+        "gpu/config",
+        "gpu/ipc",
+        "gpu/perftests",
+        "gpu/vulkan",
+        "gpu/webgpu"
+      ]
+    },
+    "gpu/GLES2": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "gl2chromium.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/GLES2/gl2chromium.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gl2chromium_autogen.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/GLES2/gl2chromium_autogen.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gl2extchromium.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/GLES2/gl2extchromium.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gl2platform.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "GLES2/gl2platform.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gl2.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "GLES2/gl2.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gl2ext.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "GLES2/gl2ext.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "gl2chromium.h",
+            "target": "gl2platform.h"
+          },
+          {
+            "source": "gl2chromium.h",
+            "target": "gl2chromium_autogen.h"
+          },
+          {
+            "source": "gl2extchromium.h",
+            "target": "gl2.h"
+          },
+          {
+            "source": "gl2extchromium.h",
+            "target": "gl2ext.h"
+          }
+        ],
+        "leafNodes": [
+          "gl2chromium.h",
+          "gl2extchromium.h"
+        ]
+      },
+      "subDirs": [
+        "gpu/GLES2/extensions"
+      ]
+    },
+    "gpu/command_buffer": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "gpu/command_buffer/client",
+        "gpu/command_buffer/common",
+        "gpu/command_buffer/docs",
+        "gpu/command_buffer/service",
+        "gpu/command_buffer/tests"
+      ]
+    },
+    "gpu/config": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "device_perf_info.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/device_perf_info.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "device_perf_info.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/device_perf_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gpu_blocklist.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_blocklist.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_blocklist.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_blocklist.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gpu_blocklist_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_blocklist_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_config_export.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_config_export.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gpu_control_list.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gpu_control_list_entry_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_entry_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_arrays_and_structs_autogen.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_arrays_and_structs_autogen.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_autogen.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_autogen.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_autogen.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_autogen.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_data.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_data.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_entry_enums_autogen.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_entry_enums_autogen.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_testing_exceptions_autogen.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_testing_exceptions_autogen.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_control_list_version_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_control_list_version_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_crash_keys.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_crash_keys.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_crash_keys.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_crash_keys.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_domain_guilt.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_domain_guilt.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_list.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_list.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_list.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_list.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_list_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_list_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_workaround_type.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_workaround_type.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_workarounds.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_workarounds.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_driver_bug_workarounds.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_driver_bug_workarounds.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_feature_info.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_feature_info.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_feature_info.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_feature_info.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_feature_type.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_feature_type.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gpu_finch_features.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_finch_features.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_finch_features.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_finch_features.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_android.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_android.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_fuchsia.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_fuchsia.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_gl_test.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_gl_test.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_linux.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_linux.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_collector_win.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_collector_win.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_info_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_info_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_mode.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_mode.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_preferences.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_preferences.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_preferences.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_preferences.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_preferences_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_preferences_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_switches.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_switches.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_switches.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_switches.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_switching.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_switching.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_switching.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_switching.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_config.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_config.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_config.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_config.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_config_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_config_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_expectations_parser.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_expectations_parser.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_expectations_parser.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_expectations_parser.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_test_expectations_parser_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_test_expectations_parser_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_util.h",
+            "inDegree": 0
+          },
+          {
+            "id": "gpu_util_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/gpu_util_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "skia_limits.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/skia_limits.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "skia_limits.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/skia_limits.h",
+            "inDegree": 0
+          },
+          {
+            "id": "webgpu_blocklist_impl.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/webgpu_blocklist_impl.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "webgpu_blocklist_impl.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/webgpu_blocklist_impl.h",
+            "inDegree": 0
+          },
+          {
+            "id": "webgpu_blocklist_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "gpu/config/webgpu_blocklist_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "lock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/synchronization/lock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "cstdint",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cstdint",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 1
+          },
+          {
+            "id": "d3dcommon.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "d3dcommon.h",
+            "inDegree": 1
+          },
+          {
+            "id": "software_rendering_list_autogen.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "gpu/config/software_rendering_list_autogen.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 1
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "device_perf_info.cc",
+            "target": "device_perf_info.h"
+          },
+          {
+            "source": "device_perf_info.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "device_perf_info.cc",
+            "target": "lock.h"
+          },
+          {
+            "source": "device_perf_info.h",
+            "target": "cstdint"
+          },
+          {
+            "source": "device_perf_info.h",
+            "target": "optional"
+          },
+          {
+            "source": "device_perf_info.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "device_perf_info.h",
+            "target": "gpu_config_export.h"
+          },
+          {
+            "source": "device_perf_info.h",
+            "target": "d3dcommon.h"
+          },
+          {
+            "source": "gpu_blocklist.cc",
+            "target": "gpu_blocklist.h"
+          },
+          {
+            "source": "gpu_blocklist.cc",
+            "target": "gpu_feature_type.h"
+          },
+          {
+            "source": "gpu_blocklist.cc",
+            "target": "software_rendering_list_autogen.h"
+          },
+          {
+            "source": "gpu_blocklist.h",
+            "target": "memory"
+          },
+          {
+            "source": "gpu_blocklist.h",
+            "target": "span.h"
+          },
+          {
+            "source": "gpu_blocklist.h",
+            "target": "gpu_config_export.h"
+          },
+          {
+            "source": "gpu_blocklist.h",
+            "target": "gpu_control_list.h"
+          }
+        ],
+        "leafNodes": [
+          "device_perf_info.cc",
+          "gpu_blocklist.cc",
+          "gpu_blocklist_unittest.cc",
+          "gpu_control_list.cc",
+          "gpu_control_list_entry_unittest.cc",
+          "gpu_control_list_testing_arrays_and_structs_autogen.h",
+          "gpu_control_list_testing_autogen.cc",
+          "gpu_control_list_testing_autogen.h",
+          "gpu_control_list_testing_data.h",
+          "gpu_control_list_testing_entry_enums_autogen.h",
+          "gpu_control_list_testing_exceptions_autogen.h",
+          "gpu_control_list_unittest.cc",
+          "gpu_control_list_version_unittest.cc",
+          "gpu_crash_keys.cc",
+          "gpu_crash_keys.h",
+          "gpu_domain_guilt.h",
+          "gpu_driver_bug_list.cc",
+          "gpu_driver_bug_list.h",
+          "gpu_driver_bug_list_unittest.cc",
+          "gpu_driver_bug_workaround_type.h",
+          "gpu_driver_bug_workarounds.cc",
+          "gpu_driver_bug_workarounds.h",
+          "gpu_feature_info.cc",
+          "gpu_feature_info.h",
+          "gpu_finch_features.cc",
+          "gpu_finch_features.h",
+          "gpu_info.cc",
+          "gpu_info.h",
+          "gpu_info_collector.cc",
+          "gpu_info_collector.h",
+          "gpu_info_collector_android.cc",
+          "gpu_info_collector_fuchsia.cc",
+          "gpu_info_collector_gl_test.cc",
+          "gpu_info_collector_linux.cc",
+          "gpu_info_collector_unittest.cc",
+          "gpu_info_collector_win.cc",
+          "gpu_info_unittest.cc",
+          "gpu_mode.h",
+          "gpu_preferences.cc",
+          "gpu_preferences.h",
+          "gpu_preferences_unittest.cc",
+          "gpu_switches.cc",
+          "gpu_switches.h",
+          "gpu_switching.cc",
+          "gpu_switching.h",
+          "gpu_test_config.cc",
+          "gpu_test_config.h",
+          "gpu_test_config_unittest.cc",
+          "gpu_test_expectations_parser.cc",
+          "gpu_test_expectations_parser.h",
+          "gpu_test_expectations_parser_unittest.cc",
+          "gpu_util.cc",
+          "gpu_util.h",
+          "gpu_util_unittest.cc",
+          "skia_limits.cc",
+          "skia_limits.h",
+          "webgpu_blocklist_impl.cc",
+          "webgpu_blocklist_impl.h",
+          "webgpu_blocklist_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    }
+  }
 }

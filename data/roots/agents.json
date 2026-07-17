@@ -82,6 +82,7 @@
       },
       "subDirs": [
         "agents/skills/analyzing-sql-traces",
+        "agents/skills/android-test-batching",
         "agents/skills/apply-fix-from-crbug-with-diff",
         "agents/skills/automated-tracing",
         "agents/skills/browser-window-feature-refactor",
@@ -90,7 +91,9 @@
         "agents/skills/chromium-docs",
         "agents/skills/disable-test",
         "agents/skills/experimental-ci-only-validator",
+        "agents/skills/experimental-code-coverage-build-inspector",
         "agents/skills/experimental-code-coverage-build-invoker",
+        "agents/skills/experimental-code-coverage-config-validator",
         "agents/skills/experimental-code-coverage-cq-debugger",
         "agents/skills/experimental-code-coverage-installer",
         "agents/skills/experimental-code-coverage-local-debugger",

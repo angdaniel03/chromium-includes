@@ -114,6 +114,7 @@
         "agents/skills/latency-instrumentation",
         "agents/skills/loadline",
         "agents/skills/magi-mode",
+        "agents/skills/multi-agent-skill-creator",
         "agents/skills/network-traffic-annotations",
         "agents/skills/nullaway",
         "agents/skills/physical-chromebook-debugging",

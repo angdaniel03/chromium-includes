@@ -84,7 +84,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_browser_context.h",
-            "inDegree": 17
+            "inDegree": 19
           },
           {
             "id": "aw_browser_context_store.cc",
@@ -138,7 +138,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_browser_permission_request_delegate.h",
-            "inDegree": 2
+            "inDegree": 4
           },
           {
             "id": "aw_browser_policy_connector.cc",
@@ -174,7 +174,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_browser_process.h",
-            "inDegree": 16
+            "inDegree": 17
           },
           {
             "id": "aw_browser_terminator.cc",
@@ -282,7 +282,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_contents.h",
-            "inDegree": 8
+            "inDegree": 9
           },
           {
             "id": "aw_contents_client_bridge.cc",
@@ -390,7 +390,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_context_permissions_delegate.h",
-            "inDegree": 1
+            "inDegree": 4
           },
           {
             "id": "aw_cookie_access_policy.cc",
@@ -741,7 +741,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_pac_processor.h",
-            "inDegree": 0
+            "inDegree": 2
           },
           {
             "id": "aw_pac_processor_unittest.cc",
@@ -768,7 +768,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_pdf_exporter.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "aw_permission_manager.cc",
@@ -786,7 +786,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_permission_manager.h",
-            "inDegree": 3
+            "inDegree": 5
           },
           {
             "id": "aw_permission_manager_unittest.cc",
@@ -813,7 +813,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_policy_blocklist_service_factory.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "aw_preconnector.cc",
@@ -831,7 +831,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_preconnector.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "aw_print_manager.cc",
@@ -849,7 +849,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_print_manager.h",
-            "inDegree": 1
+            "inDegree": 4
           },
           {
             "id": "aw_print_manager_unittest.cc",
@@ -957,7 +957,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/browser/aw_settings.h",
-            "inDegree": 6
+            "inDegree": 7
           },
           {
             "id": "aw_speech_recognition_manager_delegate.cc",
@@ -1245,7 +1245,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "memory",
-            "inDegree": 39
+            "inDegree": 49
           },
           {
             "id": "string",
@@ -1254,7 +1254,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "string",
-            "inDegree": 28
+            "inDegree": 31
           },
           {
             "id": "utility",
@@ -1263,7 +1263,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "utility",
-            "inDegree": 18
+            "inDegree": 22
           },
           {
             "id": "url_constants.h",
@@ -1272,7 +1272,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "url/url_constants.h",
-            "inDegree": 8
+            "inDegree": 9
           },
           {
             "id": "jni_android.h",
@@ -1281,7 +1281,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/jni_android.h",
-            "inDegree": 12
+            "inDegree": 15
           },
           {
             "id": "jni_string.h",
@@ -1290,7 +1290,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/jni_string.h",
-            "inDegree": 17
+            "inDegree": 19
           },
           {
             "id": "jni_weak_ref.h",
@@ -1299,7 +1299,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/jni_weak_ref.h",
-            "inDegree": 10
+            "inDegree": 11
           },
           {
             "id": "input_stream.h",
@@ -1335,7 +1335,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/base/net_errors.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "http_util.h",
@@ -1353,7 +1353,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "url/android/gurl_android.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "gurl.h",
@@ -1362,7 +1362,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "url/gurl.h",
-            "inDegree": 18
+            "inDegree": 20
           },
           {
             "id": "AndroidProtocolHandler_jni.h",
@@ -1380,7 +1380,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "jni.h",
-            "inDegree": 5
+            "inDegree": 7
           },
           {
             "id": "back_forward_cache.h",
@@ -1416,7 +1416,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "optional",
-            "inDegree": 11
+            "inDegree": 12
           },
           {
             "id": "string_view",
@@ -1434,7 +1434,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "vector",
-            "inDegree": 17
+            "inDegree": 18
           },
           {
             "id": "aw_content_restriction_blocked_navigation_tracker.h",
@@ -1497,7 +1497,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "android_webview/common/aw_features.h",
-            "inDegree": 24
+            "inDegree": 25
           },
           {
             "id": "aw_switches.h",
@@ -1533,7 +1533,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/jni_array.h",
-            "inDegree": 14
+            "inDegree": 17
           },
           {
             "id": "scoped_java_ref.h",
@@ -1542,7 +1542,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/scoped_java_ref.h",
-            "inDegree": 28
+            "inDegree": 32
           },
           {
             "id": "base_paths_posix.h",
@@ -1560,7 +1560,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/check_op.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "command_line.h",
@@ -1596,7 +1596,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/feature_list.h",
-            "inDegree": 10
+            "inDegree": 12
           },
           {
             "id": "file_util.h",
@@ -1605,7 +1605,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/files/file_util.h",
-            "inDegree": 2
+            "inDegree": 4
           },
           {
             "id": "bind.h",
@@ -1614,7 +1614,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/bind.h",
-            "inDegree": 18
+            "inDegree": 26
           },
           {
             "id": "callback.h",
@@ -1623,7 +1623,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/callback.h",
-            "inDegree": 8
+            "inDegree": 11
           },
           {
             "id": "scoped_refptr.h",
@@ -1632,7 +1632,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/scoped_refptr.h",
-            "inDegree": 11
+            "inDegree": 12
           },
           {
             "id": "histogram_functions.h",
@@ -1641,7 +1641,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/metrics/histogram_functions.h",
-            "inDegree": 13
+            "inDegree": 14
           },
           {
             "id": "histogram_macros.h",
@@ -1668,7 +1668,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/task/single_thread_task_runner.h",
-            "inDegree": 5
+            "inDegree": 7
           },
           {
             "id": "thread_pool.h",
@@ -1677,7 +1677,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/task/thread_pool.h",
-            "inDegree": 7
+            "inDegree": 9
           },
           {
             "id": "thread_restrictions.h",
@@ -1686,7 +1686,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/threading/thread_restrictions.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "autofill_prefs.h",
@@ -1785,7 +1785,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "components/policy/core/browser/url_list/url_blocklist_manager.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "pref_registry_syncable.h",
@@ -1929,7 +1929,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/browser_thread.h",
-            "inDegree": 21
+            "inDegree": 24
           },
           {
             "id": "download_request_utils.h",
@@ -1947,7 +1947,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/render_process_host.h",
-            "inDegree": 15
+            "inDegree": 16
           },
           {
             "id": "spare_render_process_host_manager.h",
@@ -1983,7 +1983,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/web_contents.h",
-            "inDegree": 22
+            "inDegree": 24
           },
           {
             "id": "zoom_level_delegate.h",
@@ -2028,7 +2028,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/proxy_resolution/proxy_config_service_android.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "proxy_resolution_service.h",
@@ -2091,7 +2091,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "map",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "aw_file_system_access_permission_context.h",
@@ -2109,7 +2109,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "android_webview/browser/network_service/aw_proxy_config_monitor.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "aw_prefetch_manager.h",
@@ -2127,7 +2127,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/compiler_specific.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "file_path.h",
@@ -2154,7 +2154,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/weak_ptr.h",
-            "inDegree": 6
+            "inDegree": 9
           },
           {
             "id": "simple_factory_key.h",
@@ -2181,7 +2181,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/browser_context.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "cert_verifier_service_factory.mojom-forward.h",
@@ -2199,7 +2199,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "third_party/blink/public/mojom/permissions/permission_status.mojom-shared.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "raw_ptr.h",
@@ -2208,7 +2208,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/raw_ptr.h",
-            "inDegree": 20
+            "inDegree": 25
           },
           {
             "id": "raw_ref.h",
@@ -2217,7 +2217,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/raw_ref.h",
-            "inDegree": 4
+            "inDegree": 5
           },
           {
             "id": "no_destructor.h",
@@ -2226,7 +2226,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/no_destructor.h",
-            "inDegree": 11
+            "inDegree": 12
           },
           {
             "id": "strcat.h",
@@ -2262,7 +2262,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/trace_event/trace_event.h",
-            "inDegree": 6
+            "inDegree": 7
           },
           {
             "id": "values.h",
@@ -2316,7 +2316,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/run_loop.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "scoped_feature_list.h",
@@ -2343,7 +2343,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/test/browser_task_environment.h",
-            "inDegree": 5
+            "inDegree": 6
           },
           {
             "id": "test_content_client_initializer.h",
@@ -2352,7 +2352,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/test/test_content_client_initializer.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "embedder.h",
@@ -2370,7 +2370,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "testing/gtest/include/gtest/gtest.h",
-            "inDegree": 12
+            "inDegree": 15
           },
           {
             "id": "set",
@@ -2523,7 +2523,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/callback_helpers.h",
-            "inDegree": 9
+            "inDegree": 10
           },
           {
             "id": "rtl.h",
@@ -2541,7 +2541,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/logging.h",
-            "inDegree": 7
+            "inDegree": 11
           },
           {
             "id": "message_pump_type.h",
@@ -2559,7 +2559,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/task/current_thread.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "named_trigger.h",
@@ -2775,7 +2775,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/render_frame_host.h",
-            "inDegree": 12
+            "inDegree": 14
           },
           {
             "id": "synthetic_trial_syncer.h",
@@ -2910,7 +2910,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "android_webview/browser/permission/permission_callback.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "callback_forward.h",
@@ -2919,7 +2919,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/callback_forward.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "configuration_policy_handler_list.h",
@@ -2946,7 +2946,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "components/policy/core/browser/url_list/url_list_policy_pref_names.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "android_combined_policy_provider.h",
@@ -2973,7 +2973,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "components/policy/core/common/policy_pref_names.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "policy_constants.h",
@@ -3090,7 +3090,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "third_party/blink/public/common/features.h",
-            "inDegree": 22
+            "inDegree": 24
           },
           {
             "id": "process_visibility_util.h",
@@ -3207,7 +3207,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "unistd.h",
-            "inDegree": 2
+            "inDegree": 4
           },
           {
             "id": "stringprintf.h",
@@ -3288,7 +3288,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/notreached.h",
-            "inDegree": 4
+            "inDegree": 6
           },
           {
             "id": "user_agent_utils.h",
@@ -3369,7 +3369,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "url/origin.h",
-            "inDegree": 9
+            "inDegree": 10
           },
           {
             "id": "web_client_hints_types.mojom.h",
@@ -3423,7 +3423,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "cstddef",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "aw_content_restriction_navigation_throttle.h",
@@ -3594,7 +3594,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/files/scoped_file.h",
-            "inDegree": 2
+            "inDegree": 5
           },
           {
             "id": "ptr_util.h",
@@ -3603,7 +3603,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/memory/ptr_util.h",
-            "inDegree": 8
+            "inDegree": 9
           },
           {
             "id": "string_util.h",
@@ -3630,7 +3630,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/task/thread_pool/thread_pool_instance.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "build_config.h",
@@ -3783,7 +3783,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/child_process_security_policy.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "client_certificate_delegate.h",
@@ -4125,7 +4125,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "mojo/public/cpp/bindings/pending_remote.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "quota_settings.h",
@@ -4512,7 +4512,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/notimplemented.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "pickle.h",
@@ -4791,7 +4791,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "net/base/registry_controlled_domains/registry_controlled_domain.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "x509_certificate.h",
@@ -4908,7 +4908,7 @@
             "isExternal": true,
             "isSystem": true,
             "fullPath": "list",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "browser_view_renderer_client.h",
@@ -5025,7 +5025,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/containers/id_map.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "unsafe_resource.h",
@@ -5133,7 +5133,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "content/public/browser/web_contents_user_data.h",
-            "inDegree": 3
+            "inDegree": 4
           },
           {
             "id": "data_url.h",
@@ -5277,7 +5277,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "components/permissions/permission_manager.h",
-            "inDegree": 1
+            "inDegree": 2
           },
           {
             "id": "websocket_handshake_request_info.h",
@@ -5646,7 +5646,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/check.h",
-            "inDegree": 3
+            "inDegree": 5
           },
           {
             "id": "persistent_histogram_allocator.h",
@@ -5916,7 +5916,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "third_party/jni_zero/jni_zero.h",
-            "inDegree": 2
+            "inDegree": 3
           },
           {
             "id": "AwOriginMatchedHeader_jni.h",
@@ -5925,6 +5925,537 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "android_webview/browser_jni_headers/AwOriginMatchedHeader_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "multinetwork.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "android/multinetwork.h",
+            "inDegree": 3
+          },
+          {
+            "id": "inet.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "arpa/inet.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dlfcn.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "dlfcn.h",
+            "inDegree": 1
+          },
+          {
+            "id": "netdb.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "netdb.h",
+            "inDegree": 1
+          },
+          {
+            "id": "address_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/address_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "completion_once_callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/completion_once_callback.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_anonymization_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/network_anonymization_key.h",
+            "inDegree": 2
+          },
+          {
+            "id": "network_isolation_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/network_isolation_key.h",
+            "inDegree": 1
+          },
+          {
+            "id": "pac_file_data.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/proxy_resolution/pac_file_data.h",
+            "inDegree": 1
+          },
+          {
+            "id": "proxy_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/proxy_resolution/proxy_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwPacProcessor_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwPacProcessor_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "thread.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/threading/thread.h",
+            "inDegree": 3
+          },
+          {
+            "id": "net_log_with_source.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/log/net_log_with_source.h",
+            "inDegree": 1
+          },
+          {
+            "id": "proxy_host_resolver.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/proxy_resolver/proxy_host_resolver.h",
+            "inDegree": 1
+          },
+          {
+            "id": "proxy_resolver_v8_tracing.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/proxy_resolver/proxy_resolver_v8_tracing.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 2
+          },
+          {
+            "id": "print_settings.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/print_settings.h",
+            "inDegree": 4
+          },
+          {
+            "id": "units.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/units.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwPdfExporter_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwPdfExporter_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "page_range.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/page_range.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sequence_checker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/sequence_checker.h",
+            "inDegree": 2
+          },
+          {
+            "id": "permission_settings_info.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/content_settings/core/browser/permission_settings_info.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_settings_registry.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/content_settings/core/browser/permission_settings_registry.h",
+            "inDegree": 1
+          },
+          {
+            "id": "content_settings_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/content_settings/core/common/content_settings_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/permissions/permission_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_controller.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_controller.h",
+            "inDegree": 2
+          },
+          {
+            "id": "permission_result.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_result.h",
+            "inDegree": 3
+          },
+          {
+            "id": "flat_hash_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/abseil-cpp/absl/container/flat_hash_map.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/common/permissions/permission_utils.h",
+            "inDegree": 3
+          },
+          {
+            "id": "permission.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/blink/public/mojom/permissions/permission.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "permission_controller_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_controller_delegate.h",
+            "inDegree": 2
+          },
+          {
+            "id": "permission_descriptor_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/permission_descriptor_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_context_dependency_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/keyed_service/content/browser_context_dependency_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "policy_blocklist_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/policy/core/browser/url_list/policy_blocklist_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "browser_context_keyed_service_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/keyed_service/content/browser_context_keyed_service_factory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "preconnect_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/preconnect_manager.h",
+            "inDegree": 2
+          },
+          {
+            "id": "preconnect_request.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/preconnect_request.h",
+            "inDegree": 1
+          },
+          {
+            "id": "next_proto.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/socket/next_proto.h",
+            "inDegree": 2
+          },
+          {
+            "id": "constants.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/cpp/constants.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwPreconnector_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwPreconnector_jni.h",
+            "inDegree": 1
+          },
+          {
+            "id": "receiver_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/public/cpp/bindings/receiver_set.h",
+            "inDegree": 1
+          },
+          {
+            "id": "connection_change_observer_client.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/mojom/connection_change_observer_client.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "file_descriptor_posix.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/file_descriptor_posix.h",
+            "inDegree": 2
+          },
+          {
+            "id": "ref_counted_memory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted_memory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "safe_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/numerics/safe_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_traits.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/task_traits.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print_manager_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/printing/browser/print_manager_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/printing/common/print.mojom.h",
+            "inDegree": 2
+          },
+          {
+            "id": "print_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/printing/common/print_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print_job_constants.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "printing/print_job_constants.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/printing/browser/print_manager.h",
+            "inDegree": 1
+          },
+          {
+            "id": "print.mojom-forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/printing/common/print.mojom-forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "errno.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "errno.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcntl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "fcntl.h",
+            "inDegree": 1
+          },
+          {
+            "id": "read_only_shared_memory_region.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/read_only_shared_memory_region.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_until.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/run_until.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_browser_context.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/test_browser_context.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_contents_tester.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/test/web_contents_tester.h",
+            "inDegree": 1
+          },
+          {
+            "id": "AwProxyController_jni.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "android_webview/browser_jni_headers/AwProxyController_jni.h",
             "inDegree": 1
           },
           {
@@ -6162,15 +6693,6 @@
             "inDegree": 1
           },
           {
-            "id": "permission_controller_delegate.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/browser/permission_controller_delegate.h",
-            "inDegree": 1
-          },
-          {
             "id": "filename_util.h",
             "group": 2,
             "val": 8,
@@ -6186,15 +6708,6 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "third_party/blink/public/common/mediastream/media_stream_request.h",
-            "inDegree": 1
-          },
-          {
-            "id": "permission_utils.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "third_party/blink/public/common/permissions/permission_utils.h",
             "inDegree": 1
           },
           {
@@ -6321,15 +6834,6 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/android/android_info.h",
-            "inDegree": 2
-          },
-          {
-            "id": "thread.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/threading/thread.h",
             "inDegree": 2
           },
           {
@@ -11994,6 +12498,902 @@
             "target": "origin.h"
           },
           {
+            "source": "aw_pac_processor.cc",
+            "target": "aw_pac_processor.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "multinetwork.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "inet.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "dlfcn.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "netdb.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "cstddef"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "string"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "jni_android.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "jni_array.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "jni_string.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "thread_pool_instance.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "thread_restrictions.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "address_list.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "completion_once_callback.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "net_errors.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "network_anonymization_key.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "network_isolation_key.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "pac_file_data.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "proxy_info.h"
+          },
+          {
+            "source": "aw_pac_processor.cc",
+            "target": "AwPacProcessor_jni.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "multinetwork.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "scoped_java_ref.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "single_thread_task_runner.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "thread.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "net_log_with_source.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "proxy_host_resolver.h"
+          },
+          {
+            "source": "aw_pac_processor.h",
+            "target": "proxy_resolver_v8_tracing.h"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "multinetwork.h"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "aw_pac_processor.h"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "aw_pac_processor_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "aw_pdf_exporter.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "utility"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "vector"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "aw_print_manager.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "jni_android.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "jni_array.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "browser_thread.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "print_settings.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "units.h"
+          },
+          {
+            "source": "aw_pdf_exporter.cc",
+            "target": "AwPdfExporter_jni.h"
+          },
+          {
+            "source": "aw_pdf_exporter.h",
+            "target": "jni_weak_ref.h"
+          },
+          {
+            "source": "aw_pdf_exporter.h",
+            "target": "scoped_java_ref.h"
+          },
+          {
+            "source": "aw_pdf_exporter.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aw_pdf_exporter.h",
+            "target": "page_range.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_permission_manager.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "string"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "utility"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_browser_permission_request_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_contents.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_context_permissions_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_settings.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "aw_features.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "notimplemented.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_settings_info.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_settings_registry.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "content_settings_utils.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_manager.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_util.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "child_process_security_policy.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_controller.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_result.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "render_frame_host.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "render_process_host.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "registry_controlled_domain.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "flat_hash_map.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_utils.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission.mojom.h"
+          },
+          {
+            "source": "aw_permission_manager.cc",
+            "target": "permission_status.mojom-shared.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "map"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "memory"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "aw_context_permissions_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "id_map.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "callback_forward.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "raw_ref.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "sequence_checker.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "permission_controller_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager.h",
+            "target": "permission_result.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "aw_permission_manager.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "list"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "aw_browser_permission_request_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "aw_context_permissions_delegate.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "permission_callback.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "permission_controller.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "permission_descriptor_util.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "permission_result.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "permission_utils.h"
+          },
+          {
+            "source": "aw_permission_manager_unittest.cc",
+            "target": "gurl.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "aw_policy_blocklist_service_factory.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "aw_browser_context.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "browser_context_dependency_manager.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "policy_blocklist_service.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "url_blocklist_manager.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "url_list_policy_pref_names.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.cc",
+            "target": "policy_pref_names.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.h",
+            "target": "memory"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.h",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "aw_policy_blocklist_service_factory.h",
+            "target": "browser_context_keyed_service_factory.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "aw_preconnector.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "jni.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "memory"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "optional"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "browser_context.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "preconnect_manager.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "preconnect_request.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "pending_remote.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "network_anonymization_key.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "next_proto.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "constants.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "gurl_android.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "origin.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "url_constants.h"
+          },
+          {
+            "source": "aw_preconnector.cc",
+            "target": "AwPreconnector_jni.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "jni.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "memory"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "jni_android.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "scoped_java_ref.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "preconnect_manager.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "receiver_set.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "next_proto.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "connection_change_observer_client.mojom.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "jni_zero.h"
+          },
+          {
+            "source": "aw_preconnector.h",
+            "target": "gurl.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "aw_print_manager.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "utility"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "ptr_util.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "ref_counted_memory.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "safe_conversions.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "task_traits.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "thread_pool.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "print_manager_utils.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "print.mojom.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "print_params.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "browser_thread.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "render_frame_host.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "print_job_constants.h"
+          },
+          {
+            "source": "aw_print_manager.cc",
+            "target": "print_settings.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "memory"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "file_descriptor_posix.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "scoped_file.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "print_manager.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "print.mojom-forward.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "web_contents_user_data.h"
+          },
+          {
+            "source": "aw_print_manager.h",
+            "target": "print_settings.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "aw_print_manager.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "errno.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "fcntl.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "unistd.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "utility"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "file_util.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "read_only_shared_memory_region.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "scoped_refptr.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "run_until.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "print.mojom.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "browser_task_environment.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "test_browser_context.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "test_content_client_initializer.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "web_contents_tester.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "print_settings.h"
+          },
+          {
+            "source": "aw_print_manager_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "aw_browser_context.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "aw_browser_process.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "aw_proxy_config_monitor.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "jni_array.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "jni_string.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "scoped_java_ref.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "callback.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "current_thread.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "browser_thread.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "proxy_config_service_android.h"
+          },
+          {
+            "source": "aw_proxy_controller.cc",
+            "target": "AwProxyController_jni.h"
+          },
+          {
             "source": "aw_quota_manager_bridge.cc",
             "target": "aw_quota_manager_bridge.h"
           },
@@ -13723,7 +15123,6 @@
           "aw_origin_matched_header.cc",
           "aw_origin_matched_header_unittest.cc",
           "aw_pac_processor.cc",
-          "aw_pac_processor.h",
           "aw_pac_processor_unittest.cc",
           "aw_pdf_exporter.cc",
           "aw_permission_manager.cc",
@@ -13974,7 +15373,7 @@
             "isExternal": false,
             "isSystem": false,
             "fullPath": "android_webview/common/url_constants.h",
-            "inDegree": 2
+            "inDegree": 1
           },
           {
             "id": "string",
@@ -14073,6 +15472,15 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/functional/bind.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ref_counted_memory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted_memory.h",
             "inDegree": 1
           },
           {
@@ -14388,7 +15796,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/strings/string_util.h",
-            "inDegree": 2
+            "inDegree": 1
           },
           {
             "id": "clearkey_drm_delegate_android.h",
@@ -14541,7 +15949,7 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "base/trace_event/trace_event.h",
-            "inDegree": 2
+            "inDegree": 1
           },
           {
             "id": "resource_bundle_android.h",
@@ -14559,15 +15967,6 @@
             "isExternal": true,
             "isSystem": false,
             "fullPath": "ui/base/ui_base_paths.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gurl.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "url/gurl.h",
             "inDegree": 1
           }
         ],
@@ -14655,6 +16054,10 @@
           {
             "source": "aw_content_client.cc",
             "target": "bind.h"
+          },
+          {
+            "source": "aw_content_client.cc",
+            "target": "ref_counted_memory.h"
           },
           {
             "source": "aw_content_client.cc",
@@ -14987,22 +16390,6 @@
           {
             "source": "aw_switches.cc",
             "target": "aw_switches.h"
-          },
-          {
-            "source": "devtools_instrumentation.h",
-            "target": "trace_event.h"
-          },
-          {
-            "source": "url_constants.cc",
-            "target": "url_constants.h"
-          },
-          {
-            "source": "url_constants.cc",
-            "target": "string_util.h"
-          },
-          {
-            "source": "url_constants.h",
-            "target": "gurl.h"
           }
         ],
         "leafNodes": [
@@ -15023,1662 +16410,6 @@
         "android_webview/common/crash_reporter",
         "android_webview/common/gfx",
         "android_webview/common/mojom"
-      ]
-    },
-    "android_webview/docs": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/docs/images"
-      ]
-    },
-    "android_webview/expectations": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": []
-    },
-    "android_webview/glue": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/glue/java"
-      ]
-    },
-    "android_webview/gpu": {
-      "graph": {
-        "nodes": [
-          {
-            "id": "aw_content_gpu_client.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/gpu/aw_content_gpu_client.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "aw_content_gpu_client.h",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/gpu/aw_content_gpu_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "utility",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": true,
-            "fullPath": "utility",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_gr_context_options_provider.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/gfx/aw_gr_context_options_provider.h",
-            "inDegree": 1
-          },
-          {
-            "id": "callback.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/functional/callback.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_gpu_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/gpu/content_gpu_client.h",
-            "inDegree": 1
-          }
-        ],
-        "links": [
-          {
-            "source": "aw_content_gpu_client.cc",
-            "target": "aw_content_gpu_client.h"
-          },
-          {
-            "source": "aw_content_gpu_client.cc",
-            "target": "utility"
-          },
-          {
-            "source": "aw_content_gpu_client.h",
-            "target": "aw_gr_context_options_provider.h"
-          },
-          {
-            "source": "aw_content_gpu_client.h",
-            "target": "callback.h"
-          },
-          {
-            "source": "aw_content_gpu_client.h",
-            "target": "content_gpu_client.h"
-          }
-        ],
-        "leafNodes": [
-          "aw_content_gpu_client.cc"
-        ]
-      },
-      "subDirs": []
-    },
-    "android_webview/java": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/java/res",
-        "android_webview/java/src",
-        "android_webview/java/strings"
-      ]
-    },
-    "android_webview/javatests": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/javatests/assets",
-        "android_webview/javatests/res",
-        "android_webview/javatests/src"
-      ]
-    },
-    "android_webview/js_sandbox": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/js_sandbox/java",
-        "android_webview/js_sandbox/javatests",
-        "android_webview/js_sandbox/service"
-      ]
-    },
-    "android_webview/junit": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/junit/src"
-      ]
-    },
-    "android_webview/lib": {
-      "graph": {
-        "nodes": [
-          {
-            "id": "aw_main_delegate.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/aw_main_delegate.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "aw_main_delegate.h",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/aw_main_delegate.h",
-            "inDegree": 2
-          },
-          {
-            "id": "webview_entry_point.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/webview_entry_point.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "webview_jni_onload.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/webview_jni_onload.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "webview_jni_onload.h",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/webview_jni_onload.h",
-            "inDegree": 2
-          },
-          {
-            "id": "webview_tests.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/lib/webview_tests.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "memory",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": true,
-            "fullPath": "memory",
-            "inDegree": 2
-          },
-          {
-            "id": "optional",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": true,
-            "fullPath": "optional",
-            "inDegree": 1
-          },
-          {
-            "id": "variant",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": true,
-            "fullPath": "variant",
-            "inDegree": 2
-          },
-          {
-            "id": "aw_browser_process.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/aw_browser_process.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_content_browser_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/aw_content_browser_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_draw_fn_impl.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/gfx/aw_draw_fn_impl.h",
-            "inDegree": 1
-          },
-          {
-            "id": "browser_view_renderer.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/gfx/browser_view_renderer.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gpu_service_webview.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/gfx/gpu_service_webview.h",
-            "inDegree": 1
-          },
-          {
-            "id": "viz_compositor_thread_runner_webview.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/gfx/viz_compositor_thread_runner_webview.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_descriptors.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_descriptors.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_features.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_paths.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_paths.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_resource_bundle.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_resource_bundle.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_switches.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_crash_reporter_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/crash_reporter/aw_crash_reporter_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "crash_keys.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/crash_reporter/crash_keys.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_content_gpu_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/gpu/aw_content_gpu_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_content_renderer_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/renderer/aw_content_renderer_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "android_info.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/android_info.h",
-            "inDegree": 1
-          },
-          {
-            "id": "apk_assets.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/apk_assets.h",
-            "inDegree": 1
-          },
-          {
-            "id": "apk_info.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/apk_info.h",
-            "inDegree": 1
-          },
-          {
-            "id": "pre_freeze_background_memory_trimmer.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/pre_freeze_background_memory_trimmer.h",
-            "inDegree": 1
-          },
-          {
-            "id": "sys_utils.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/sys_utils.h",
-            "inDegree": 1
-          },
-          {
-            "id": "check_op.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/check_op.h",
-            "inDegree": 1
-          },
-          {
-            "id": "command_line.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/command_line.h",
-            "inDegree": 2
-          },
-          {
-            "id": "cpu.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/cpu.h",
-            "inDegree": 1
-          },
-          {
-            "id": "feature_list.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/feature_list.h",
-            "inDegree": 1
-          },
-          {
-            "id": "bind.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/functional/bind.h",
-            "inDegree": 1
-          },
-          {
-            "id": "icu_util.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/i18n/icu_util.h",
-            "inDegree": 1
-          },
-          {
-            "id": "rtl.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/i18n/rtl.h",
-            "inDegree": 1
-          },
-          {
-            "id": "global_descriptors.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/posix/global_descriptors.h",
-            "inDegree": 1
-          },
-          {
-            "id": "scoped_add_feature_flags.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/scoped_add_feature_flags.h",
-            "inDegree": 1
-          },
-          {
-            "id": "string_number_conversions.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/strings/string_number_conversions.h",
-            "inDegree": 1
-          },
-          {
-            "id": "string_split.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/strings/string_split.h",
-            "inDegree": 1
-          },
-          {
-            "id": "string_util.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/strings/string_util.h",
-            "inDegree": 1
-          },
-          {
-            "id": "lock.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/synchronization/lock.h",
-            "inDegree": 1
-          },
-          {
-            "id": "thread_restrictions.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/threading/thread_restrictions.h",
-            "inDegree": 1
-          },
-          {
-            "id": "default_clock.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/time/default_clock.h",
-            "inDegree": 1
-          },
-          {
-            "id": "build_config.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "build/build_config.h",
-            "inDegree": 1
-          },
-          {
-            "id": "switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "third_party/blink/public/common/switches.h",
-            "inDegree": 3
-          },
-          {
-            "id": "autofill_features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/autofill/core/common/autofill_features.h",
-            "inDegree": 1
-          },
-          {
-            "id": "crash_key.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/crash/core/common/crash_key.h",
-            "inDegree": 1
-          },
-          {
-            "id": "initializer.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/memory_system/initializer.h",
-            "inDegree": 1
-          },
-          {
-            "id": "parameters.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/memory_system/parameters.h",
-            "inDegree": 1
-          },
-          {
-            "id": "call_stack_profile_builder.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/metrics/call_stacks/call_stack_profile_builder.h",
-            "inDegree": 1
-          },
-          {
-            "id": "call_stack_profile_metrics_provider.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/metrics/call_stacks/call_stack_profile_metrics_provider.h",
-            "inDegree": 1
-          },
-          {
-            "id": "unsent_log_store_metrics.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/metrics/unsent_log_store_metrics.h",
-            "inDegree": 1
-          },
-          {
-            "id": "safe_browsing_api_handler_bridge.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/safe_browsing/android/safe_browsing_api_handler_bridge.h",
-            "inDegree": 1
-          },
-          {
-            "id": "process_type.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/sampling_profiler/process_type.h",
-            "inDegree": 1
-          },
-          {
-            "id": "profiling_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/services/heap_profiling/public/cpp/profiling_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "spellcheck_buildflags.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/spellcheck/spellcheck_buildflags.h",
-            "inDegree": 1
-          },
-          {
-            "id": "variations_ids_provider.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/variations/variations_ids_provider.h",
-            "inDegree": 1
-          },
-          {
-            "id": "channel_getter.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/version_info/android/channel_getter.h",
-            "inDegree": 1
-          },
-          {
-            "id": "features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "third_party/blink/public/common/features.h",
-            "inDegree": 5
-          },
-          {
-            "id": "initialize_mojo_core.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/app/initialize_mojo_core.h",
-            "inDegree": 1
-          },
-          {
-            "id": "browser_main_runner.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/browser/browser_main_runner.h",
-            "inDegree": 1
-          },
-          {
-            "id": "browser_thread.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/browser/browser_thread.h",
-            "inDegree": 1
-          },
-          {
-            "id": "network_service_util.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/browser/network_service_util.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_descriptor_keys.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/common/content_descriptor_keys.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/common/content_features.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/common/content_switches.h",
-            "inDegree": 2
-          },
-          {
-            "id": "main_function_params.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/common/main_function_params.h",
-            "inDegree": 1
-          },
-          {
-            "id": "isolate_holder.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "gin/public/isolate_holder.h",
-            "inDegree": 1
-          },
-          {
-            "id": "v8_initializer.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "gin/v8_initializer.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gpu_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "gpu/command_buffer/service/gpu_switches.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gpu_finch_features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "gpu/config/gpu_finch_features.h",
-            "inDegree": 1
-          },
-          {
-            "id": "media_buildflags.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "media/media_buildflags.h",
-            "inDegree": 1
-          },
-          {
-            "id": "track_name_recorder.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "services/tracing/public/cpp/perfetto/track_name_recorder.h",
-            "inDegree": 1
-          },
-          {
-            "id": "buildflags.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "tools/v8_context_snapshot/buildflags.h",
-            "inDegree": 1
-          },
-          {
-            "id": "ui_base_paths.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/base/ui_base_paths.h",
-            "inDegree": 2
-          },
-          {
-            "id": "ui_base_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/base/ui_base_switches.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gesture_configuration.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/events/gesture_detection/gesture_configuration.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gl_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/gl/gl_switches.h",
-            "inDegree": 1
-          },
-          {
-            "id": "spellcheck_features.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/spellcheck/common/spellcheck_features.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_feature_list_creator.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/browser/aw_feature_list_creator.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_content_client.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_content_client.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_gr_context_options_provider.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/gfx/aw_gr_context_options_provider.h",
-            "inDegree": 1
-          },
-          {
-            "id": "memory_system.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "components/memory_system/memory_system.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_main_delegate.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/app/content_main_delegate.h",
-            "inDegree": 1
-          },
-          {
-            "id": "base_jni_init.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/base_jni_init.h",
-            "inDegree": 1
-          },
-          {
-            "id": "library_loader_hooks.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/android/library_loader/library_loader_hooks.h",
-            "inDegree": 1
-          },
-          {
-            "id": "logging.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/logging.h",
-            "inDegree": 1
-          },
-          {
-            "id": "notreached.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/notreached.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_jni_onload.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/app/content_jni_onload.h",
-            "inDegree": 1
-          },
-          {
-            "id": "content_main.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "content/public/app/content_main.h",
-            "inDegree": 1
-          },
-          {
-            "id": "component_export.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/component_export.h",
-            "inDegree": 1
-          },
-          {
-            "id": "base_switches.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/base_switches.h",
-            "inDegree": 1
-          },
-          {
-            "id": "file_path.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/files/file_path.h",
-            "inDegree": 1
-          },
-          {
-            "id": "path_service.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/path_service.h",
-            "inDegree": 1
-          },
-          {
-            "id": "allow_check_is_test_for_testing.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/test/allow_check_is_test_for_testing.h",
-            "inDegree": 1
-          },
-          {
-            "id": "test_suite.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/test/test_suite.h",
-            "inDegree": 1
-          },
-          {
-            "id": "embedder.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "mojo/core/embedder/embedder.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gtest.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "testing/gtest/include/gtest/gtest.h",
-            "inDegree": 1
-          },
-          {
-            "id": "resource_bundle.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/base/resource/resource_bundle.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gl_surface.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/gl/gl_surface.h",
-            "inDegree": 1
-          },
-          {
-            "id": "gl_surface_test_support.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "ui/gl/test/gl_surface_test_support.h",
-            "inDegree": 1
-          }
-        ],
-        "links": [
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_main_delegate.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "memory"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "optional"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "variant"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_browser_process.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_content_browser_client.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_draw_fn_impl.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "browser_view_renderer.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "gpu_service_webview.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "viz_compositor_thread_runner_webview.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_descriptors.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_paths.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_resource_bundle.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_crash_reporter_client.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "crash_keys.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_content_gpu_client.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "aw_content_renderer_client.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "android_info.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "apk_assets.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "apk_info.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "pre_freeze_background_memory_trimmer.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "sys_utils.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "check_op.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "command_line.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "cpu.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "feature_list.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "bind.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "icu_util.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "rtl.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "global_descriptors.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "scoped_add_feature_flags.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "string_number_conversions.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "string_split.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "string_util.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "lock.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "thread_restrictions.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "default_clock.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "build_config.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "autofill_features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "crash_key.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "initializer.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "parameters.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "call_stack_profile_builder.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "call_stack_profile_metrics_provider.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "unsent_log_store_metrics.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "safe_browsing_api_handler_bridge.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "process_type.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "profiling_client.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "spellcheck_buildflags.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "variations_ids_provider.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "channel_getter.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "initialize_mojo_core.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "browser_main_runner.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "browser_thread.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "network_service_util.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "content_descriptor_keys.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "content_features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "content_switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "main_function_params.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "isolate_holder.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "v8_initializer.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "gpu_switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "gpu_finch_features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "media_buildflags.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "track_name_recorder.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "features.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "buildflags.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "ui_base_paths.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "ui_base_switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "gesture_configuration.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "gl_switches.h"
-          },
-          {
-            "source": "aw_main_delegate.cc",
-            "target": "spellcheck_features.h"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "memory"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "variant"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "aw_feature_list_creator.h"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "aw_content_client.h"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "aw_gr_context_options_provider.h"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "memory_system.h"
-          },
-          {
-            "source": "aw_main_delegate.h",
-            "target": "content_main_delegate.h"
-          },
-          {
-            "source": "webview_entry_point.cc",
-            "target": "webview_jni_onload.h"
-          },
-          {
-            "source": "webview_entry_point.cc",
-            "target": "base_jni_init.h"
-          },
-          {
-            "source": "webview_entry_point.cc",
-            "target": "library_loader_hooks.h"
-          },
-          {
-            "source": "webview_entry_point.cc",
-            "target": "logging.h"
-          },
-          {
-            "source": "webview_entry_point.cc",
-            "target": "notreached.h"
-          },
-          {
-            "source": "webview_jni_onload.cc",
-            "target": "webview_jni_onload.h"
-          },
-          {
-            "source": "webview_jni_onload.cc",
-            "target": "aw_main_delegate.h"
-          },
-          {
-            "source": "webview_jni_onload.cc",
-            "target": "content_jni_onload.h"
-          },
-          {
-            "source": "webview_jni_onload.cc",
-            "target": "content_main.h"
-          },
-          {
-            "source": "webview_jni_onload.h",
-            "target": "component_export.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "base_switches.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "command_line.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "file_path.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "path_service.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "allow_check_is_test_for_testing.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "test_suite.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "content_switches.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "embedder.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "gtest.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "resource_bundle.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "ui_base_paths.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "gl_surface.h"
-          },
-          {
-            "source": "webview_tests.cc",
-            "target": "gl_surface_test_support.h"
-          }
-        ],
-        "leafNodes": [
-          "aw_main_delegate.cc",
-          "webview_entry_point.cc",
-          "webview_jni_onload.cc",
-          "webview_tests.cc"
-        ]
-      },
-      "subDirs": []
-    },
-    "android_webview/nonembedded": {
-      "graph": {
-        "nodes": [
-          {
-            "id": "webview_apk_application.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/nonembedded/webview_apk_application.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "webview_apk_process.cc",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/nonembedded/webview_apk_process.cc",
-            "inDegree": 0
-          },
-          {
-            "id": "webview_apk_process.h",
-            "group": 1,
-            "val": 10,
-            "isExternal": false,
-            "isSystem": false,
-            "fullPath": "android_webview/nonembedded/webview_apk_process.h",
-            "inDegree": 1
-          },
-          {
-            "id": "aw_resource_bundle.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/common/aw_resource_bundle.h",
-            "inDegree": 1
-          },
-          {
-            "id": "check.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "base/check.h",
-            "inDegree": 1
-          },
-          {
-            "id": "WebViewApkApplication_jni.h",
-            "group": 2,
-            "val": 8,
-            "isExternal": true,
-            "isSystem": false,
-            "fullPath": "android_webview/nonembedded/nonembedded_jni_headers/WebViewApkApplication_jni.h",
-            "inDegree": 1
-          }
-        ],
-        "links": [
-          {
-            "source": "webview_apk_application.cc",
-            "target": "aw_resource_bundle.h"
-          },
-          {
-            "source": "webview_apk_application.cc",
-            "target": "webview_apk_process.h"
-          },
-          {
-            "source": "webview_apk_application.cc",
-            "target": "check.h"
-          },
-          {
-            "source": "webview_apk_application.cc",
-            "target": "WebViewApkApplication_jni.h"
-          }
-        ],
-        "leafNodes": [
-          "webview_apk_application.cc",
-          "webview_apk_process.cc"
-        ]
-      },
-      "subDirs": [
-        "android_webview/nonembedded/java"
-      ]
-    },
-    "android_webview/tools": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/tools/automated_ui_tests",
-        "android_webview/tools/captured_sites_tests",
-        "android_webview/tools/cts_archive",
-        "android_webview/tools/cts_config",
-        "android_webview/tools/pinlist",
-        "android_webview/tools/system_webview_shell",
-        "android_webview/tools/webview_log_verbosifier"
-      ]
-    },
-    "android_webview/ui": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": []
-    },
-    "android_webview/unittestjava": {
-      "graph": {
-        "nodes": [],
-        "links": [],
-        "leafNodes": []
-      },
-      "subDirs": [
-        "android_webview/unittestjava/src"
       ]
     }
   }

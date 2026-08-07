@@ -58,6 +58,7 @@
       },
       "subDirs": [
         "agents/projects/bedrock",
+        "agents/projects/chrome-design-system",
         "agents/projects/code-health",
         "agents/projects/modernization"
       ]
@@ -114,7 +115,11 @@
         "agents/skills/latency-instrumentation",
         "agents/skills/loadline",
         "agents/skills/magi-mode",
+        "agents/skills/multi-agent-code-review",
+        "agents/skills/multi-agent-release-manager",
         "agents/skills/multi-agent-skill-creator",
+        "agents/skills/multi-agent-skill-trainer",
+        "agents/skills/multi-agent-tdd-implementation",
         "agents/skills/network-traffic-annotations",
         "agents/skills/nullaway",
         "agents/skills/physical-chromebook-debugging",

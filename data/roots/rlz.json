@@ -1,3 +1,21 @@
 {
-  "graphs": {}
+  "graphs": {
+    "rlz": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "rlz/buildflags",
+        "rlz/chromeos",
+        "rlz/examples",
+        "rlz/ios",
+        "rlz/lib",
+        "rlz/mac",
+        "rlz/test",
+        "rlz/win"
+      ]
+    }
+  }
 }

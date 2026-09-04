@@ -94,6 +94,7 @@
         "agents/skills/chrome-releases",
         "agents/skills/chromevox-debugging-on-chromebook",
         "agents/skills/chromium-code-link-formatting",
+        "agents/skills/chromium-docs",
         "agents/skills/cl-link-from-hash",
         "agents/skills/disable-test",
         "agents/skills/experimental-ci-only-validator",
@@ -126,7 +127,9 @@
         "agents/skills/nullaway",
         "agents/skills/physical-chromebook-debugging",
         "agents/skills/policy-creation",
+        "agents/skills/preference-deprecation",
         "agents/skills/remove-unused-includes",
+        "agents/skills/screen-recording-on-chromebook",
         "agents/skills/sync-new-data-type",
         "agents/skills/trace-analysis",
         "agents/skills/webui-lit-migration"

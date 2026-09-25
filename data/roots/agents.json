@@ -83,6 +83,7 @@
         "leafNodes": []
       },
       "subDirs": [
+        "agents/skills/3pp",
         "agents/skills/analyzing-sql-traces",
         "agents/skills/android-test-batching",
         "agents/skills/android-unit-test",

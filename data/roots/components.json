@@ -1,3 +1,3710 @@
 {
-  "graphs": {}
+  "graphs": {
+    "components": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/access_code_cast",
+        "components/accessibility",
+        "components/account_id",
+        "components/account_manager_core",
+        "components/account_settings",
+        "components/activity_reporter",
+        "components/actor",
+        "components/affiliations",
+        "components/allocation_recorder",
+        "components/android_autofill",
+        "components/android_system_error_page",
+        "components/android_system_error_page_strings_grdp",
+        "components/apdu",
+        "components/app_constants",
+        "components/app_icon_loader",
+        "components/app_launch_prefetch",
+        "components/app_restore",
+        "components/application_locale_storage",
+        "components/apps",
+        "components/arc_strings_grdp",
+        "components/attribution_reporting",
+        "components/autofill",
+        "components/autofill_payments_strings_grdp",
+        "components/autofill_strings_grdp",
+        "components/back_forward_cache",
+        "components/background_fetch",
+        "components/background_sync",
+        "components/background_task_scheduler",
+        "components/base32",
+        "components/blocked_content",
+        "components/blocklist",
+        "components/bookmark_bar_strings_grdp",
+        "components/bookmark_component_strings_grdp",
+        "components/bookmarks",
+        "components/breadcrumbs",
+        "components/browser_actuator",
+        "components/browser_apis",
+        "components/browser_sync",
+        "components/browser_ui",
+        "components/browsing_data",
+        "components/browsing_data_strings_grdp",
+        "components/cached_flags",
+        "components/captive_portal",
+        "components/capture_mode",
+        "components/cast",
+        "components/cast_receiver",
+        "components/cast_streaming",
+        "components/cbor",
+        "components/cdm",
+        "components/certificate_matching",
+        "components/certificate_model",
+        "components/certificate_transparency",
+        "components/chromeos_camera",
+        "components/client_hints",
+        "components/client_update_protocol",
+        "components/cloud_devices",
+        "components/collaboration",
+        "components/collaboration_strings_grdp",
+        "components/color",
+        "components/commerce",
+        "components/commerce_strings_grdp",
+        "components/component_updater",
+        "components/components_chromium_strings_grd",
+        "components/components_google_chrome_strings_grd",
+        "components/components_settings_strings_grdp",
+        "components/components_strings_grd",
+        "components/compose",
+        "components/compose_strings_grdp",
+        "components/consent_auditor",
+        "components/constrained_window",
+        "components/content_capture",
+        "components/content_extraction",
+        "components/content_relationship_verification",
+        "components/content_settings",
+        "components/contextual_cueing",
+        "components/contextual_cueing_strings_grdp",
+        "components/contextual_search",
+        "components/contextual_tasks",
+        "components/contextual_tasks_strings_grdp",
+        "components/continuous_search",
+        "components/cookie_config",
+        "components/country_codes",
+        "components/crash",
+        "components/crash_strings_grdp",
+        "components/credential_management",
+        "components/critical_actions",
+        "components/cronet",
+        "components/cross_device",
+        "components/crx_file",
+        "components/custom_handlers",
+        "components/data_sharing",
+        "components/database_utils",
+        "components/dbus",
+        "components/desks_storage",
+        "components/desktop_to_mobile_promos",
+        "components/device_event_log",
+        "components/device_reauth",
+        "components/device_signals",
+        "components/devtools",
+        "components/digital_goods",
+        "components/discardable_memory",
+        "components/dom_distiller",
+        "components/dom_distiller_strings_grdp",
+        "components/domain_reliability",
+        "components/download",
+        "components/drive",
+        "components/embedder_support",
+        "components/encrypted_messages",
+        "components/endpoint_fetcher",
+        "components/enterprise",
+        "components/enterprise_strings_grdp",
+        "components/error_page",
+        "components/error_page_strings_grdp",
+        "components/exo",
+        "components/external_intents",
+        "components/external_intents_strings_grdp",
+        "components/externalauth",
+        "components/eye_dropper",
+        "components/facilitated_payments",
+        "components/facilitated_payments_strings_grdp",
+        "components/favicon",
+        "components/favicon_base",
+        "components/fcm",
+        "components/feature_engagement",
+        "components/feed",
+        "components/feedback",
+        "components/file_access",
+        "components/filename_generation",
+        "components/find_in_page",
+        "components/flags_strings_grdp",
+        "components/fuchsia_component_support",
+        "components/fuchsia_legacymetrics",
+        "components/fullscreen_control",
+        "components/fullscreen_control_strings_grdp",
+        "components/gapis",
+        "components/gcm_driver",
+        "components/glic",
+        "components/global_media_controls",
+        "components/global_media_controls_strings_grdp",
+        "components/google",
+        "components/guest_contents",
+        "components/guest_os",
+        "components/guest_view",
+        "components/gwp_asan",
+        "components/handoff",
+        "components/headless",
+        "components/heap_profiling",
+        "components/heavy_ad_intervention",
+        "components/heavy_ad_intervention_strings_grdp",
+        "components/history",
+        "components/history_clusters",
+        "components/history_clusters_strings_grdp",
+        "components/history_embeddings",
+        "components/history_strings_grdp",
+        "components/image_fetcher",
+        "components/infobars",
+        "components/input",
+        "components/installedapp",
+        "components/invalidation",
+        "components/javascript_dialogs",
+        "components/javascript_dialogs_strings_grdp",
+        "components/js_injection",
+        "components/keep_alive_registry",
+        "components/keyed_service",
+        "components/language",
+        "components/language_detection",
+        "components/lens",
+        "components/leveldb_proto",
+        "components/link_header_util",
+        "components/live_caption",
+        "components/live_caption_strings_grdp",
+        "components/local_state",
+        "components/location",
+        "components/login",
+        "components/lookalikes",
+        "components/management",
+        "components/management_strings_grdp",
+        "components/manta",
+        "components/media_control",
+        "components/media_device_salt",
+        "components/media_effects",
+        "components/media_gallery_util",
+        "components/media_message_center",
+        "components/media_message_center_strings_grdp",
+        "components/media_router",
+        "components/memory_pressure",
+        "components/memory_system",
+        "components/messages",
+        "components/metal_util",
+        "components/metrics",
+        "components/metrics_services_manager",
+        "components/minidump_uploader",
+        "components/mirroring",
+        "components/module_installer",
+        "components/multistep_filter",
+        "components/named_mojo_ipc_server",
+        "components/named_system_lock",
+        "components/navigation_interception",
+        "components/navigation_metrics",
+        "components/net_log",
+        "components/neterror",
+        "components/network_hints",
+        "components/network_session_configurator",
+        "components/network_time",
+        "components/new_or_sad_tab_strings_grdp",
+        "components/no_state_prefetch",
+        "components/notebooks",
+        "components/ntp_tiles",
+        "components/offline_items_collection",
+        "components/offline_pages",
+        "components/omnibox",
+        "components/omnibox_pedal_ui_strings_grdp",
+        "components/omnibox_strings_grdp",
+        "components/on_device_ai",
+        "components/on_device_translation",
+        "components/on_load_script_injector",
+        "components/onc",
+        "components/one_time_tokens",
+        "components/open_from_clipboard",
+        "components/openscreen_platform",
+        "components/optimization_guide",
+        "components/origin_gating",
+        "components/origin_matcher",
+        "components/origin_trials",
+        "components/os_crypt",
+        "components/ownership",
+        "components/page_content_annotations",
+        "components/page_image_service",
+        "components/page_info",
+        "components/page_info_strings_grdp",
+        "components/page_load_metrics",
+        "components/paint_preview",
+        "components/passage_embeddings",
+        "components/password_manager",
+        "components/password_manager_strings_grdp",
+        "components/payments",
+        "components/payments_strings_grdp",
+        "components/pdf",
+        "components/pdf_strings_grdp",
+        "components/performance_manager",
+        "components/permissions",
+        "components/permissions_strings_grdp",
+        "components/persistent_cache",
+        "components/personal_context",
+        "components/personal_context_strings_grdp",
+        "components/plugins",
+        "components/policy",
+        "components/policy_strings_grdp",
+        "components/power_bookmarks",
+        "components/power_metrics",
+        "components/power_monitor",
+        "components/pref_registry",
+        "components/prefs",
+        "components/previous_session_info",
+        "components/print_media_strings_grdp",
+        "components/printing",
+        "components/printing_component_strings_grdp",
+        "components/privacy_sandbox",
+        "components/privacy_sandbox_chrome_strings_grdp",
+        "components/privacy_sandbox_strings_grd",
+        "components/private_ai",
+        "components/private_insights",
+        "components/private_verification_tokens",
+        "components/profile_metrics",
+        "components/proto_extras",
+        "components/protocol_handler_strings_grdp",
+        "components/proxy_config",
+        "components/push_messaging",
+        "components/push_notification",
+        "components/pwg_encoder",
+        "components/qr_code_generator",
+        "components/query_parser",
+        "components/quirks",
+        "components/reading_list",
+        "components/record_replay",
+        "components/reduce_accept_language",
+        "components/regional_capabilities",
+        "components/remote_cocoa",
+        "components/renderer_context_menu",
+        "components/reporting",
+        "components/reset_password_strings_grdp",
+        "components/resources",
+        "components/rlz",
+        "components/robolectric",
+        "components/safe_browsing",
+        "components/safe_search_api",
+        "components/safety_check",
+        "components/sampling_profiler",
+        "components/saved_tab_groups",
+        "components/saved_tab_groups_strings_grdp",
+        "components/schema_org",
+        "components/search",
+        "components/search_engine_choice_strings_grdp",
+        "components/search_engines",
+        "components/search_provider_logos",
+        "components/security_interstitials",
+        "components/security_interstitials_strings_grdp",
+        "components/security_state",
+        "components/segmentation_platform",
+        "components/send_tab_to_self",
+        "components/send_tab_to_self_strings_grdp",
+        "components/sensitive_content",
+        "components/server_certificate_database",
+        "components/services",
+        "components/session_manager",
+        "components/session_proto_db",
+        "components/sessions",
+        "components/shared_highlighting",
+        "components/sharing_message",
+        "components/signin",
+        "components/site_engagement",
+        "components/site_isolation",
+        "components/site_settings_strings_grdp",
+        "components/site_token_provider",
+        "components/skills",
+        "components/smart_tab_sharing_grdp",
+        "components/soda",
+        "components/speech",
+        "components/spellcheck",
+        "components/split_tabs",
+        "components/sqlite_encrypted_vfs",
+        "components/sqlite_migration_vfs",
+        "components/sqlite_proto",
+        "components/sqlite_vfs",
+        "components/ssl_errors",
+        "components/ssl_errors_strings_grdp",
+        "components/stability_report",
+        "components/startup_metric_utils",
+        "components/storage_monitor",
+        "components/streaming_client",
+        "components/strictmode",
+        "components/strike_database",
+        "components/strings",
+        "components/stylus_handwriting",
+        "components/subresource_filter",
+        "components/subresource_filter_strings_grdp",
+        "components/subscription_eligibility",
+        "components/supervised_user",
+        "components/supervised_user_strings_grdp",
+        "components/surface_embed",
+        "components/sync",
+        "components/sync_bookmarks",
+        "components/sync_device_info",
+        "components/sync_preferences",
+        "components/sync_sessions",
+        "components/sync_tab_context",
+        "components/sync_ui_strings_grdp",
+        "components/sync_user_events",
+        "components/system_cpu",
+        "components/system_media_controls",
+        "components/tab_groups",
+        "components/tab_groups_strings_grdp",
+        "components/tab_resume_strings_grdp",
+        "components/tabs",
+        "components/test",
+        "components/themes",
+        "components/thin_webview",
+        "components/touch_to_search",
+        "components/tracing",
+        "components/translate",
+        "components/translate_strings_grdp",
+        "components/trusted_vault",
+        "components/ui_devtools",
+        "components/ui_metrics",
+        "components/ukm",
+        "components/undo",
+        "components/undo_strings_grdp",
+        "components/unexportable_keys",
+        "components/unified_consent",
+        "components/universal_optout",
+        "components/update_client",
+        "components/upload_list",
+        "components/url_deduplication",
+        "components/url_formatter",
+        "components/url_matcher",
+        "components/url_pattern",
+        "components/url_pattern_index",
+        "components/url_rewrite",
+        "components/user_data_importer",
+        "components/user_data_importer_strings_grdp",
+        "components/user_education",
+        "components/user_education_strings_grdp",
+        "components/user_manager",
+        "components/user_prefs",
+        "components/value_store",
+        "components/variations",
+        "components/vector_icons",
+        "components/version_info",
+        "components/version_ui_strings_grdp",
+        "components/visibility_timer",
+        "components/visited_url_ranking",
+        "components/visitedlink",
+        "components/viz",
+        "components/vrp_flags",
+        "components/wallet",
+        "components/wallet_strings_grdp",
+        "components/web_app_resources",
+        "components/web_cache",
+        "components/web_modal",
+        "components/web_package",
+        "components/web_resource",
+        "components/webapk",
+        "components/webapps",
+        "components/webauthn",
+        "components/webcrypto",
+        "components/webdata",
+        "components/webdata_services",
+        "components/webid",
+        "components/webrtc",
+        "components/webrtc_logging",
+        "components/webui",
+        "components/webxr",
+        "components/webxr_strings_grdp",
+        "components/wifi",
+        "components/winhttp",
+        "components/zoom",
+        "components/zucchini"
+      ]
+    },
+    "components/access_code_cast": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/access_code_cast/common"
+      ]
+    },
+    "components/accessibility": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/accessibility/android",
+        "components/accessibility/penguin",
+        "components/accessibility/reading"
+      ]
+    },
+    "components/account_id": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "account_id.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_id/account_id.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_id.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_id/account_id.h",
+            "inDegree": 2
+          },
+          {
+            "id": "account_id_literal.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_id/account_id_literal.h",
+            "inDegree": 0
+          },
+          {
+            "id": "functional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "functional",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 1
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 1
+          },
+          {
+            "id": "json_reader.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_reader.h",
+            "inDegree": 1
+          },
+          {
+            "id": "json_writer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_writer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "notimplemented.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notimplemented.h",
+            "inDegree": 1
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/values.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gaia_auth_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/gaia_auth_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gaia_id.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/gaia_id.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "ostream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "ostream",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 2
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "account_id.cc",
+            "target": "account_id.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "functional"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "memory"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "json_reader.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "json_writer.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "notimplemented.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "gaia_auth_util.h"
+          },
+          {
+            "source": "account_id.cc",
+            "target": "gaia_id.h"
+          },
+          {
+            "source": "account_id.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "account_id.h",
+            "target": "functional"
+          },
+          {
+            "source": "account_id.h",
+            "target": "optional"
+          },
+          {
+            "source": "account_id.h",
+            "target": "ostream"
+          },
+          {
+            "source": "account_id.h",
+            "target": "string"
+          },
+          {
+            "source": "account_id.h",
+            "target": "string_view"
+          },
+          {
+            "source": "account_id.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_id.h",
+            "target": "gaia_id.h"
+          },
+          {
+            "source": "account_id_literal.h",
+            "target": "string_view"
+          },
+          {
+            "source": "account_id_literal.h",
+            "target": "account_id.h"
+          },
+          {
+            "source": "account_id_literal.h",
+            "target": "gaia_id.h"
+          }
+        ],
+        "leafNodes": [
+          "account_id.cc",
+          "account_id_literal.h"
+        ]
+      },
+      "subDirs": [
+        "components/account_id/mojom"
+      ]
+    },
+    "components/account_manager_core": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "account.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account.h",
+            "inDegree": 7
+          },
+          {
+            "id": "account_addition_options.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_addition_options.h",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_facade.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_facade.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_facade.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_facade.h",
+            "inDegree": 3
+          },
+          {
+            "id": "account_manager_facade_impl.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_facade_impl.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_facade_impl.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_facade_impl.h",
+            "inDegree": 2
+          },
+          {
+            "id": "account_manager_facade_impl_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_facade_impl_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_metrics.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_metrics.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_metrics.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_metrics.h",
+            "inDegree": 1
+          },
+          {
+            "id": "account_manager_test_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_test_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_manager_test_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_manager_test_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "account_upsertion_result.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_upsertion_result.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "account_upsertion_result.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/account_upsertion_result.h",
+            "inDegree": 2
+          },
+          {
+            "id": "mock_account_manager_facade.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/mock_account_manager_facade.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "mock_account_manager_facade.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/mock_account_manager_facade.h",
+            "inDegree": 2
+          },
+          {
+            "id": "pref_names.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/pref_names.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "pref_names.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/pref_names.h",
+            "inDegree": 0
+          },
+          {
+            "id": "check.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check.h",
+            "inDegree": 2
+          },
+          {
+            "id": "check_op.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_op.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gaia_id.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/gaia_id.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ostream",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "ostream",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 4
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 5
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 4
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 1
+          },
+          {
+            "id": "observer_list_types.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/observer_list_types.h",
+            "inDegree": 1
+          },
+          {
+            "id": "google_service_auth_error.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/google_service_auth_error.h",
+            "inDegree": 5
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 2
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 2
+          },
+          {
+            "id": "check_deref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_deref.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check_is_test.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_is_test.h",
+            "inDegree": 1
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/bind.h",
+            "inDegree": 2
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "sequenced_task_runner.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/task/sequenced_task_runner.h",
+            "inDegree": 1
+          },
+          {
+            "id": "account_manager.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/account_manager_core/chromeos/account_manager.h",
+            "inDegree": 3
+          },
+          {
+            "id": "oauth2_access_token_fetcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/oauth2_access_token_fetcher.h",
+            "inDegree": 2
+          },
+          {
+            "id": "callback_forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 1
+          },
+          {
+            "id": "raw_ref.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ref.h",
+            "inDegree": 1
+          },
+          {
+            "id": "observer_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/observer_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_observation.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/scoped_observation.h",
+            "inDegree": 2
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "limits",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits",
+            "inDegree": 1
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock_callback_support.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/gmock_callback_support.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_until.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/run_until.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_future.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_future.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 1
+          },
+          {
+            "id": "testing_pref_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/prefs/testing_pref_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "oauth2_access_token_consumer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/oauth2_access_token_consumer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "weak_wrapper_shared_url_loader_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/cpp/weak_wrapper_shared_url_loader_factory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_url_loader_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/test/test_url_loader_factory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gmock.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gmock/include/gmock/gmock.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "histogram_functions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/histogram_functions.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "account.cc",
+            "target": "account.h"
+          },
+          {
+            "source": "account.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "account.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "account.cc",
+            "target": "gaia_id.h"
+          },
+          {
+            "source": "account.h",
+            "target": "ostream"
+          },
+          {
+            "source": "account.h",
+            "target": "string"
+          },
+          {
+            "source": "account.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_addition_options.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_manager_facade.cc",
+            "target": "account_manager_facade.h"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "memory"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "string"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "observer_list_types.h"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "account.h"
+          },
+          {
+            "source": "account_manager_facade.h",
+            "target": "google_service_auth_error.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "account_manager_facade_impl.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "memory"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "optional"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "string"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "utility"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "vector"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "check.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "check_deref.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "check_is_test.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "sequenced_task_runner.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "account.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "account_manager.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "google_service_auth_error.h"
+          },
+          {
+            "source": "account_manager_facade_impl.cc",
+            "target": "oauth2_access_token_fetcher.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "memory"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "string"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "vector"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "callback_forward.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "raw_ref.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "observer_list.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "scoped_observation.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "account_manager_facade.h"
+          },
+          {
+            "source": "account_manager_facade_impl.h",
+            "target": "account_manager.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "account_manager_facade_impl.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "limits"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "scoped_observation.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "gmock_callback_support.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "run_until.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "test_future.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "account.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "account_manager_facade.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "account_manager_test_util.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "account_manager.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "mock_account_manager_facade.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "testing_pref_service.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "google_service_auth_error.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "oauth2_access_token_consumer.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "oauth2_access_token_fetcher.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "weak_wrapper_shared_url_loader_factory.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "test_url_loader_factory.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "gmock.h"
+          },
+          {
+            "source": "account_manager_facade_impl_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "account_manager_metrics.cc",
+            "target": "account_manager_metrics.h"
+          },
+          {
+            "source": "account_manager_metrics.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "account_manager_metrics.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "account_manager_metrics.h",
+            "target": "account_upsertion_result.h"
+          },
+          {
+            "source": "account_manager_test_util.cc",
+            "target": "account_manager_test_util.h"
+          },
+          {
+            "source": "account_manager_test_util.cc",
+            "target": "account.h"
+          },
+          {
+            "source": "account_manager_test_util.h",
+            "target": "account.h"
+          },
+          {
+            "source": "account_upsertion_result.cc",
+            "target": "account_upsertion_result.h"
+          },
+          {
+            "source": "account_upsertion_result.cc",
+            "target": "check_op.h"
+          },
+          {
+            "source": "account_upsertion_result.cc",
+            "target": "google_service_auth_error.h"
+          },
+          {
+            "source": "account_upsertion_result.h",
+            "target": "optional"
+          },
+          {
+            "source": "account_upsertion_result.h",
+            "target": "account.h"
+          },
+          {
+            "source": "account_upsertion_result.h",
+            "target": "google_service_auth_error.h"
+          },
+          {
+            "source": "mock_account_manager_facade.cc",
+            "target": "mock_account_manager_facade.h"
+          }
+        ],
+        "leafNodes": [
+          "account.cc",
+          "account_addition_options.h",
+          "account_manager_facade.cc",
+          "account_manager_facade_impl.cc",
+          "account_manager_facade_impl_unittest.cc",
+          "account_manager_metrics.cc",
+          "account_manager_test_util.cc",
+          "account_upsertion_result.cc",
+          "mock_account_manager_facade.cc",
+          "pref_names.cc",
+          "pref_names.h"
+        ]
+      },
+      "subDirs": [
+        "components/account_manager_core/chromeos"
+      ]
+    },
+    "components/externalauth": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/externalauth/android"
+      ]
+    },
+    "components/eye_dropper": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "color_mixer.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/color_mixer.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "color_mixer.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/color_mixer.h",
+            "inDegree": 2
+          },
+          {
+            "id": "eye_dropper_view.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/eye_dropper_view.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "eye_dropper_view.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/eye_dropper_view.h",
+            "inDegree": 2
+          },
+          {
+            "id": "eye_dropper_view_aura.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/eye_dropper_view_aura.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "features.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/features.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "features.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/eye_dropper/features.h",
+            "inDegree": 2
+          },
+          {
+            "id": "color_id.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/color/color_id.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkColor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkColor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "color_provider.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/color/color_provider.h",
+            "inDegree": 1
+          },
+          {
+            "id": "color_recipe.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/color/color_recipe.h",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          },
+          {
+            "id": "raw_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/raw_ptr.h",
+            "inDegree": 3
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 2
+          },
+          {
+            "id": "timer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/timer/timer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 4
+          },
+          {
+            "id": "desktop_capture.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/desktop_capture.h",
+            "inDegree": 1
+          },
+          {
+            "id": "render_view_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/render_view_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "render_widget_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/render_widget_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_contents.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/web_contents.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkBitmap.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkBitmap.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkPath.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkPath.h",
+            "inDegree": 1
+          },
+          {
+            "id": "metadata_header_macros.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/metadata/metadata_header_macros.h",
+            "inDegree": 1
+          },
+          {
+            "id": "metadata_impl_macros.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/metadata/metadata_impl_macros.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ui_base_types.mojom-shared.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/mojom/ui_base_types.mojom-shared.h",
+            "inDegree": 1
+          },
+          {
+            "id": "screen.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/display/screen.h",
+            "inDegree": 3
+          },
+          {
+            "id": "canvas.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/canvas.h",
+            "inDegree": 1
+          },
+          {
+            "id": "color_palette.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/color_palette.h",
+            "inDegree": 1
+          },
+          {
+            "id": "rect.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/rect.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image_skia.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_skia.h",
+            "inDegree": 1
+          },
+          {
+            "id": "native_ui_types.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/native_ui_types.h",
+            "inDegree": 1
+          },
+          {
+            "id": "view.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/views/view.h",
+            "inDegree": 1
+          },
+          {
+            "id": "widget.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/views/widget/widget.h",
+            "inDegree": 2
+          },
+          {
+            "id": "widget_delegate.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/views/widget/widget_delegate.h",
+            "inDegree": 1
+          },
+          {
+            "id": "windows_version.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/win/windows_version.h",
+            "inDegree": 1
+          },
+          {
+            "id": "window_tree_host.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/window_tree_host.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "eye_dropper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/eye_dropper.h",
+            "inDegree": 1
+          },
+          {
+            "id": "eye_dropper_listener.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "content/public/browser/eye_dropper_listener.h",
+            "inDegree": 1
+          },
+          {
+            "id": "desktop_capturer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/webrtc/modules/desktop_capture/desktop_capturer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "event_handler.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/events/event_handler.h",
+            "inDegree": 1
+          },
+          {
+            "id": "point.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/point.h",
+            "inDegree": 1
+          },
+          {
+            "id": "widget_observer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/views/widget/widget_observer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_observation.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/scoped_observation.h",
+            "inDegree": 1
+          },
+          {
+            "id": "window_observer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/window_observer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "cursor_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/client/cursor_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "focus_change_observer.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/client/focus_change_observer.h",
+            "inDegree": 1
+          },
+          {
+            "id": "focus_client.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/client/focus_client.h",
+            "inDegree": 1
+          },
+          {
+            "id": "window.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/aura/window.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ui_base_features.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/ui_base_features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/events/event.h",
+            "inDegree": 1
+          },
+          {
+            "id": "native_window_tracker.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/native_window_tracker/native_window_tracker.h",
+            "inDegree": 1
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "color_mixer.cc",
+            "target": "color_mixer.h"
+          },
+          {
+            "source": "color_mixer.cc",
+            "target": "color_id.h"
+          },
+          {
+            "source": "color_mixer.cc",
+            "target": "SkColor.h"
+          },
+          {
+            "source": "color_mixer.cc",
+            "target": "color_mixer.h"
+          },
+          {
+            "source": "color_mixer.cc",
+            "target": "color_provider.h"
+          },
+          {
+            "source": "color_mixer.cc",
+            "target": "color_recipe.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "eye_dropper_view.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "utility"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "timer.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "color_id.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "desktop_capture.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "render_view_host.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "render_widget_host.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "web_contents.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "SkPath.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "metadata_header_macros.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "metadata_impl_macros.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "ui_base_types.mojom-shared.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "screen.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "canvas.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "color_palette.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "rect.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "image_skia.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "native_ui_types.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "view.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "widget.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "widget_delegate.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "windows_version.h"
+          },
+          {
+            "source": "eye_dropper_view.cc",
+            "target": "window_tree_host.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "memory"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "optional"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "time.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "eye_dropper.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "eye_dropper_listener.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "desktop_capturer.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "screen.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "event_handler.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "point.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "widget_observer.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "scoped_observation.h"
+          },
+          {
+            "source": "eye_dropper_view.h",
+            "target": "window_observer.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "raw_ptr.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "eye_dropper_view.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "cursor_client.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "focus_change_observer.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "focus_client.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "window.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "ui_base_features.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "screen.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "event.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "native_window_tracker.h"
+          },
+          {
+            "source": "eye_dropper_view_aura.cc",
+            "target": "widget.h"
+          },
+          {
+            "source": "features.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "features.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "features.h",
+            "target": "feature_list.h"
+          }
+        ],
+        "leafNodes": [
+          "color_mixer.cc",
+          "eye_dropper_view.cc",
+          "eye_dropper_view_aura.cc",
+          "features.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "components/facilitated_payments": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/facilitated_payments/android",
+        "components/facilitated_payments/content",
+        "components/facilitated_payments/core"
+      ]
+    },
+    "components/facilitated_payments_strings_grdp": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "components/favicon": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "components/favicon/android",
+        "components/favicon/content",
+        "components/favicon/core",
+        "components/favicon/ios"
+      ]
+    },
+    "components/favicon_base": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "fallback_icon_style.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/fallback_icon_style.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fallback_icon_style.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/fallback_icon_style.h",
+            "inDegree": 2
+          },
+          {
+            "id": "favicon_callback.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_callback.h",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_types.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_types.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_types.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_types.h",
+            "inDegree": 5
+          },
+          {
+            "id": "favicon_url_parser.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_url_parser.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_url_parser.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_url_parser.h",
+            "inDegree": 3
+          },
+          {
+            "id": "favicon_url_parser_fuzzer.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_url_parser_fuzzer.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_url_parser_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_url_parser_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_usage_data.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_usage_data.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_usage_data.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_usage_data.h",
+            "inDegree": 1
+          },
+          {
+            "id": "favicon_util.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_util.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "favicon_util.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/favicon_util.h",
+            "inDegree": 2
+          },
+          {
+            "id": "select_favicon_frames.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/select_favicon_frames.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "select_favicon_frames.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/select_favicon_frames.h",
+            "inDegree": 3
+          },
+          {
+            "id": "select_favicon_frames_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/favicon_base/select_favicon_frames_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 3
+          },
+          {
+            "id": "color_analysis.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/color_analysis.h",
+            "inDegree": 1
+          },
+          {
+            "id": "color_utils.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/color_utils.h",
+            "inDegree": 1
+          },
+          {
+            "id": "span.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/span.h",
+            "inDegree": 1
+          },
+          {
+            "id": "SkColor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkColor.h",
+            "inDegree": 2
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 4
+          },
+          {
+            "id": "callback.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 3
+          },
+          {
+            "id": "flat_set.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/flat_set.h",
+            "inDegree": 1
+          },
+          {
+            "id": "ref_counted_memory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/ref_counted_memory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "size.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/geometry/size.h",
+            "inDegree": 4
+          },
+          {
+            "id": "image.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 2
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "notimplemented.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notimplemented.h",
+            "inDegree": 1
+          },
+          {
+            "id": "notreached.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/notreached.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "url_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/url_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "web_ui_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/webui/web_ui_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "favicon_size.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/favicon_size.h",
+            "inDegree": 3
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 5
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 2
+          },
+          {
+            "id": "at_exit.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/at_exit.h",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          },
+          {
+            "id": "icu_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/i18n/icu_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 2
+          },
+          {
+            "id": "set",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "set",
+            "inDegree": 2
+          },
+          {
+            "id": "cmath",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "cmath",
+            "inDegree": 2
+          },
+          {
+            "id": "trace_event.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/trace_event/trace_event.h",
+            "inDegree": 1
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 2
+          },
+          {
+            "id": "image_operations.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "skia/ext/image_operations.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkBitmap.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkBitmap.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkCanvas.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkCanvas.h",
+            "inDegree": 2
+          },
+          {
+            "id": "SkImage.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "third_party/skia/include/core/SkImage.h",
+            "inDegree": 2
+          },
+          {
+            "id": "resource_scale_factor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/base/resource/resource_scale_factor.h",
+            "inDegree": 2
+          },
+          {
+            "id": "png_codec.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/codec/png_codec.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image_png_rep.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_png_rep.h",
+            "inDegree": 1
+          },
+          {
+            "id": "image_skia.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_skia.h",
+            "inDegree": 3
+          },
+          {
+            "id": "image_skia_rep.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_skia_rep.h",
+            "inDegree": 3
+          },
+          {
+            "id": "mac_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/mac/mac_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "limits",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "limits",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 1
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 1
+          },
+          {
+            "id": "image_skia_source.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "ui/gfx/image/image_skia_source.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "fallback_icon_style.cc",
+            "target": "fallback_icon_style.h"
+          },
+          {
+            "source": "fallback_icon_style.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "fallback_icon_style.cc",
+            "target": "color_analysis.h"
+          },
+          {
+            "source": "fallback_icon_style.cc",
+            "target": "color_utils.h"
+          },
+          {
+            "source": "fallback_icon_style.h",
+            "target": "span.h"
+          },
+          {
+            "source": "fallback_icon_style.h",
+            "target": "SkColor.h"
+          },
+          {
+            "source": "favicon_callback.h",
+            "target": "vector"
+          },
+          {
+            "source": "favicon_callback.h",
+            "target": "callback.h"
+          },
+          {
+            "source": "favicon_types.cc",
+            "target": "favicon_types.h"
+          },
+          {
+            "source": "favicon_types.cc",
+            "target": "fallback_icon_style.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "memory"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "flat_set.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "ref_counted_memory.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "size.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "image.h"
+          },
+          {
+            "source": "favicon_types.h",
+            "target": "gurl.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "favicon_url_parser.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "notimplemented.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "notreached.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "favicon_types.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "url_util.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "web_ui_util.h"
+          },
+          {
+            "source": "favicon_url_parser.cc",
+            "target": "favicon_size.h"
+          },
+          {
+            "source": "favicon_url_parser.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "favicon_url_parser.h",
+            "target": "string"
+          },
+          {
+            "source": "favicon_url_parser.h",
+            "target": "favicon_size.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "favicon_url_parser.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "stdint.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "string"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "at_exit.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "icu_util.h"
+          },
+          {
+            "source": "favicon_url_parser_fuzzer.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "favicon_url_parser_unittest.cc",
+            "target": "favicon_url_parser.h"
+          },
+          {
+            "source": "favicon_url_parser_unittest.cc",
+            "target": "memory"
+          },
+          {
+            "source": "favicon_url_parser_unittest.cc",
+            "target": "favicon_types.h"
+          },
+          {
+            "source": "favicon_url_parser_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "favicon_usage_data.cc",
+            "target": "favicon_usage_data.h"
+          },
+          {
+            "source": "favicon_usage_data.h",
+            "target": "set"
+          },
+          {
+            "source": "favicon_usage_data.h",
+            "target": "vector"
+          },
+          {
+            "source": "favicon_usage_data.h",
+            "target": "gurl.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "favicon_util.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "cmath"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "trace_event.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "favicon_types.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "select_favicon_frames.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "image_operations.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "SkCanvas.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "SkImage.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "resource_scale_factor.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "png_codec.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "favicon_size.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "image_png_rep.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "image_skia.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "image_skia_rep.h"
+          },
+          {
+            "source": "favicon_util.cc",
+            "target": "mac_util.h"
+          },
+          {
+            "source": "favicon_util.h",
+            "target": "vector"
+          },
+          {
+            "source": "favicon_util.h",
+            "target": "favicon_types.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "select_favicon_frames.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "cmath"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "limits"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "map"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "memory"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "set"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "utility"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "favicon_util.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "image_operations.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "SkCanvas.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "SkImage.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "image.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "image_skia.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "image_skia_rep.h"
+          },
+          {
+            "source": "select_favicon_frames.cc",
+            "target": "image_skia_source.h"
+          },
+          {
+            "source": "select_favicon_frames.h",
+            "target": "stddef.h"
+          },
+          {
+            "source": "select_favicon_frames.h",
+            "target": "vector"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "select_favicon_frames.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "SkBitmap.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "SkColor.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "resource_scale_factor.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "size.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "image_skia.h"
+          },
+          {
+            "source": "select_favicon_frames_unittest.cc",
+            "target": "image_skia_rep.h"
+          }
+        ],
+        "leafNodes": [
+          "fallback_icon_style.cc",
+          "favicon_callback.h",
+          "favicon_types.cc",
+          "favicon_url_parser.cc",
+          "favicon_url_parser_fuzzer.cc",
+          "favicon_url_parser_unittest.cc",
+          "favicon_usage_data.cc",
+          "favicon_util.cc",
+          "select_favicon_frames.cc",
+          "select_favicon_frames_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    },
+    "components/fcm": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "fcm_activity.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_activity.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_activity.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_activity.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcm_app_handler.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_app_handler.h",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_driver.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_driver.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcm_driver_android.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver_android.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_driver_android.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver_android.h",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_driver_android_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver_android_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_driver_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_driver_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_message.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_message.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_message.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_message.h",
+            "inDegree": 1
+          },
+          {
+            "id": "fcm_service.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_service.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "fcm_service.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/fcm_service.h",
+            "inDegree": 0
+          },
+          {
+            "id": "features.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/features.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "features.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "components/fcm/features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 2
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 1
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 1
+          },
+          {
+            "id": "strong_alias.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/types/strong_alias.h",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 1
+          },
+          {
+            "id": "keyed_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "components/keyed_service/core/keyed_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "fcm_activity.cc",
+            "target": "fcm_activity.h"
+          },
+          {
+            "source": "fcm_activity.h",
+            "target": "string"
+          },
+          {
+            "source": "fcm_activity.h",
+            "target": "vector"
+          },
+          {
+            "source": "fcm_activity.h",
+            "target": "time.h"
+          },
+          {
+            "source": "fcm_app_handler.h",
+            "target": "optional"
+          },
+          {
+            "source": "fcm_app_handler.h",
+            "target": "string"
+          },
+          {
+            "source": "fcm_app_handler.h",
+            "target": "strong_alias.h"
+          },
+          {
+            "source": "fcm_app_handler.h",
+            "target": "fcm_message.h"
+          },
+          {
+            "source": "fcm_service.h",
+            "target": "memory"
+          },
+          {
+            "source": "fcm_service.h",
+            "target": "fcm_driver.h"
+          },
+          {
+            "source": "fcm_service.h",
+            "target": "keyed_service.h"
+          },
+          {
+            "source": "features.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "features.h",
+            "target": "feature_list.h"
+          }
+        ],
+        "leafNodes": [
+          "fcm_activity.cc",
+          "fcm_app_handler.h",
+          "fcm_driver.cc",
+          "fcm_driver_android.cc",
+          "fcm_driver_android.h",
+          "fcm_driver_android_unittest.cc",
+          "fcm_driver_unittest.cc",
+          "fcm_message.cc",
+          "fcm_service.cc",
+          "fcm_service.h",
+          "features.cc"
+        ]
+      },
+      "subDirs": [
+        "components/fcm/android",
+        "components/fcm/base",
+        "components/fcm/crypto",
+        "components/fcm/engine"
+      ]
+    }
+  }
 }

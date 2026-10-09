@@ -85,11 +85,13 @@
       "subDirs": [
         "agents/skills/3pp",
         "agents/skills/analyzing-sql-traces",
+        "agents/skills/android-do-not-mock",
         "agents/skills/android-test-batching",
         "agents/skills/android-unit-test",
         "agents/skills/apply-fix-from-crbug-with-diff",
         "agents/skills/automated-tracing",
         "agents/skills/bisect",
+        "agents/skills/blink-gc-plugin",
         "agents/skills/browser-window-feature-refactor",
         "agents/skills/chrome-performance-optimizer",
         "agents/skills/chrome-releases",

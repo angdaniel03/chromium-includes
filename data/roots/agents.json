@@ -60,8 +60,7 @@
         "agents/projects/android",
         "agents/projects/bedrock",
         "agents/projects/chrome-design-system",
-        "agents/projects/code-health",
-        "agents/projects/modernization"
+        "agents/projects/code-health"
       ]
     },
     "agents/prompts": {
@@ -84,6 +83,7 @@
       },
       "subDirs": [
         "agents/skills/3pp",
+        "agents/skills/actor-tool-registration",
         "agents/skills/analyzing-sql-traces",
         "agents/skills/android-do-not-mock",
         "agents/skills/android-test-batching",

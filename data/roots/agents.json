@@ -10,6 +10,7 @@
         "agents/common",
         "agents/extensions",
         "agents/infra",
+        "agents/knowledge_base",
         "agents/projects",
         "agents/prompts",
         "agents/skills",
@@ -48,6 +49,16 @@
       },
       "subDirs": [
         "agents/infra/review_rag_indexer"
+      ]
+    },
+    "agents/knowledge_base": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": [
+        "agents/knowledge_base/rules"
       ]
     },
     "agents/projects": {
@@ -99,7 +110,9 @@
         "agents/skills/chromium-code-link-formatting",
         "agents/skills/chromium-docs",
         "agents/skills/cl-link-from-hash",
+        "agents/skills/crbug",
         "agents/skills/crossbench-runner",
+        "agents/skills/device-bound-sessions-review",
         "agents/skills/disable-test",
         "agents/skills/enable-check-includes-strict",
         "agents/skills/experimental-ci-only-validator",
@@ -113,13 +126,16 @@
         "agents/skills/experimental-code-coverage-swarming-output-validator",
         "agents/skills/experimental-code-coverage-verification-prep",
         "agents/skills/experimental-read-code-coverage-metrics",
+        "agents/skills/feature-flag-creation",
         "agents/skills/feature-flag-removal",
+        "agents/skills/first-run-feature-showcase-reviewer",
         "agents/skills/fuzzing",
         "agents/skills/gn-deps-debugging",
         "agents/skills/histograms",
         "agents/skills/iterative-latency-investigation",
         "agents/skills/java-memory-leaks",
         "agents/skills/jni-type-conversion",
+        "agents/skills/kombucha-testing",
         "agents/skills/latency-instrumentation",
         "agents/skills/loadline",
         "agents/skills/multi-agent-code-review",
@@ -131,13 +147,21 @@
         "agents/skills/network-traffic-annotations",
         "agents/skills/nullaway",
         "agents/skills/physical-chromebook-debugging",
+        "agents/skills/pixel-test",
         "agents/skills/policy-creation",
         "agents/skills/preference-deprecation",
+        "agents/skills/reenable-test",
         "agents/skills/remove-circular-includes",
         "agents/skills/remove-unused-includes",
         "agents/skills/screen-recording-on-chromebook",
+        "agents/skills/security-architect",
+        "agents/skills/sync-bridge",
+        "agents/skills/sync-model-processor",
         "agents/skills/sync-new-data-type",
+        "agents/skills/sync-proto-review",
+        "agents/skills/sync-unique-positions",
         "agents/skills/trace-analysis",
+        "agents/skills/translation-screenshots",
         "agents/skills/webui-lit-migration"
       ]
     },

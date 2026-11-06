@@ -95,6 +95,7 @@
       "subDirs": [
         "agents/skills/3pp",
         "agents/skills/actor-tool-registration",
+        "agents/skills/add-vector-icon",
         "agents/skills/analyzing-sql-traces",
         "agents/skills/android-do-not-mock",
         "agents/skills/android-test-batching",
@@ -155,6 +156,7 @@
         "agents/skills/remove-unused-includes",
         "agents/skills/screen-recording-on-chromebook",
         "agents/skills/security-architect",
+        "agents/skills/security-review",
         "agents/skills/sync-bridge",
         "agents/skills/sync-model-processor",
         "agents/skills/sync-new-data-type",

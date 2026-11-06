@@ -1,3 +1,1578 @@
 {
-  "graphs": {}
+  "graphs": {
+    "google_apis": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "api_key_cache.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/api_key_cache.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "api_key_cache.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/api_key_cache.h",
+            "inDegree": 3
+          },
+          {
+            "id": "credentials_mode.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/credentials_mode.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "credentials_mode.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/credentials_mode.h",
+            "inDegree": 1
+          },
+          {
+            "id": "default_api_keys-inc.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/default_api_keys-inc.cc",
+            "inDegree": 11
+          },
+          {
+            "id": "default_api_keys.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/default_api_keys.h",
+            "inDegree": 4
+          },
+          {
+            "id": "google_api_keys.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/google_api_keys.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "google_api_keys.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/google_api_keys.h",
+            "inDegree": 4
+          },
+          {
+            "id": "google_api_keys_mac.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/google_api_keys_mac.h",
+            "inDegree": 1
+          },
+          {
+            "id": "google_api_keys_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/google_api_keys_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "google_api_keys_unittest.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/google_api_keys_unittest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "run_all_unittests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/run_all_unittests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 2
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 5
+          },
+          {
+            "id": "command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/command_line.h",
+            "inDegree": 2
+          },
+          {
+            "id": "environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/environment.h",
+            "inDegree": 2
+          },
+          {
+            "id": "feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/feature_list.h",
+            "inDegree": 2
+          },
+          {
+            "id": "features.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/features.h",
+            "inDegree": 1
+          },
+          {
+            "id": "logging.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/logging.h",
+            "inDegree": 1
+          },
+          {
+            "id": "field_trial_params.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/field_trial_params.h",
+            "inDegree": 1
+          },
+          {
+            "id": "histogram_functions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/metrics/histogram_functions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stringize_macros.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/stringize_macros.h",
+            "inDegree": 1
+          },
+          {
+            "id": "branding_buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/branding_buildflags.h",
+            "inDegree": 4
+          },
+          {
+            "id": "build_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "build/build_config.h",
+            "inDegree": 7
+          },
+          {
+            "id": "buildflags.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/buildflags.h",
+            "inDegree": 5
+          },
+          {
+            "id": "gaia_config.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/gaia_config.h",
+            "inDegree": 2
+          },
+          {
+            "id": "gaia_switches.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/gaia/gaia_switches.h",
+            "inDegree": 2
+          },
+          {
+            "id": "array",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "array",
+            "inDegree": 2
+          },
+          {
+            "id": "fetch_api.mojom.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/mojom/fetch_api.mojom.h",
+            "inDegree": 1
+          },
+          {
+            "id": "component_export.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/component_export.h",
+            "inDegree": 3
+          },
+          {
+            "id": "fetch_api.mojom-forward.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/public/mojom/fetch_api.mojom-forward.h",
+            "inDegree": 1
+          },
+          {
+            "id": "check_is_test.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/check_is_test.h",
+            "inDegree": 1
+          },
+          {
+            "id": "bind.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/bind.h",
+            "inDegree": 2
+          },
+          {
+            "id": "callback_helpers.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/functional/callback_helpers.h",
+            "inDegree": 2
+          },
+          {
+            "id": "no_destructor.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/no_destructor.h",
+            "inDegree": 1
+          },
+          {
+            "id": "channel.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/version_info/channel.h",
+            "inDegree": 2
+          },
+          {
+            "id": "google_chrome_api_keys.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/internal/google_chrome_api_keys.h",
+            "inDegree": 3
+          },
+          {
+            "id": "metrics_signing_key.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/internal/metrics_signing_key.h",
+            "inDegree": 3
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "file_path.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/files/file_path.h",
+            "inDegree": 1
+          },
+          {
+            "id": "path_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/path_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "histogram_tester.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/metrics/histogram_tester.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_command_line.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_command_line.h",
+            "inDegree": 1
+          },
+          {
+            "id": "scoped_feature_list.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/scoped_feature_list.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "unit_test_launcher.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/launcher/unit_test_launcher.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_suite.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/test_suite.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedder.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "mojo/core/embedder/embedder.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "api_key_cache.cc",
+            "target": "api_key_cache.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "memory"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "string"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "environment.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "features.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "logging.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "field_trial_params.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "histogram_functions.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "stringize_macros.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "branding_buildflags.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "default_api_keys.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "gaia_config.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "gaia_switches.h"
+          },
+          {
+            "source": "api_key_cache.cc",
+            "target": "google_api_keys_mac.h"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "array"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "string"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "feature_list.h"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "api_key_cache.h",
+            "target": "google_api_keys.h"
+          },
+          {
+            "source": "credentials_mode.cc",
+            "target": "credentials_mode.h"
+          },
+          {
+            "source": "credentials_mode.cc",
+            "target": "fetch_api.mojom.h"
+          },
+          {
+            "source": "credentials_mode.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "credentials_mode.h",
+            "target": "fetch_api.mojom-forward.h"
+          },
+          {
+            "source": "default_api_keys-inc.cc",
+            "target": "branding_buildflags.h"
+          },
+          {
+            "source": "default_api_keys-inc.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "default_api_keys-inc.cc",
+            "target": "default_api_keys.h"
+          },
+          {
+            "source": "default_api_keys.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "default_api_keys.h",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "google_api_keys.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "string"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "check_is_test.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "no_destructor.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "channel.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "branding_buildflags.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "api_key_cache.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "default_api_keys.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "google_chrome_api_keys.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "metrics_signing_key.h"
+          },
+          {
+            "source": "google_api_keys.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys.h",
+            "target": "string"
+          },
+          {
+            "source": "google_api_keys.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "google_api_keys.h",
+            "target": "callback_helpers.h"
+          },
+          {
+            "source": "google_api_keys.h",
+            "target": "build_config.h"
+          },
+          {
+            "source": "google_api_keys.h",
+            "target": "buildflags.h"
+          },
+          {
+            "source": "google_api_keys_mac.h",
+            "target": "string_view"
+          },
+          {
+            "source": "google_api_keys_mac.h",
+            "target": "component_export.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "google_api_keys_unittest.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "command_line.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "file_path.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "path_service.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "histogram_tester.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "scoped_command_line.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "scoped_feature_list.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "channel.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "branding_buildflags.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "build_config.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "api_key_cache.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "gaia_config.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "gaia_switches.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "google_api_keys.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "google_chrome_api_keys.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "metrics_signing_key.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "google_chrome_api_keys.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "metrics_signing_key.h"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.cc",
+            "target": "default_api_keys-inc.cc"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "array"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "memory"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "string"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "environment.h"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "google_api_keys.h"
+          },
+          {
+            "source": "google_api_keys_unittest.h",
+            "target": "gtest.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "bind.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "unit_test_launcher.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "test_suite.h"
+          },
+          {
+            "source": "run_all_unittests.cc",
+            "target": "embedder.h"
+          }
+        ],
+        "leafNodes": [
+          "api_key_cache.cc",
+          "credentials_mode.cc",
+          "google_api_keys.cc",
+          "google_api_keys_unittest.cc",
+          "run_all_unittests.cc"
+        ]
+      },
+      "subDirs": [
+        "google_apis/build",
+        "google_apis/calendar",
+        "google_apis/classroom",
+        "google_apis/common",
+        "google_apis/drive",
+        "google_apis/gaia",
+        "google_apis/gcm",
+        "google_apis/people",
+        "google_apis/tasks",
+        "google_apis/test",
+        "google_apis/youtube_music"
+      ]
+    },
+    "google_apis/build": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
+    },
+    "google_apis/calendar": {
+      "graph": {
+        "nodes": [
+          {
+            "id": "calendar_api_requests.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_requests.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "calendar_api_requests.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_requests.h",
+            "inDegree": 2
+          },
+          {
+            "id": "calendar_api_requests_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_requests_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "calendar_api_response_types.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_response_types.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "calendar_api_response_types.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_response_types.h",
+            "inDegree": 4
+          },
+          {
+            "id": "calendar_api_response_types_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_response_types_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "calendar_api_url_generator.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_url_generator.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "calendar_api_url_generator.h",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_url_generator.h",
+            "inDegree": 1
+          },
+          {
+            "id": "calendar_api_url_generator_unittest.cc",
+            "group": 1,
+            "val": 10,
+            "isExternal": false,
+            "isSystem": false,
+            "fullPath": "google_apis/calendar/calendar_api_url_generator_unittest.cc",
+            "inDegree": 0
+          },
+          {
+            "id": "stddef.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stddef.h",
+            "inDegree": 2
+          },
+          {
+            "id": "memory",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "memory",
+            "inDegree": 4
+          },
+          {
+            "id": "string",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string",
+            "inDegree": 5
+          },
+          {
+            "id": "utility",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "utility",
+            "inDegree": 2
+          },
+          {
+            "id": "vector",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "vector",
+            "inDegree": 5
+          },
+          {
+            "id": "weak_ptr.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/memory/weak_ptr.h",
+            "inDegree": 2
+          },
+          {
+            "id": "strcat.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/strcat.h",
+            "inDegree": 1
+          },
+          {
+            "id": "values.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/values.h",
+            "inDegree": 2
+          },
+          {
+            "id": "api_error_codes.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/api_error_codes.h",
+            "inDegree": 2
+          },
+          {
+            "id": "base_requests.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/base_requests.h",
+            "inDegree": 2
+          },
+          {
+            "id": "request_sender.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/request_sender.h",
+            "inDegree": 2
+          },
+          {
+            "id": "url_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/base/url_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "optional",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "optional",
+            "inDegree": 2
+          },
+          {
+            "id": "time.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/time/time.h",
+            "inDegree": 3
+          },
+          {
+            "id": "run_loop.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/run_loop.h",
+            "inDegree": 1
+          },
+          {
+            "id": "task_environment.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/test/task_environment.h",
+            "inDegree": 1
+          },
+          {
+            "id": "dummy_auth_service.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/dummy_auth_service.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/test_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "embedded_test_server.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/embedded_test_server.h",
+            "inDegree": 1
+          },
+          {
+            "id": "http_request.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/http_request.h",
+            "inDegree": 1
+          },
+          {
+            "id": "http_response.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/http_response.h",
+            "inDegree": 1
+          },
+          {
+            "id": "request_handler_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/test/embedded_test_server/request_handler_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "network_traffic_annotation_test_helper.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "net/traffic_annotation/network_traffic_annotation_test_helper.h",
+            "inDegree": 1
+          },
+          {
+            "id": "test_shared_url_loader_factory.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "services/network/test/test_shared_url_loader_factory.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gtest.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "testing/gtest/include/gtest/gtest.h",
+            "inDegree": 1
+          },
+          {
+            "id": "algorithm",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "algorithm",
+            "inDegree": 1
+          },
+          {
+            "id": "map",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "map",
+            "inDegree": 1
+          },
+          {
+            "id": "string_view",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "string_view",
+            "inDegree": 1
+          },
+          {
+            "id": "fixed_flat_map.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/containers/fixed_flat_map.h",
+            "inDegree": 1
+          },
+          {
+            "id": "json_value_converter.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/json/json_value_converter.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stl_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/stl_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_number_conversions.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_number_conversions.h",
+            "inDegree": 1
+          },
+          {
+            "id": "string_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/strings/string_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "parser_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/parser_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "time_util.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "google_apis/common/time_util.h",
+            "inDegree": 1
+          },
+          {
+            "id": "stdint.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": true,
+            "fullPath": "stdint.h",
+            "inDegree": 1
+          },
+          {
+            "id": "compiler_specific.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "base/compiler_specific.h",
+            "inDegree": 1
+          },
+          {
+            "id": "gurl.h",
+            "group": 2,
+            "val": 8,
+            "isExternal": true,
+            "isSystem": false,
+            "fullPath": "url/gurl.h",
+            "inDegree": 1
+          }
+        ],
+        "links": [
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "calendar_api_requests.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "memory"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "string"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "utility"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "vector"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "strcat.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "calendar_api_response_types.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "api_error_codes.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "base_requests.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "request_sender.h"
+          },
+          {
+            "source": "calendar_api_requests.cc",
+            "target": "url_util.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "memory"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "optional"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "string"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "vector"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "weak_ptr.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "time.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "calendar_api_response_types.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "calendar_api_url_generator.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "api_error_codes.h"
+          },
+          {
+            "source": "calendar_api_requests.h",
+            "target": "base_requests.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "calendar_api_requests.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "string"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "vector"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "run_loop.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "task_environment.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "time.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "calendar_api_response_types.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "dummy_auth_service.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "request_sender.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "test_util.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "embedded_test_server.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "http_request.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "http_response.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "request_handler_util.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "network_traffic_annotation_test_helper.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "test_shared_url_loader_factory.h"
+          },
+          {
+            "source": "calendar_api_requests_unittest.cc",
+            "target": "gtest.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "calendar_api_response_types.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "stddef.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "algorithm"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "map"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "memory"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "optional"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "string"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "string_view"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "vector"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "fixed_flat_map.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "json_value_converter.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "stl_util.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "string_number_conversions.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "string_util.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "values.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "parser_util.h"
+          },
+          {
+            "source": "calendar_api_response_types.cc",
+            "target": "time_util.h"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "stdint.h"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "memory"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "string"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "utility"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "vector"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "compiler_specific.h"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "time.h"
+          },
+          {
+            "source": "calendar_api_response_types.h",
+            "target": "gurl.h"
+          }
+        ],
+        "leafNodes": [
+          "calendar_api_requests.cc",
+          "calendar_api_requests_unittest.cc",
+          "calendar_api_response_types.cc",
+          "calendar_api_response_types_unittest.cc",
+          "calendar_api_url_generator.cc",
+          "calendar_api_url_generator_unittest.cc"
+        ]
+      },
+      "subDirs": []
+    }
+  }
 }

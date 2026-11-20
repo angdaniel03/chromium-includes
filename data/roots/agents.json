@@ -7,6 +7,7 @@
         "leafNodes": []
       },
       "subDirs": [
+        "agents/agents",
         "agents/common",
         "agents/extensions",
         "agents/infra",
@@ -16,6 +17,14 @@
         "agents/skills",
         "agents/testing"
       ]
+    },
+    "agents/agents": {
+      "graph": {
+        "nodes": [],
+        "links": [],
+        "leafNodes": []
+      },
+      "subDirs": []
     },
     "agents/common": {
       "graph": {
@@ -71,7 +80,8 @@
         "agents/projects/android",
         "agents/projects/bedrock",
         "agents/projects/chrome-design-system",
-        "agents/projects/code-health"
+        "agents/projects/code-health",
+        "agents/projects/i18n"
       ]
     },
     "agents/prompts": {
@@ -100,6 +110,7 @@
         "agents/skills/android-do-not-mock",
         "agents/skills/android-test-batching",
         "agents/skills/android-unit-test",
+        "agents/skills/angle-branch-merge",
         "agents/skills/apply-fix-from-crbug-with-diff",
         "agents/skills/automated-tracing",
         "agents/skills/bisect",
@@ -111,10 +122,14 @@
         "agents/skills/chromium-code-link-formatting",
         "agents/skills/chromium-docs",
         "agents/skills/cl-link-from-hash",
+        "agents/skills/code-review",
+        "agents/skills/codebase-map",
+        "agents/skills/content-review",
         "agents/skills/crbug",
         "agents/skills/crossbench-runner",
         "agents/skills/device-bound-sessions-review",
         "agents/skills/disable-test",
+        "agents/skills/email-affiliation",
         "agents/skills/enable-check-includes-strict",
         "agents/skills/experimental-ci-only-validator",
         "agents/skills/experimental-code-coverage-build-inspector",
@@ -150,10 +165,12 @@
         "agents/skills/physical-chromebook-debugging",
         "agents/skills/pixel-test",
         "agents/skills/policy-creation",
+        "agents/skills/pre-mail-check",
         "agents/skills/preference-deprecation",
         "agents/skills/reenable-test",
         "agents/skills/remove-circular-includes",
         "agents/skills/remove-unused-includes",
+        "agents/skills/ruled-code-review",
         "agents/skills/screen-recording-on-chromebook",
         "agents/skills/security-architect",
         "agents/skills/security-review",
@@ -164,6 +181,7 @@
         "agents/skills/sync-unique-positions",
         "agents/skills/trace-analysis",
         "agents/skills/translation-screenshots",
+        "agents/skills/vuln-report-check",
         "agents/skills/webui-lit-migration"
       ]
     },

@@ -167,6 +167,7 @@
         "agents/skills/policy-creation",
         "agents/skills/pre-mail-check",
         "agents/skills/preference-deprecation",
+        "agents/skills/public-transit",
         "agents/skills/reenable-test",
         "agents/skills/remove-circular-includes",
         "agents/skills/remove-unused-includes",
